@@ -1,0 +1,307 @@
+﻿{
+  "note": "Repeated seeds quantify stochastic variation in augmented-prototype construction on the same 201-real-image filtered independent test set; they do not replace larger real multi-capture validation.",
+  "summary": [
+    {
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Runs": 5,
+      "Top-1 mean": "98.01%",
+      "Top-1 std": "0.00%",
+      "Top-3 mean": "99.50%",
+      "Top-3 std": "0.00%",
+      "Top-1 range": "98.01%-98.01%",
+      "Top-3 range": "99.50%-99.50%"
+    },
+    {
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Runs": 5,
+      "Top-1 mean": "94.53%",
+      "Top-1 std": "0.00%",
+      "Top-3 mean": "98.51%",
+      "Top-3 std": "0.00%",
+      "Top-1 range": "94.53%-94.53%",
+      "Top-3 range": "98.51%-98.51%"
+    },
+    {
+      "Method": "ResNet50 fine-tuning baseline",
+      "Runs": 5,
+      "Top-1 mean": "87.56%",
+      "Top-1 std": "0.00%",
+      "Top-3 mean": "97.01%",
+      "Top-3 std": "0.00%",
+      "Top-1 range": "87.56%-87.56%",
+      "Top-3 range": "97.01%-97.01%"
+    },
+    {
+      "Method": "dinov2_vits14 + augmentation prototypes, N=10",
+      "Runs": 5,
+      "Top-1 mean": "94.23%",
+      "Top-1 std": "1.30%",
+      "Top-3 mean": "99.20%",
+      "Top-3 std": "0.57%",
+      "Top-1 range": "92.04%-95.02%",
+      "Top-3 range": "98.51%-100.00%"
+    },
+    {
+      "Method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "Runs": 5,
+      "Top-1 mean": "96.22%",
+      "Top-1 std": "0.44%",
+      "Top-3 mean": "99.70%",
+      "Top-3 std": "0.27%",
+      "Top-1 range": "95.52%-96.52%",
+      "Top-3 range": "99.50%-100.00%"
+    }
+  ],
+  "per_seed": [
+    {
+      "Seed": "42",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "95.02%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 191,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "42",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "96.52%",
+      "Top-3 Acc": "100.00%",
+      "Top-1 Correct": 194,
+      "Top-3 Correct": 201,
+      "Test Images": 201
+    },
+    {
+      "Seed": "42",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "94.53%",
+      "Top-3 Acc": "98.51%",
+      "Top-1 Correct": 190,
+      "Top-3 Correct": 198,
+      "Test Images": 201
+    },
+    {
+      "Seed": "42",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "98.01%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 197,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "42",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "87.56%",
+      "Top-3 Acc": "97.01%",
+      "Top-1 Correct": 176,
+      "Top-3 Correct": 195,
+      "Test Images": 201
+    },
+    {
+      "Seed": "43",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "95.02%",
+      "Top-3 Acc": "99.00%",
+      "Top-1 Correct": 191,
+      "Top-3 Correct": 199,
+      "Test Images": 201
+    },
+    {
+      "Seed": "43",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "96.52%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 194,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "43",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "94.53%",
+      "Top-3 Acc": "98.51%",
+      "Top-1 Correct": 190,
+      "Top-3 Correct": 198,
+      "Test Images": 201
+    },
+    {
+      "Seed": "43",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "98.01%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 197,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "43",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "87.56%",
+      "Top-3 Acc": "97.01%",
+      "Top-1 Correct": 176,
+      "Top-3 Correct": 195,
+      "Test Images": 201
+    },
+    {
+      "Seed": "44",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "92.04%",
+      "Top-3 Acc": "98.51%",
+      "Top-1 Correct": 185,
+      "Top-3 Correct": 198,
+      "Test Images": 201
+    },
+    {
+      "Seed": "44",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "96.52%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 194,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "44",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "94.53%",
+      "Top-3 Acc": "98.51%",
+      "Top-1 Correct": 190,
+      "Top-3 Correct": 198,
+      "Test Images": 201
+    },
+    {
+      "Seed": "44",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "98.01%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 197,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "44",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "87.56%",
+      "Top-3 Acc": "97.01%",
+      "Top-1 Correct": 176,
+      "Top-3 Correct": 195,
+      "Test Images": 201
+    },
+    {
+      "Seed": "45",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "94.03%",
+      "Top-3 Acc": "99.00%",
+      "Top-1 Correct": 189,
+      "Top-3 Correct": 199,
+      "Test Images": 201
+    },
+    {
+      "Seed": "45",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "95.52%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 192,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "45",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "94.53%",
+      "Top-3 Acc": "98.51%",
+      "Top-1 Correct": 190,
+      "Top-3 Correct": 198,
+      "Test Images": 201
+    },
+    {
+      "Seed": "45",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "98.01%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 197,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "45",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "87.56%",
+      "Top-3 Acc": "97.01%",
+      "Top-1 Correct": 176,
+      "Top-3 Correct": 195,
+      "Test Images": 201
+    },
+    {
+      "Seed": "46",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "95.02%",
+      "Top-3 Acc": "100.00%",
+      "Top-1 Correct": 191,
+      "Top-3 Correct": 201,
+      "Test Images": 201
+    },
+    {
+      "Seed": "46",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "96.02%",
+      "Top-3 Acc": "100.00%",
+      "Top-1 Correct": 193,
+      "Top-3 Correct": 201,
+      "Test Images": 201
+    },
+    {
+      "Seed": "46",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "94.53%",
+      "Top-3 Acc": "98.51%",
+      "Top-1 Correct": 190,
+      "Top-3 Correct": 198,
+      "Test Images": 201
+    },
+    {
+      "Seed": "46",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "98.01%",
+      "Top-3 Acc": "99.50%",
+      "Top-1 Correct": 197,
+      "Top-3 Correct": 200,
+      "Test Images": 201
+    },
+    {
+      "Seed": "46",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "87.56%",
+      "Top-3 Acc": "97.01%",
+      "Top-1 Correct": 176,
+      "Top-3 Correct": 195,
+      "Test Images": 201
+    }
+  ]
+}

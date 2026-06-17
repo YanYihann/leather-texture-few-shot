@@ -1,0 +1,7 @@
+﻿experiment,model,eval_dir,seed,augmentation_type,views_per_class,similarity_metric,l2_normalization,lbp_weight,top1_accuracy,top3_accuracy,mean_margin,top1_correct,top3_correct,total,elapsed_seconds_total
+visual_ablation,dinov2_vits14,dataset_val,42,center,10,cosine,on,,0.5812807881773399,0.7438423645320197,0.07338290100027188,118,151,203,224.235
+visual_ablation,dinov2_vits14,dataset_val,42,crop,10,cosine,on,,0.6502463054187192,0.8275862068965517,0.08427292416835654,132,168,203,224.235
+visual_ablation,dinov2_vits14,dataset_val,42,flip,10,cosine,on,,0.6009852216748769,0.7931034482758621,0.0734280609144953,122,161,203,224.235
+visual_ablation,dinov2_vits14,dataset_val,42,color_jitter,10,cosine,on,,0.5911330049261084,0.7487684729064039,0.07347104261661398,120,152,203,224.235
+visual_ablation,dinov2_vits14,dataset_val,42,crop_flip,10,cosine,on,,0.6748768472906403,0.8423645320197044,0.08275794513119852,137,171,203,224.235
+visual_ablation,dinov2_vits14,dataset_val,42,crop_flip_color,10,cosine,on,,0.6847290640394089,0.8472906403940886,0.0830232941458378,139,172,203,224.235

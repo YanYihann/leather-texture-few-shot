@@ -1,0 +1,10 @@
+﻿{
+  "split": "independent",
+  "method": "CLIP ViT-B/32 one-image prototype",
+  "eval_images": 201,
+  "top1_accuracy": 0.7661691542288557,
+  "top3_accuracy": 0.8507462686567164,
+  "top1_correct": 154,
+  "top3_correct": 171,
+  "total": 201
+}

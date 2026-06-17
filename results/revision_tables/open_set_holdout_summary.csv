@@ -1,0 +1,4 @@
+﻿Method,Splits,Pseudo-unknown classes per split,Known queries per split,Pseudo-unknown queries per split,Score-threshold known acceptance,Score-threshold unknown rejection,Margin-threshold known acceptance,Margin-threshold unknown rejection,Known Top-1 and accepted by score
+Frozen ResNet50,10,20,181,20,95.03%,32.00%,95.03%,60.00%,93.59%
+Frozen DINOv2-S,10,20,181,20,95.03%,12.00%,95.03%,25.50%,92.71%
+DINOv2-Aug30,10,20,181,20,95.03%,19.50%,95.03%,40.50%,93.04%

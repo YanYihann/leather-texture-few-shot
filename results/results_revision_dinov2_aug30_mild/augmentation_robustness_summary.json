@@ -1,0 +1,165 @@
+﻿{
+  "note": "Synthetic perturbations are augmentation-based robustness tests, not additional independent test images.",
+  "reference_dir": "data/dataset_train",
+  "test_dir": "data/my_dataset_test_filtered",
+  "methods": [
+    "dinov2_aug30"
+  ],
+  "seeds": [
+    42
+  ],
+  "perturbations": [
+    "brightness",
+    "contrast",
+    "color_jitter",
+    "gaussian_blur",
+    "gaussian_noise",
+    "jpeg_compression",
+    "rotation",
+    "crop_scale"
+  ],
+  "severities": [
+    "mild"
+  ],
+  "variants_per_image": 1,
+  "device": "cpu",
+  "elapsed_seconds": 2652.2363783000037,
+  "results": [
+    {
+      "method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "perturbation": "brightness",
+      "severity": "mild",
+      "source_images": 201,
+      "augmented_variants": 201,
+      "top1_accuracy": 0.9601990049751243,
+      "top3_accuracy": 0.9950248756218906,
+      "top1_ci95": [
+        0.93034827709198,
+        0.9850746393203735
+      ],
+      "top3_ci95": [
+        0.9850746393203735,
+        1.0
+      ]
+    },
+    {
+      "method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "perturbation": "color_jitter",
+      "severity": "mild",
+      "source_images": 201,
+      "augmented_variants": 201,
+      "top1_accuracy": 0.9601990049751243,
+      "top3_accuracy": 0.9900497512437811,
+      "top1_ci95": [
+        0.93034827709198,
+        0.9850746393203735
+      ],
+      "top3_ci95": [
+        0.9751243591308594,
+        1.0
+      ]
+    },
+    {
+      "method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "perturbation": "contrast",
+      "severity": "mild",
+      "source_images": 201,
+      "augmented_variants": 201,
+      "top1_accuracy": 0.9502487562189055,
+      "top3_accuracy": 0.9950248756218906,
+      "top1_ci95": [
+        0.9203979969024658,
+        0.9751243591308594
+      ],
+      "top3_ci95": [
+        0.9850746393203735,
+        1.0
+      ]
+    },
+    {
+      "method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "perturbation": "crop_scale",
+      "severity": "mild",
+      "source_images": 201,
+      "augmented_variants": 201,
+      "top1_accuracy": 0.9701492537313433,
+      "top3_accuracy": 0.9900497512437811,
+      "top1_ci95": [
+        0.9452736377716064,
+        0.9900497794151306
+      ],
+      "top3_ci95": [
+        0.9751243591308594,
+        1.0
+      ]
+    },
+    {
+      "method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "perturbation": "gaussian_blur",
+      "severity": "mild",
+      "source_images": 201,
+      "augmented_variants": 201,
+      "top1_accuracy": 0.9601990049751243,
+      "top3_accuracy": 0.9900497512437811,
+      "top1_ci95": [
+        0.93034827709198,
+        0.9850746393203735
+      ],
+      "top3_ci95": [
+        0.9751243591308594,
+        1.0
+      ]
+    },
+    {
+      "method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "perturbation": "gaussian_noise",
+      "severity": "mild",
+      "source_images": 201,
+      "augmented_variants": 201,
+      "top1_accuracy": 0.9402985074626866,
+      "top3_accuracy": 0.9800995024875622,
+      "top1_ci95": [
+        0.9054726362228394,
+        0.9701492786407471
+      ],
+      "top3_ci95": [
+        0.9601989984512329,
+        0.9950248599052429
+      ]
+    },
+    {
+      "method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "perturbation": "jpeg_compression",
+      "severity": "mild",
+      "source_images": 201,
+      "augmented_variants": 201,
+      "top1_accuracy": 0.9601990049751243,
+      "top3_accuracy": 0.9950248756218906,
+      "top1_ci95": [
+        0.93034827709198,
+        0.9850746393203735
+      ],
+      "top3_ci95": [
+        0.9850746393203735,
+        1.0
+      ]
+    },
+    {
+      "method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "perturbation": "rotation",
+      "severity": "mild",
+      "source_images": 201,
+      "augmented_variants": 201,
+      "top1_accuracy": 0.9402985074626866,
+      "top3_accuracy": 0.9800995024875622,
+      "top1_ci95": [
+        0.9054726362228394,
+        0.9701492786407471
+      ],
+      "top3_ci95": [
+        0.9601989984512329,
+        0.9950248599052429
+      ]
+    }
+  ]
+}

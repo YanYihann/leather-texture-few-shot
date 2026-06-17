@@ -1,0 +1,12 @@
+﻿{
+  "method": "dinov2_vits14 + augmentation prototypes",
+  "views_per_class": 30,
+  "reference_classes": 203,
+  "test_images": 201,
+  "top1_accuracy": 0.9552238805970149,
+  "top3_accuracy": 0.9950248756218906,
+  "top1_correct": 192,
+  "top3_correct": 200,
+  "device": "cuda",
+  "avg_total_ms_per_image": 652.6434348258693
+}

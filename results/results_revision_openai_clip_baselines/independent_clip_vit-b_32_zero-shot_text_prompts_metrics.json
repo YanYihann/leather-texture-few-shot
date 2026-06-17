@@ -1,0 +1,10 @@
+﻿{
+  "split": "independent",
+  "method": "CLIP ViT-B/32 zero-shot text prompts",
+  "eval_images": 201,
+  "top1_accuracy": 0.004975124378109453,
+  "top3_accuracy": 0.004975124378109453,
+  "top1_correct": 1,
+  "top3_correct": 1,
+  "total": 201
+}

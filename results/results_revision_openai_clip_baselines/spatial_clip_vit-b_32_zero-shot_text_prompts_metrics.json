@@ -1,0 +1,10 @@
+﻿{
+  "split": "spatial",
+  "method": "CLIP ViT-B/32 zero-shot text prompts",
+  "eval_images": 203,
+  "top1_accuracy": 0.0049261083743842365,
+  "top3_accuracy": 0.014778325123152709,
+  "top1_correct": 1,
+  "top3_correct": 3,
+  "total": 203
+}

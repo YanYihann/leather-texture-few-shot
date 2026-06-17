@@ -1,0 +1,13 @@
+albumentations
+customtkinter
+ftfy
+numpy
+opencv-python
+open-clip-torch
+pillow
+regex
+timm
+torch
+torchvision
+tqdm
+

@@ -1,0 +1,16 @@
+﻿{
+  "method": "Frozen convnext_tiny + cosine similarity",
+  "model": "convnext_tiny",
+  "split": "independent",
+  "reference_dir": "data/dataset_train",
+  "eval_dir": "data/my_dataset_test_filtered",
+  "num_classes": 203,
+  "reference_images": 203,
+  "eval_images": 201,
+  "top1_accuracy": 0.9601990049751243,
+  "top3_accuracy": 0.9751243781094527,
+  "top1_correct": 193,
+  "top3_correct": 196,
+  "total": 201,
+  "elapsed_seconds": 10.971239099999366
+}

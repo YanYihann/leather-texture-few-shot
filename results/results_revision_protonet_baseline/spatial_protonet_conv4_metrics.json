@@ -1,0 +1,10 @@
+﻿{
+  "split": "spatial",
+  "method": "Augmentation-supported Prototypical Network Conv-4",
+  "eval_images": 203,
+  "top1_accuracy": 0.3891625615763547,
+  "top3_accuracy": 0.5566502463054187,
+  "top1_correct": 79,
+  "top3_correct": 113,
+  "total": 203
+}

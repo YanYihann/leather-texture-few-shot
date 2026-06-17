@@ -1,0 +1,11 @@
+﻿{
+  "note": "Pseudo-open-set diagnostic: classes with available independent-test images are held out from the reference library and treated as unknown queries. This is not a substitute for a real external unknown-material dataset.",
+  "num_splits": 10,
+  "unknown_classes_per_split": 20,
+  "seed": 20260618,
+  "prediction_files": {
+    "Frozen ResNet50": "results/results_independent_filtered_multiseed/\seed_42\\filtered_frozen_resnet50_similarity_predictions.csv",
+    "Frozen DINOv2-S": "results/results_independent_filtered_multiseed/\seed_42\\filtered_dinov2_vits14_similarity_predictions.csv",
+    "DINOv2-Aug30": "results/results_independent_filtered_multiseed/\seed_42\\filtered_dinov2_vits14_augmented_N30_predictions.csv"
+  }
+}

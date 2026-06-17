@@ -1,0 +1,308 @@
+﻿{
+  "evaluation_name": "Controlled Spatial Validation",
+  "note": "This table summarizes repeated runs on the same 203-image controlled spatial validation split. Repeated seeds measure stochastic variation in methods that use random augmented prototypes. This split is controlled validation only and is not an independent test set.",
+  "summary": [
+    {
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Runs": 5,
+      "Top-1 mean": "54.19%",
+      "Top-1 std": "0.00%",
+      "Top-3 mean": "73.89%",
+      "Top-3 std": "0.00%",
+      "Top-1 range": "54.19%-54.19%",
+      "Top-3 range": "73.89%-73.89%"
+    },
+    {
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Runs": 5,
+      "Top-1 mean": "58.13%",
+      "Top-1 std": "0.00%",
+      "Top-3 mean": "74.38%",
+      "Top-3 std": "0.00%",
+      "Top-1 range": "58.13%-58.13%",
+      "Top-3 range": "74.38%-74.38%"
+    },
+    {
+      "Method": "ResNet50 fine-tuning baseline",
+      "Runs": 5,
+      "Top-1 mean": "80.30%",
+      "Top-1 std": "0.00%",
+      "Top-3 mean": "94.09%",
+      "Top-3 std": "0.00%",
+      "Top-1 range": "80.30%-80.30%",
+      "Top-3 range": "94.09%-94.09%"
+    },
+    {
+      "Method": "dinov2_vits14 + augmentation prototypes, N=10",
+      "Runs": 5,
+      "Top-1 mean": "66.90%",
+      "Top-1 std": "0.81%",
+      "Top-3 mean": "83.84%",
+      "Top-3 std": "1.49%",
+      "Top-1 range": "65.52%-67.49%",
+      "Top-3 range": "81.77%-85.71%"
+    },
+    {
+      "Method": "dinov2_vits14 + augmentation prototypes, N=30",
+      "Runs": 5,
+      "Top-1 mean": "68.57%",
+      "Top-1 std": "0.88%",
+      "Top-3 mean": "84.53%",
+      "Top-3 std": "0.56%",
+      "Top-1 range": "67.49%-69.46%",
+      "Top-3 range": "83.74%-85.22%"
+    }
+  ],
+  "per_seed": [
+    {
+      "Seed": "42",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "67.00%",
+      "Top-3 Acc": "84.73%",
+      "Top-1 Correct": 136,
+      "Top-3 Correct": 172,
+      "Test Images": 203
+    },
+    {
+      "Seed": "42",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "69.46%",
+      "Top-3 Acc": "83.74%",
+      "Top-1 Correct": 141,
+      "Top-3 Correct": 170,
+      "Test Images": 203
+    },
+    {
+      "Seed": "42",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "58.13%",
+      "Top-3 Acc": "74.38%",
+      "Top-1 Correct": 118,
+      "Top-3 Correct": 151,
+      "Test Images": 203
+    },
+    {
+      "Seed": "42",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "54.19%",
+      "Top-3 Acc": "73.89%",
+      "Top-1 Correct": 110,
+      "Top-3 Correct": 150,
+      "Test Images": 203
+    },
+    {
+      "Seed": "42",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "80.30%",
+      "Top-3 Acc": "94.09%",
+      "Top-1 Correct": 163,
+      "Top-3 Correct": 191,
+      "Test Images": 203
+    },
+    {
+      "Seed": "43",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "67.49%",
+      "Top-3 Acc": "81.77%",
+      "Top-1 Correct": 137,
+      "Top-3 Correct": 166,
+      "Test Images": 203
+    },
+    {
+      "Seed": "43",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "67.98%",
+      "Top-3 Acc": "84.73%",
+      "Top-1 Correct": 138,
+      "Top-3 Correct": 172,
+      "Test Images": 203
+    },
+    {
+      "Seed": "43",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "58.13%",
+      "Top-3 Acc": "74.38%",
+      "Top-1 Correct": 118,
+      "Top-3 Correct": 151,
+      "Test Images": 203
+    },
+    {
+      "Seed": "43",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "54.19%",
+      "Top-3 Acc": "73.89%",
+      "Top-1 Correct": 110,
+      "Top-3 Correct": 150,
+      "Test Images": 203
+    },
+    {
+      "Seed": "43",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "80.30%",
+      "Top-3 Acc": "94.09%",
+      "Top-1 Correct": 163,
+      "Top-3 Correct": 191,
+      "Test Images": 203
+    },
+    {
+      "Seed": "44",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "67.49%",
+      "Top-3 Acc": "85.71%",
+      "Top-1 Correct": 137,
+      "Top-3 Correct": 174,
+      "Test Images": 203
+    },
+    {
+      "Seed": "44",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "69.46%",
+      "Top-3 Acc": "85.22%",
+      "Top-1 Correct": 141,
+      "Top-3 Correct": 173,
+      "Test Images": 203
+    },
+    {
+      "Seed": "44",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "58.13%",
+      "Top-3 Acc": "74.38%",
+      "Top-1 Correct": 118,
+      "Top-3 Correct": 151,
+      "Test Images": 203
+    },
+    {
+      "Seed": "44",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "54.19%",
+      "Top-3 Acc": "73.89%",
+      "Top-1 Correct": 110,
+      "Top-3 Correct": 150,
+      "Test Images": 203
+    },
+    {
+      "Seed": "44",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "80.30%",
+      "Top-3 Acc": "94.09%",
+      "Top-1 Correct": 163,
+      "Top-3 Correct": 191,
+      "Test Images": 203
+    },
+    {
+      "Seed": "45",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "65.52%",
+      "Top-3 Acc": "83.74%",
+      "Top-1 Correct": 133,
+      "Top-3 Correct": 170,
+      "Test Images": 203
+    },
+    {
+      "Seed": "45",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "68.47%",
+      "Top-3 Acc": "84.73%",
+      "Top-1 Correct": 139,
+      "Top-3 Correct": 172,
+      "Test Images": 203
+    },
+    {
+      "Seed": "45",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "58.13%",
+      "Top-3 Acc": "74.38%",
+      "Top-1 Correct": 118,
+      "Top-3 Correct": 151,
+      "Test Images": 203
+    },
+    {
+      "Seed": "45",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "54.19%",
+      "Top-3 Acc": "73.89%",
+      "Top-1 Correct": 110,
+      "Top-3 Correct": 150,
+      "Test Images": 203
+    },
+    {
+      "Seed": "45",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "80.30%",
+      "Top-3 Acc": "94.09%",
+      "Top-1 Correct": 163,
+      "Top-3 Correct": 191,
+      "Test Images": 203
+    },
+    {
+      "Seed": "46",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 10,
+      "Top-1 Acc": "67.00%",
+      "Top-3 Acc": "83.25%",
+      "Top-1 Correct": 136,
+      "Top-3 Correct": 169,
+      "Test Images": 203
+    },
+    {
+      "Seed": "46",
+      "Method": "dinov2_vits14 + augmentation prototypes",
+      "Views": 30,
+      "Top-1 Acc": "67.49%",
+      "Top-3 Acc": "84.24%",
+      "Top-1 Correct": 137,
+      "Top-3 Correct": 171,
+      "Test Images": 203
+    },
+    {
+      "Seed": "46",
+      "Method": "Frozen dinov2_vits14 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "58.13%",
+      "Top-3 Acc": "74.38%",
+      "Top-1 Correct": 118,
+      "Top-3 Correct": 151,
+      "Test Images": 203
+    },
+    {
+      "Seed": "46",
+      "Method": "Frozen ResNet50 + cosine similarity",
+      "Views": "",
+      "Top-1 Acc": "54.19%",
+      "Top-3 Acc": "73.89%",
+      "Top-1 Correct": 110,
+      "Top-3 Correct": 150,
+      "Test Images": 203
+    },
+    {
+      "Seed": "46",
+      "Method": "ResNet50 fine-tuning baseline",
+      "Views": "",
+      "Top-1 Acc": "80.30%",
+      "Top-3 Acc": "94.09%",
+      "Top-1 Correct": 163,
+      "Top-3 Correct": 191,
+      "Test Images": 203
+    }
+  ]
+}

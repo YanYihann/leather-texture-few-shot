@@ -1,0 +1,7 @@
+﻿split,method,eval_images,top1_accuracy,top3_accuracy,top1_correct,top3_correct,total,elapsed_seconds
+spatial,Frozen convnext_tiny + cosine similarity,203,0.5911330049261084,0.7487684729064039,120,152,203,8.151887500000157
+independent,Frozen convnext_tiny + cosine similarity,201,0.9601990049751243,0.9751243781094527,193,196,201,10.971239099999366
+spatial,Frozen efficientnet_v2_s + cosine similarity,203,0.45320197044334976,0.6157635467980296,92,125,203,5.4924557999984245
+independent,Frozen efficientnet_v2_s + cosine similarity,201,0.8706467661691543,0.9154228855721394,175,184,201,7.865110700000514
+spatial,Frozen swin_t + cosine similarity,203,0.5665024630541872,0.7536945812807881,115,153,203,6.009871199999907
+independent,Frozen swin_t + cosine similarity,201,0.9552238805970149,0.9950248756218906,192,200,201,8.170223499997519

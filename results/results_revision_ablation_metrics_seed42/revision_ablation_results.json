@@ -1,0 +1,59 @@
+﻿{
+  "note": "Ablations use the available validation or filtered test split; they do not create additional real independent images.",
+  "rows": [
+    {
+      "experiment": "visual_ablation",
+      "model": "dinov2_vits14",
+      "eval_dir": "dataset_val",
+      "seed": 42,
+      "augmentation_type": "crop_flip_color",
+      "views_per_class": 30,
+      "similarity_metric": "cosine",
+      "l2_normalization": "on",
+      "lbp_weight": "",
+      "top1_accuracy": 0.7044334975369458,
+      "top3_accuracy": 0.8423645320197044,
+      "mean_margin": 0.08417412858878451,
+      "top1_correct": 143,
+      "top3_correct": 171,
+      "total": 203,
+      "elapsed_seconds_total": 168.746
+    },
+    {
+      "experiment": "visual_ablation",
+      "model": "dinov2_vits14",
+      "eval_dir": "dataset_val",
+      "seed": 42,
+      "augmentation_type": "crop_flip_color",
+      "views_per_class": 30,
+      "similarity_metric": "euclidean",
+      "l2_normalization": "on",
+      "lbp_weight": "",
+      "top1_accuracy": 0.7044334975369458,
+      "top3_accuracy": 0.8423645320197044,
+      "mean_margin": 0.12598386436260392,
+      "top1_correct": 143,
+      "top3_correct": 171,
+      "total": 203,
+      "elapsed_seconds_total": 168.746
+    },
+    {
+      "experiment": "visual_ablation",
+      "model": "dinov2_vits14",
+      "eval_dir": "dataset_val",
+      "seed": 42,
+      "augmentation_type": "crop_flip_color",
+      "views_per_class": 30,
+      "similarity_metric": "mahalanobis",
+      "l2_normalization": "on",
+      "lbp_weight": "",
+      "top1_accuracy": 0.7339901477832512,
+      "top3_accuracy": 0.8472906403940886,
+      "mean_margin": 51.80249295915876,
+      "top1_correct": 149,
+      "top3_correct": 172,
+      "total": 203,
+      "elapsed_seconds_total": 168.746
+    }
+  ]
+}

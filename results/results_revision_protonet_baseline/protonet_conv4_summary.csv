@@ -1,0 +1,3 @@
+﻿split,method,eval_images,top1_accuracy,top3_accuracy,top1_correct,top3_correct,total,elapsed_seconds_total
+spatial,Augmentation-supported Prototypical Network Conv-4,203,0.3891625615763547,0.5566502463054187,79,113,203,125.808
+independent,Augmentation-supported Prototypical Network Conv-4,201,0.7164179104477612,0.845771144278607,144,170,201,131.931

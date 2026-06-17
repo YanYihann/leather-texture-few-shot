@@ -1,0 +1,11 @@
+﻿{
+  "method": "Frozen dinov2_vits14 + cosine similarity",
+  "reference_classes": 203,
+  "test_images": 201,
+  "top1_accuracy": 0.945273631840796,
+  "top3_accuracy": 0.9850746268656716,
+  "top1_correct": 190,
+  "top3_correct": 198,
+  "device": "cuda",
+  "avg_total_ms_per_image": 40.49081840795808
+}

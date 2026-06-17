@@ -1,0 +1,809 @@
+﻿Model,Point type,Class,X,Y,Top-1 correct,Top-1 prediction,Image path
+Frozen ResNet50,reference,Leather_01,0.50063074,0.24034172,,,
+Frozen ResNet50,reference,Leather_02,0.52590871,0.22421415,,,
+Frozen ResNet50,reference,Leather_03,0.51584339,0.19569287,,,
+Frozen ResNet50,reference,Leather_04,0.34485102,-0.29835129,,,
+Frozen ResNet50,reference,Leather_05,0.42673025,0.00537191,,,
+Frozen ResNet50,reference,Leather_06,0.26862586,-0.13769902,,,
+Frozen ResNet50,reference,Leather_07,0.44848752,0.19550800,,,
+Frozen ResNet50,reference,Leather_08,0.50693178,-0.09431749,,,
+Frozen ResNet50,reference,Leather_09,0.32757252,-0.04854926,,,
+Frozen ResNet50,reference,Leather_10,0.29965961,0.03484578,,,
+Frozen ResNet50,reference,Leather_100,-0.18635637,0.12326829,,,
+Frozen ResNet50,reference,Leather_101,-0.05388921,-0.03194572,,,
+Frozen ResNet50,reference,Leather_102,-0.16716366,-0.17953515,,,
+Frozen ResNet50,reference,Leather_103,-0.30198643,-0.07533956,,,
+Frozen ResNet50,reference,Leather_104,-0.28600547,-0.27025023,,,
+Frozen ResNet50,reference,Leather_105,-0.27089930,-0.18587741,,,
+Frozen ResNet50,reference,Leather_106,-0.22094484,-0.05194991,,,
+Frozen ResNet50,reference,Leather_107,-0.08087747,-0.11864303,,,
+Frozen ResNet50,reference,Leather_108,-0.17453840,-0.16436756,,,
+Frozen ResNet50,reference,Leather_109,-0.29147899,-0.07035191,,,
+Frozen ResNet50,reference,Leather_11,0.60015285,0.01638930,,,
+Frozen ResNet50,reference,Leather_110,-0.36772072,0.00178202,,,
+Frozen ResNet50,reference,Leather_111,-0.19076510,-0.05550600,,,
+Frozen ResNet50,reference,Leather_112,-0.40794799,0.27168214,,,
+Frozen ResNet50,reference,Leather_113,-0.38183829,0.28222939,,,
+Frozen ResNet50,reference,Leather_114,-0.42953968,0.18955158,,,
+Frozen ResNet50,reference,Leather_115,-0.38197455,0.13153970,,,
+Frozen ResNet50,reference,Leather_116,-0.31674716,0.06412820,,,
+Frozen ResNet50,reference,Leather_117,-0.24074551,-0.32985443,,,
+Frozen ResNet50,reference,Leather_118,-0.27728224,-0.40044770,,,
+Frozen ResNet50,reference,Leather_119,0.30888018,-0.10940802,,,
+Frozen ResNet50,reference,Leather_12,0.47815090,0.14822005,,,
+Frozen ResNet50,reference,Leather_120,-0.25065365,-0.18898651,,,
+Frozen ResNet50,reference,Leather_121,-0.21878894,-0.27509147,,,
+Frozen ResNet50,reference,Leather_122,-0.20547086,-0.32593277,,,
+Frozen ResNet50,reference,Leather_123,0.00610593,-0.29727471,,,
+Frozen ResNet50,reference,Leather_124,-0.22428524,-0.44415277,,,
+Frozen ResNet50,reference,Leather_125,-0.20542386,0.42642808,,,
+Frozen ResNet50,reference,Leather_126,-0.26515472,0.44760877,,,
+Frozen ResNet50,reference,Leather_127,-0.25988865,0.50803053,,,
+Frozen ResNet50,reference,Leather_128,-0.29284295,0.47162580,,,
+Frozen ResNet50,reference,Leather_129,-0.29909223,0.44697475,,,
+Frozen ResNet50,reference,Leather_13,0.39832240,0.13358320,,,
+Frozen ResNet50,reference,Leather_130,-0.20675576,0.46460688,,,
+Frozen ResNet50,reference,Leather_131,-0.21060698,0.38414529,,,
+Frozen ResNet50,reference,Leather_132,-0.15986088,0.22279820,,,
+Frozen ResNet50,reference,Leather_133,-0.35886499,0.47594830,,,
+Frozen ResNet50,reference,Leather_134,-0.16038288,0.43771243,,,
+Frozen ResNet50,reference,Leather_135,-0.13546647,0.34722137,,,
+Frozen ResNet50,reference,Leather_136,-0.31354183,0.39248109,,,
+Frozen ResNet50,reference,Leather_137,-0.26424444,0.38624299,,,
+Frozen ResNet50,reference,Leather_138,-0.22666594,0.15490162,,,
+Frozen ResNet50,reference,Leather_139,-0.33310157,0.09848795,,,
+Frozen ResNet50,reference,Leather_14,0.47548923,0.16328833,,,
+Frozen ResNet50,reference,Leather_140,-0.20196196,0.01966309,,,
+Frozen ResNet50,reference,Leather_141,-0.32536614,0.47974008,,,
+Frozen ResNet50,reference,Leather_142,-0.20760918,0.13872296,,,
+Frozen ResNet50,reference,Leather_143,-0.32823354,0.45903215,,,
+Frozen ResNet50,reference,Leather_144,-0.21125713,-0.40663898,,,
+Frozen ResNet50,reference,Leather_145,-0.13491271,-0.39948642,,,
+Frozen ResNet50,reference,Leather_146,-0.21852425,-0.45292270,,,
+Frozen ResNet50,reference,Leather_147,-0.39169085,-0.36367226,,,
+Frozen ResNet50,reference,Leather_148,0.08651437,-0.25757697,,,
+Frozen ResNet50,reference,Leather_149,0.06155437,-0.03376786,,,
+Frozen ResNet50,reference,Leather_15,0.47554508,-0.01403658,,,
+Frozen ResNet50,reference,Leather_150,-0.35989481,-0.21411516,,,
+Frozen ResNet50,reference,Leather_151,0.22829556,-0.09937356,,,
+Frozen ResNet50,reference,Leather_152,0.50684464,-0.06324889,,,
+Frozen ResNet50,reference,Leather_153,0.34003893,0.08402040,,,
+Frozen ResNet50,reference,Leather_154,0.44980085,0.03644905,,,
+Frozen ResNet50,reference,Leather_155,0.07510349,0.13028964,,,
+Frozen ResNet50,reference,Leather_156,0.11779225,-0.10160417,,,
+Frozen ResNet50,reference,Leather_157,0.31456608,0.06375193,,,
+Frozen ResNet50,reference,Leather_158,0.19997735,0.11036825,,,
+Frozen ResNet50,reference,Leather_159,0.38556090,-0.20502707,,,
+Frozen ResNet50,reference,Leather_16,0.28870925,0.12270989,,,
+Frozen ResNet50,reference,Leather_160,0.52073991,-0.09121172,,,
+Frozen ResNet50,reference,Leather_161,0.62536812,0.16688833,,,
+Frozen ResNet50,reference,Leather_162,0.30623478,0.22284763,,,
+Frozen ResNet50,reference,Leather_163,0.34960923,0.03009956,,,
+Frozen ResNet50,reference,Leather_164,0.58157945,0.13335279,,,
+Frozen ResNet50,reference,Leather_165,0.45733756,0.21632817,,,
+Frozen ResNet50,reference,Leather_166,0.45115083,0.01567477,,,
+Frozen ResNet50,reference,Leather_167,0.43750280,-0.10985930,,,
+Frozen ResNet50,reference,Leather_168,0.40021652,0.21251385,,,
+Frozen ResNet50,reference,Leather_169,0.23996259,-0.06113958,,,
+Frozen ResNet50,reference,Leather_17,0.56284916,-0.01962268,,,
+Frozen ResNet50,reference,Leather_170,0.35683221,-0.05215708,,,
+Frozen ResNet50,reference,Leather_171,-0.01182627,0.13580646,,,
+Frozen ResNet50,reference,Leather_172,0.20784560,0.19879191,,,
+Frozen ResNet50,reference,Leather_173,0.47696137,0.18100201,,,
+Frozen ResNet50,reference,Leather_174,0.31440377,-0.10504411,,,
+Frozen ResNet50,reference,Leather_175,0.48658806,-0.16157818,,,
+Frozen ResNet50,reference,Leather_176,0.31190264,0.03323270,,,
+Frozen ResNet50,reference,Leather_177,0.36102182,-0.11700909,,,
+Frozen ResNet50,reference,Leather_178,0.18541661,-0.25552490,,,
+Frozen ResNet50,reference,Leather_179,0.32719517,-0.19264512,,,
+Frozen ResNet50,reference,Leather_18,0.26768938,0.10645023,,,
+Frozen ResNet50,reference,Leather_180,0.36100280,0.11132655,,,
+Frozen ResNet50,reference,Leather_181,0.46864408,-0.07455379,,,
+Frozen ResNet50,reference,Leather_182,0.16310877,0.26276645,,,
+Frozen ResNet50,reference,Leather_183,0.39471009,-0.08996329,,,
+Frozen ResNet50,reference,Leather_184,0.31130522,-0.21135944,,,
+Frozen ResNet50,reference,Leather_185,0.13206121,-0.16138819,,,
+Frozen ResNet50,reference,Leather_186,0.45502838,0.06398557,,,
+Frozen ResNet50,reference,Leather_187,0.46501160,0.18801677,,,
+Frozen ResNet50,reference,Leather_188,0.40877816,-0.09758943,,,
+Frozen ResNet50,reference,Leather_189,0.44626021,-0.19756177,,,
+Frozen ResNet50,reference,Leather_19,0.51597476,0.10678685,,,
+Frozen ResNet50,reference,Leather_190,0.12889181,-0.29620713,,,
+Frozen ResNet50,reference,Leather_191,0.19561410,0.09986131,,,
+Frozen ResNet50,reference,Leather_192,0.38288900,0.17537344,,,
+Frozen ResNet50,reference,Leather_193,0.02783242,-0.12406470,,,
+Frozen ResNet50,reference,Leather_194,0.43231958,0.16565722,,,
+Frozen ResNet50,reference,Leather_195,-0.03232586,-0.18600017,,,
+Frozen ResNet50,reference,Leather_196,-0.02928205,-0.16462615,,,
+Frozen ResNet50,reference,Leather_197,-0.08484130,0.02896209,,,
+Frozen ResNet50,reference,Leather_198,0.04260683,0.02874772,,,
+Frozen ResNet50,reference,Leather_199,0.46024191,0.01532912,,,
+Frozen ResNet50,reference,Leather_20,-0.27121383,0.09690946,,,
+Frozen ResNet50,reference,Leather_200,0.42032033,0.14000601,,,
+Frozen ResNet50,reference,Leather_201,0.13779514,0.06687159,,,
+Frozen ResNet50,reference,Leather_202,0.33199441,0.14365791,,,
+Frozen ResNet50,reference,Leather_203,-0.29789367,0.06986503,,,
+Frozen ResNet50,reference,Leather_21,-0.35763830,0.24690995,,,
+Frozen ResNet50,reference,Leather_22,-0.30402353,-0.10066219,,,
+Frozen ResNet50,reference,Leather_23,-0.34522748,-0.11480218,,,
+Frozen ResNet50,reference,Leather_24,0.50722259,0.03317346,,,
+Frozen ResNet50,reference,Leather_25,0.36746100,0.15135282,,,
+Frozen ResNet50,reference,Leather_26,0.56928658,0.24374819,,,
+Frozen ResNet50,reference,Leather_27,0.12516350,-0.23297349,,,
+Frozen ResNet50,reference,Leather_28,0.54405320,0.05362611,,,
+Frozen ResNet50,reference,Leather_29,-0.20905891,0.31935585,,,
+Frozen ResNet50,reference,Leather_30,-0.16341598,-0.11808109,,,
+Frozen ResNet50,reference,Leather_31,0.09135305,-0.32481769,,,
+Frozen ResNet50,reference,Leather_32,-0.12144591,-0.35408756,,,
+Frozen ResNet50,reference,Leather_33,0.09055918,-0.28768510,,,
+Frozen ResNet50,reference,Leather_34,-0.18931931,0.33838224,,,
+Frozen ResNet50,reference,Leather_35,-0.36682239,0.07817917,,,
+Frozen ResNet50,reference,Leather_36,-0.26638949,0.40306127,,,
+Frozen ResNet50,reference,Leather_37,-0.42284659,-0.28634459,,,
+Frozen ResNet50,reference,Leather_38,-0.31780624,0.38023391,,,
+Frozen ResNet50,reference,Leather_39,-0.27161145,-0.00330288,,,
+Frozen ResNet50,reference,Leather_40,-0.34286392,0.49271584,,,
+Frozen ResNet50,reference,Leather_41,-0.31851625,0.33824781,,,
+Frozen ResNet50,reference,Leather_42,-0.25606579,0.15206438,,,
+Frozen ResNet50,reference,Leather_43,-0.33331114,-0.00466349,,,
+Frozen ResNet50,reference,Leather_44,-0.23859604,0.27419326,,,
+Frozen ResNet50,reference,Leather_45,-0.15316972,-0.20096093,,,
+Frozen ResNet50,reference,Leather_46,-0.48103881,0.02546240,,,
+Frozen ResNet50,reference,Leather_47,-0.19015726,0.36732882,,,
+Frozen ResNet50,reference,Leather_48,-0.29263115,0.28947172,,,
+Frozen ResNet50,reference,Leather_49,-0.34252143,0.12814467,,,
+Frozen ResNet50,reference,Leather_50,-0.12300478,0.39750868,,,
+Frozen ResNet50,reference,Leather_51,-0.24242035,0.03424722,,,
+Frozen ResNet50,reference,Leather_52,-0.28472373,0.27120930,,,
+Frozen ResNet50,reference,Leather_53,-0.18633422,-0.16252233,,,
+Frozen ResNet50,reference,Leather_54,-0.34836790,0.21656245,,,
+Frozen ResNet50,reference,Leather_55,-0.31239820,-0.16833013,,,
+Frozen ResNet50,reference,Leather_56,0.09216601,-0.38559529,,,
+Frozen ResNet50,reference,Leather_57,-0.13931155,-0.13034344,,,
+Frozen ResNet50,reference,Leather_58,-0.10369071,-0.42754969,,,
+Frozen ResNet50,reference,Leather_59,-0.45367390,-0.01365976,,,
+Frozen ResNet50,reference,Leather_60,-0.04600649,-0.26009780,,,
+Frozen ResNet50,reference,Leather_61,-0.01314007,-0.24726166,,,
+Frozen ResNet50,reference,Leather_62,-0.25225425,0.13141540,,,
+Frozen ResNet50,reference,Leather_63,-0.05957162,0.23563176,,,
+Frozen ResNet50,reference,Leather_64,-0.21117479,0.04941067,,,
+Frozen ResNet50,reference,Leather_65,-0.04807220,-0.22584929,,,
+Frozen ResNet50,reference,Leather_66,-0.07072663,-0.26777214,,,
+Frozen ResNet50,reference,Leather_67,-0.05460157,-0.41343760,,,
+Frozen ResNet50,reference,Leather_68,-0.15223683,-0.50430083,,,
+Frozen ResNet50,reference,Leather_69,-0.19483289,-0.38614064,,,
+Frozen ResNet50,reference,Leather_70,-0.10880722,-0.51311529,,,
+Frozen ResNet50,reference,Leather_71,-0.11685031,-0.10299575,,,
+Frozen ResNet50,reference,Leather_72,-0.03881031,0.01717562,,,
+Frozen ResNet50,reference,Leather_73,-0.04739503,-0.31125689,,,
+Frozen ResNet50,reference,Leather_74,0.08380354,-0.39686635,,,
+Frozen ResNet50,reference,Leather_75,-0.27805951,-0.52085084,,,
+Frozen ResNet50,reference,Leather_76,-0.06746004,-0.22442952,,,
+Frozen ResNet50,reference,Leather_77,-0.22015323,-0.37359104,,,
+Frozen ResNet50,reference,Leather_78,-0.17513311,-0.42100078,,,
+Frozen ResNet50,reference,Leather_79,-0.16226035,-0.40407407,,,
+Frozen ResNet50,reference,Leather_80,-0.26744878,-0.36963761,,,
+Frozen ResNet50,reference,Leather_81,-0.14238226,-0.45715684,,,
+Frozen ResNet50,reference,Leather_82,-0.26049837,-0.33659256,,,
+Frozen ResNet50,reference,Leather_83,-0.18201274,-0.38688385,,,
+Frozen ResNet50,reference,Leather_84,-0.07118046,-0.42650419,,,
+Frozen ResNet50,reference,Leather_85,-0.24156734,-0.28441358,,,
+Frozen ResNet50,reference,Leather_86,-0.29804403,0.09299786,,,
+Frozen ResNet50,reference,Leather_87,-0.37102842,-0.04879481,,,
+Frozen ResNet50,reference,Leather_88,0.06689642,-0.14147606,,,
+Frozen ResNet50,reference,Leather_89,-0.06952551,-0.12884286,,,
+Frozen ResNet50,reference,Leather_90,0.12200134,-0.01348762,,,
+Frozen ResNet50,reference,Leather_91,0.01687001,-0.07112534,,,
+Frozen ResNet50,reference,Leather_92,-0.35579795,0.14358597,,,
+Frozen ResNet50,reference,Leather_93,-0.37397474,0.07501357,,,
+Frozen ResNet50,reference,Leather_94,-0.16775610,0.31011921,,,
+Frozen ResNet50,reference,Leather_95,-0.31407478,-0.25339860,,,
+Frozen ResNet50,reference,Leather_96,-0.31120718,-0.06045084,,,
+Frozen ResNet50,reference,Leather_97,-0.30950129,-0.01451240,,,
+Frozen ResNet50,reference,Leather_98,-0.00556470,0.12022244,,,
+Frozen ResNet50,reference,Leather_99,0.02606311,-0.12942493,,,
+Frozen ResNet50,test,Leather_01,0.44131976,0.27389467,True,Leather_01,my_dataset_test_filtered\Leather_01\1750406379284.jpg
+Frozen ResNet50,test,Leather_02,0.49843997,0.23708671,True,Leather_02,my_dataset_test_filtered\Leather_02\1750406835550.jpg
+Frozen ResNet50,test,Leather_03,0.50528622,0.20006423,True,Leather_03,my_dataset_test_filtered\Leather_03\1750406941972.jpg
+Frozen ResNet50,test,Leather_04,0.14101094,-0.17600688,True,Leather_04,my_dataset_test_filtered\Leather_04\1750407130699.jpg
+Frozen ResNet50,test,Leather_05,0.29398146,0.12281720,True,Leather_05,my_dataset_test_filtered\Leather_05\1750407204184.jpg
+Frozen ResNet50,test,Leather_06,0.34126589,-0.08957949,True,Leather_06,my_dataset_test_filtered\Leather_06\1750407348067.jpg
+Frozen ResNet50,test,Leather_07,0.46580231,0.24331780,True,Leather_07,my_dataset_test_filtered\Leather_07\1750407528243.jpg
+Frozen ResNet50,test,Leather_08,0.51571488,-0.01384749,True,Leather_08,my_dataset_test_filtered\Leather_08\1750407629336.jpg
+Frozen ResNet50,test,Leather_09,0.16518471,0.12859276,True,Leather_09,my_dataset_test_filtered\Leather_09\1750407738276.jpg
+Frozen ResNet50,test,Leather_10,0.29067481,0.06159391,True,Leather_10,my_dataset_test_filtered\Leather_10\1750408020242.jpg
+Frozen ResNet50,test,Leather_100,-0.14709958,0.12853168,True,Leather_100,my_dataset_test_filtered\Leather_100\1750488394024.jpg
+Frozen ResNet50,test,Leather_101,0.06733496,-0.01644915,True,Leather_101,my_dataset_test_filtered\Leather_101\1750488471484.jpg
+Frozen ResNet50,test,Leather_102,-0.18150640,-0.11523760,True,Leather_102,my_dataset_test_filtered\Leather_102\1750488520146.jpg
+Frozen ResNet50,test,Leather_103,-0.25141826,-0.02708101,True,Leather_103,my_dataset_test_filtered\Leather_103\1750488677028.jpg
+Frozen ResNet50,test,Leather_104,-0.26230699,-0.19533788,True,Leather_104,my_dataset_test_filtered\Leather_104\1750488725312.jpg
+Frozen ResNet50,test,Leather_105,-0.27294397,-0.19115767,True,Leather_105,my_dataset_test_filtered\Leather_105\1750488787557.jpg
+Frozen ResNet50,test,Leather_106,-0.07056186,-0.01464188,True,Leather_106,my_dataset_test_filtered\Leather_106\1750488902223.jpg
+Frozen ResNet50,test,Leather_107,-0.10256480,-0.27630001,True,Leather_107,my_dataset_test_filtered\Leather_107\1750488972633.jpg
+Frozen ResNet50,test,Leather_108,-0.05555449,-0.02554988,True,Leather_108,my_dataset_test_filtered\Leather_108\1750489023876.jpg
+Frozen ResNet50,test,Leather_109,-0.20076689,-0.05438312,True,Leather_109,my_dataset_test_filtered\Leather_109\1750489124023.jpg
+Frozen ResNet50,test,Leather_11,0.52096093,0.09545323,True,Leather_11,my_dataset_test_filtered\Leather_11\1750408197526.jpg
+Frozen ResNet50,test,Leather_110,-0.32170755,0.03665586,True,Leather_110,my_dataset_test_filtered\Leather_110\1750489176801.jpg
+Frozen ResNet50,test,Leather_111,-0.25609708,0.04000980,True,Leather_111,my_dataset_test_filtered\Leather_111\1750489227871.jpg
+Frozen ResNet50,test,Leather_112,-0.39811862,0.31915152,True,Leather_112,my_dataset_test_filtered\Leather_112\1750489281422.jpg
+Frozen ResNet50,test,Leather_113,-0.39061421,0.28024492,True,Leather_113,my_dataset_test_filtered\Leather_113\1750489326154.jpg
+Frozen ResNet50,test,Leather_114,-0.40046662,0.29916561,True,Leather_114,my_dataset_test_filtered\Leather_114\1750489373490.jpg
+Frozen ResNet50,test,Leather_115,-0.36303693,0.09071137,True,Leather_115,my_dataset_test_filtered\Leather_115\1750489423499.jpg
+Frozen ResNet50,test,Leather_116,-0.15356553,-0.01937001,True,Leather_116,my_dataset_test_filtered\Leather_116\1750489535803.jpg
+Frozen ResNet50,test,Leather_117,-0.25365719,-0.31388056,True,Leather_117,my_dataset_test_filtered\Leather_117\1750489573511.jpg
+Frozen ResNet50,test,Leather_118,-0.24527675,-0.37497360,True,Leather_118,my_dataset_test_filtered\Leather_118\1750489685912.jpg
+Frozen ResNet50,test,Leather_119,0.13124973,-0.07892878,True,Leather_119,my_dataset_test_filtered\Leather_119\1750489770436.jpg
+Frozen ResNet50,test,Leather_12,0.52330071,0.14574936,True,Leather_12,my_dataset_test_filtered\Leather_12\1750408284854.jpg
+Frozen ResNet50,test,Leather_120,-0.32633710,-0.26392636,True,Leather_120,my_dataset_test_filtered\Leather_120\1750489841717.jpg
+Frozen ResNet50,test,Leather_121,-0.27679908,-0.31338307,True,Leather_121,my_dataset_test_filtered\Leather_121\1750489889943.jpg
+Frozen ResNet50,test,Leather_122,-0.05581735,-0.31064624,True,Leather_122,my_dataset_test_filtered\Leather_122\1750489935897.jpg
+Frozen ResNet50,test,Leather_123,-0.00717837,-0.29657438,True,Leather_123,my_dataset_test_filtered\Leather_123\1750489979959.jpg
+Frozen ResNet50,test,Leather_124,-0.14663346,-0.43301380,True,Leather_124,my_dataset_test_filtered\Leather_124\1750490024511.jpg
+Frozen ResNet50,test,Leather_125,-0.24829087,0.42200449,True,Leather_125,my_dataset_test_filtered\Leather_125\1750490073084.jpg
+Frozen ResNet50,test,Leather_126,-0.22377835,0.44967118,True,Leather_126,my_dataset_test_filtered\Leather_126\1750490108402.jpg
+Frozen ResNet50,test,Leather_127,-0.23370250,0.47628927,True,Leather_127,my_dataset_test_filtered\Leather_127\1750490173529.jpg
+Frozen ResNet50,test,Leather_128,-0.27407679,0.48519614,True,Leather_128,my_dataset_test_filtered\Leather_128\1750490238549.jpg
+Frozen ResNet50,test,Leather_129,-0.25100845,0.34892052,True,Leather_129,my_dataset_test_filtered\Leather_129\1750490315532.jpg
+Frozen ResNet50,test,Leather_13,0.35397923,0.14371645,True,Leather_13,my_dataset_test_filtered\Leather_13\1750408366776.jpg
+Frozen ResNet50,test,Leather_130,-0.22110248,0.48692644,True,Leather_130,my_dataset_test_filtered\Leather_130\1750490367912.jpg
+Frozen ResNet50,test,Leather_131,-0.22712567,0.34943977,True,Leather_131,my_dataset_test_filtered\Leather_131\1750490579280.jpg
+Frozen ResNet50,test,Leather_132,-0.17504981,0.24139696,True,Leather_132,my_dataset_test_filtered\Leather_132\1750490644319.jpg
+Frozen ResNet50,test,Leather_133,-0.38220608,0.42729178,True,Leather_133,my_dataset_test_filtered\Leather_133\1750490775257.jpg
+Frozen ResNet50,test,Leather_134,-0.19730717,0.46584862,True,Leather_134,my_dataset_test_filtered\Leather_134\1750490827975.jpg
+Frozen ResNet50,test,Leather_135,-0.17567967,0.35258916,True,Leather_135,my_dataset_test_filtered\Leather_135\1750490955532.jpg
+Frozen ResNet50,test,Leather_136,-0.34428692,0.38211104,True,Leather_136,my_dataset_test_filtered\Leather_136\1750491016516.jpg
+Frozen ResNet50,test,Leather_137,-0.23860602,0.28292319,True,Leather_137,my_dataset_test_filtered\Leather_137\1750491063276.jpg
+Frozen ResNet50,test,Leather_138,-0.25821775,0.12025219,True,Leather_138,my_dataset_test_filtered\Leather_138\1750491113039.jpg
+Frozen ResNet50,test,Leather_139,-0.34372151,0.03329597,True,Leather_139,my_dataset_test_filtered\Leather_139\1750491172226.jpg
+Frozen ResNet50,test,Leather_14,0.32965544,0.18569842,True,Leather_14,my_dataset_test_filtered\Leather_14\1750408447980.jpg
+Frozen ResNet50,test,Leather_141,-0.34329072,0.46620536,True,Leather_141,my_dataset_test_filtered\Leather_141\1750491343747.jpg
+Frozen ResNet50,test,Leather_142,-0.22257432,0.19040583,True,Leather_142,my_dataset_test_filtered\Leather_142\1750491376753.jpg
+Frozen ResNet50,test,Leather_143,-0.30719632,0.43928328,True,Leather_143,my_dataset_test_filtered\Leather_143\1750491416883.jpg
+Frozen ResNet50,test,Leather_144,-0.19529817,-0.29069963,True,Leather_144,my_dataset_test_filtered\Leather_144\1750491458976.jpg
+Frozen ResNet50,test,Leather_145,-0.16777068,-0.38336802,True,Leather_145,my_dataset_test_filtered\Leather_145\1750491505929.jpg
+Frozen ResNet50,test,Leather_146,-0.09703138,-0.20736238,True,Leather_146,my_dataset_test_filtered\Leather_146\1750491548136.jpg
+Frozen ResNet50,test,Leather_147,-0.26313907,-0.40373990,True,Leather_147,my_dataset_test_filtered\Leather_147\1750491588458.jpg
+Frozen ResNet50,test,Leather_148,0.08392040,-0.29235810,True,Leather_148,my_dataset_test_filtered\Leather_148\1750491631763.jpg
+Frozen ResNet50,test,Leather_149,0.04853229,0.01499303,True,Leather_149,my_dataset_test_filtered\Leather_149\1750491671545.jpg
+Frozen ResNet50,test,Leather_15,0.51369309,0.02752058,True,Leather_15,my_dataset_test_filtered\Leather_15\1750408503377.jpg
+Frozen ResNet50,test,Leather_150,-0.28870922,-0.35870799,True,Leather_150,my_dataset_test_filtered\Leather_150\1750491705037.jpg
+Frozen ResNet50,test,Leather_151,0.29950094,-0.08399601,True,Leather_151,my_dataset_test_filtered\Leather_151\1750643059336.jpg
+Frozen ResNet50,test,Leather_152,0.50418216,-0.06129946,True,Leather_152,my_dataset_test_filtered\Leather_152\1750643150581.jpg
+Frozen ResNet50,test,Leather_153,0.25746405,0.14742813,True,Leather_153,my_dataset_test_filtered\Leather_153\1750643340909.jpg
+Frozen ResNet50,test,Leather_154,0.52954608,0.00284487,True,Leather_154,my_dataset_test_filtered\Leather_154\1750643441264.jpg
+Frozen ResNet50,test,Leather_155,0.07737674,0.16129142,True,Leather_155,my_dataset_test_filtered\Leather_155\1750643535877.jpg
+Frozen ResNet50,test,Leather_156,0.33440560,-0.17289844,True,Leather_156,my_dataset_test_filtered\Leather_156\1750643658280.jpg
+Frozen ResNet50,test,Leather_157,0.34270620,0.06076486,True,Leather_157,my_dataset_test_filtered\Leather_157\1750648997886.jpg
+Frozen ResNet50,test,Leather_158,0.19498122,-0.02527318,True,Leather_158,my_dataset_test_filtered\Leather_158\1750649068787.jpg
+Frozen ResNet50,test,Leather_159,0.32779074,-0.24679425,True,Leather_159,my_dataset_test_filtered\Leather_159\1750649136357.jpg
+Frozen ResNet50,test,Leather_16,0.36310384,0.16472788,True,Leather_16,my_dataset_test_filtered\Leather_16\1750409233250.jpg
+Frozen ResNet50,test,Leather_160,0.52003622,0.04185844,True,Leather_160,my_dataset_test_filtered\Leather_160\1750650791768.jpg
+Frozen ResNet50,test,Leather_161,0.62994421,0.19251175,True,Leather_161,my_dataset_test_filtered\Leather_161\1750650924442.jpg
+Frozen ResNet50,test,Leather_162,0.28884223,0.16417634,True,Leather_162,my_dataset_test_filtered\Leather_162\1750651003357.jpg
+Frozen ResNet50,test,Leather_163,0.14307940,0.16896567,True,Leather_163,my_dataset_test_filtered\Leather_163\1750651063876.jpg
+Frozen ResNet50,test,Leather_164,0.15883428,0.28534964,True,Leather_164,my_dataset_test_filtered\Leather_164\1750651143283.jpg
+Frozen ResNet50,test,Leather_165,0.37645793,0.22759950,True,Leather_165,my_dataset_test_filtered\Leather_165\1750659409519.jpg
+Frozen ResNet50,test,Leather_166,0.54873657,0.04084596,True,Leather_166,my_dataset_test_filtered\Leather_166\1750659306788.jpg
+Frozen ResNet50,test,Leather_167,0.45122719,-0.09761776,True,Leather_167,my_dataset_test_filtered\Leather_167\1750659478698.jpg
+Frozen ResNet50,test,Leather_168,0.31904730,0.23764917,True,Leather_168,my_dataset_test_filtered\Leather_168\1750659573573.jpg
+Frozen ResNet50,test,Leather_169,0.10721263,0.11534284,True,Leather_169,my_dataset_test_filtered\Leather_169\1750659659789.jpg
+Frozen ResNet50,test,Leather_17,0.54170954,0.02689391,True,Leather_17,my_dataset_test_filtered\Leather_17\1750409341603.jpg
+Frozen ResNet50,test,Leather_170,0.19819213,0.00573744,True,Leather_170,my_dataset_test_filtered\Leather_170\1750659728427.jpg
+Frozen ResNet50,test,Leather_171,0.02669769,0.13650973,True,Leather_171,my_dataset_test_filtered\Leather_171\1750659800858.jpg
+Frozen ResNet50,test,Leather_172,0.14439806,0.26855677,True,Leather_172,my_dataset_test_filtered\Leather_172\1750659872148.jpg
+Frozen ResNet50,test,Leather_173,0.38800266,0.23695756,True,Leather_173,my_dataset_test_filtered\Leather_173\1750659979993.jpg
+Frozen ResNet50,test,Leather_174,0.29882228,-0.10295859,True,Leather_174,my_dataset_test_filtered\Leather_174\1750660728450.jpg
+Frozen ResNet50,test,Leather_175,0.50039446,-0.10649961,True,Leather_175,my_dataset_test_filtered\Leather_175\1750660827906.jpg
+Frozen ResNet50,test,Leather_176,0.28017753,-0.01578227,True,Leather_176,my_dataset_test_filtered\Leather_176\1750660944224.jpg
+Frozen ResNet50,test,Leather_177,0.30067366,-0.12521698,True,Leather_177,my_dataset_test_filtered\Leather_177\1750661060161.jpg
+Frozen ResNet50,test,Leather_178,0.20316792,-0.25407141,True,Leather_178,my_dataset_test_filtered\Leather_178\1750661159844.jpg
+Frozen ResNet50,test,Leather_179,0.16028026,-0.13130318,True,Leather_179,my_dataset_test_filtered\Leather_179\1750661242878.jpg
+Frozen ResNet50,test,Leather_18,0.32212132,0.11771183,True,Leather_18,my_dataset_test_filtered\Leather_18\1750409468348.jpg
+Frozen ResNet50,test,Leather_181,0.51108551,-0.06061165,True,Leather_181,my_dataset_test_filtered\Leather_181\1750661486082.jpg
+Frozen ResNet50,test,Leather_182,0.17182484,0.25620466,False,Leather_18,my_dataset_test_filtered\Leather_182\1750662101172.jpg
+Frozen ResNet50,test,Leather_183,0.30174220,0.03822481,True,Leather_183,my_dataset_test_filtered\Leather_183\1750662415812.jpg
+Frozen ResNet50,test,Leather_184,0.34775221,-0.20642355,True,Leather_184,my_dataset_test_filtered\Leather_184\1750662571409.jpg
+Frozen ResNet50,test,Leather_185,0.06958508,-0.12846199,True,Leather_185,my_dataset_test_filtered\Leather_185\1750662660000.jpg
+Frozen ResNet50,test,Leather_186,0.31551903,0.04747131,True,Leather_186,my_dataset_test_filtered\Leather_186\1750662752578.jpg
+Frozen ResNet50,test,Leather_187,0.41873932,0.21379569,True,Leather_187,my_dataset_test_filtered\Leather_187\1750663815128.jpg
+Frozen ResNet50,test,Leather_188,0.45692348,-0.08754997,True,Leather_188,my_dataset_test_filtered\Leather_188\1750663926595.jpg
+Frozen ResNet50,test,Leather_189,0.45929128,-0.18916214,True,Leather_189,my_dataset_test_filtered\Leather_189\1750664130885.jpg
+Frozen ResNet50,test,Leather_19,0.34401357,0.21164644,True,Leather_19,my_dataset_test_filtered\Leather_19\1750409938648.jpg
+Frozen ResNet50,test,Leather_190,0.16463003,-0.29996628,True,Leather_190,my_dataset_test_filtered\Leather_190\1750664331525.jpg
+Frozen ResNet50,test,Leather_191,0.19962877,0.09338517,True,Leather_191,my_dataset_test_filtered\Leather_191\1750664466727.jpg
+Frozen ResNet50,test,Leather_192,0.25437462,0.13910428,True,Leather_192,my_dataset_test_filtered\Leather_192\1750664610693.jpg
+Frozen ResNet50,test,Leather_193,0.04550327,-0.05886714,True,Leather_193,my_dataset_test_filtered\Leather_193\1750664722422.jpg
+Frozen ResNet50,test,Leather_194,0.40238801,0.19566385,True,Leather_194,my_dataset_test_filtered\Leather_194\1750664834503.jpg
+Frozen ResNet50,test,Leather_195,-0.04649194,-0.00295340,True,Leather_195,my_dataset_test_filtered\Leather_195\1750664932917.jpg
+Frozen ResNet50,test,Leather_196,-0.12864877,-0.07017675,True,Leather_196,my_dataset_test_filtered\Leather_196\1750665019021.jpg
+Frozen ResNet50,test,Leather_197,-0.07786170,0.02143681,True,Leather_197,my_dataset_test_filtered\Leather_197\1750665774705.jpg
+Frozen ResNet50,test,Leather_198,0.04053941,0.01316182,True,Leather_198,my_dataset_test_filtered\Leather_198\1750665866788.jpg
+Frozen ResNet50,test,Leather_199,0.47079176,0.02807038,True,Leather_199,my_dataset_test_filtered\Leather_199\1750665947796.jpg
+Frozen ResNet50,test,Leather_20,-0.15731131,0.03236014,True,Leather_20,my_dataset_test_filtered\Leather_20\1750470677619.jpg
+Frozen ResNet50,test,Leather_200,0.44351190,0.15526049,True,Leather_200,my_dataset_test_filtered\Leather_200\1750666016867.jpg
+Frozen ResNet50,test,Leather_201,0.12253094,0.13850310,True,Leather_201,my_dataset_test_filtered\Leather_201\1750666106599.jpg
+Frozen ResNet50,test,Leather_202,0.32785869,0.15884137,True,Leather_202,my_dataset_test_filtered\Leather_202\1750661667157.jpg
+Frozen ResNet50,test,Leather_203,-0.38944709,0.05785752,True,Leather_203,my_dataset_test_filtered\Leather_203\1750474770355.jpg
+Frozen ResNet50,test,Leather_21,-0.29384241,0.18222943,True,Leather_21,my_dataset_test_filtered\Leather_21\1750470770553.jpg
+Frozen ResNet50,test,Leather_22,-0.24687076,-0.18473046,True,Leather_22,my_dataset_test_filtered\Leather_22\1750471270864.jpg
+Frozen ResNet50,test,Leather_23,-0.31716168,-0.00726950,True,Leather_23,my_dataset_test_filtered\Leather_23\1750471349579.jpg
+Frozen ResNet50,test,Leather_24,0.42751008,0.03183646,True,Leather_24,my_dataset_test_filtered\Leather_24\1750404868870.jpg
+Frozen ResNet50,test,Leather_25,0.33314756,0.12873863,True,Leather_25,my_dataset_test_filtered\Leather_25\1750405296218.jpg
+Frozen ResNet50,test,Leather_26,0.32850984,0.25491822,False,Leather_165,my_dataset_test_filtered\Leather_26\1750405534348.jpg
+Frozen ResNet50,test,Leather_27,0.01485388,-0.03155863,True,Leather_27,my_dataset_test_filtered\Leather_27\1750409685638.jpg
+Frozen ResNet50,test,Leather_28,0.50775856,0.09528542,True,Leather_28,my_dataset_test_filtered\Leather_28\1750409789490.jpg
+Frozen ResNet50,test,Leather_29,-0.21096402,0.26082337,True,Leather_29,my_dataset_test_filtered\Leather_29\1750471438228.jpg
+Frozen ResNet50,test,Leather_30,-0.10207210,-0.19517581,True,Leather_30,my_dataset_test_filtered\Leather_30\1750471530238.jpg
+Frozen ResNet50,test,Leather_31,0.04538370,-0.27861702,True,Leather_31,my_dataset_test_filtered\Leather_31\1750471605030.jpg
+Frozen ResNet50,test,Leather_32,-0.26229811,-0.28900748,True,Leather_32,my_dataset_test_filtered\Leather_32\1750471682491.jpg
+Frozen ResNet50,test,Leather_33,-0.14970139,0.11991778,False,Leather_102,my_dataset_test_filtered\Leather_33\1750471764013.jpg
+Frozen ResNet50,test,Leather_34,-0.24121042,0.36368245,True,Leather_34,my_dataset_test_filtered\Leather_34\1750471821479.jpg
+Frozen ResNet50,test,Leather_35,-0.40414199,0.04055879,True,Leather_35,my_dataset_test_filtered\Leather_35\1750472237638.png
+Frozen ResNet50,test,Leather_36,-0.20850137,0.33183497,True,Leather_36,my_dataset_test_filtered\Leather_36\1750472577788.jpg
+Frozen ResNet50,test,Leather_37,-0.37551981,-0.20550391,True,Leather_37,my_dataset_test_filtered\Leather_37\1750472664705.png
+Frozen ResNet50,test,Leather_38,-0.25545728,0.32306576,True,Leather_38,my_dataset_test_filtered\Leather_38\1750473300546.jpg
+Frozen ResNet50,test,Leather_39,-0.24937014,0.01326069,True,Leather_39,my_dataset_test_filtered\Leather_39\1750473140715.jpg
+Frozen ResNet50,test,Leather_40,-0.34255141,0.50391495,True,Leather_40,my_dataset_test_filtered\Leather_40\1750473354598.jpg
+Frozen ResNet50,test,Leather_41,-0.31625879,0.35685533,True,Leather_41,my_dataset_test_filtered\Leather_41\1750473418205.jpg
+Frozen ResNet50,test,Leather_42,-0.19631948,0.14961487,True,Leather_42,my_dataset_test_filtered\Leather_42\1750473495687.jpg
+Frozen ResNet50,test,Leather_43,-0.23675406,0.00425793,True,Leather_43,my_dataset_test_filtered\Leather_43\1750473554134.jpg
+Frozen ResNet50,test,Leather_44,-0.28156596,0.24232933,True,Leather_44,my_dataset_test_filtered\Leather_44\1750473677835.jpg
+Frozen ResNet50,test,Leather_45,-0.19593766,-0.23310958,True,Leather_45,my_dataset_test_filtered\Leather_45\1750473722987.jpg
+Frozen ResNet50,test,Leather_46,-0.46402001,-0.08920782,True,Leather_46,my_dataset_test_filtered\Leather_46\1750473772180.jpg
+Frozen ResNet50,test,Leather_47,-0.14045468,0.33106649,True,Leather_47,my_dataset_test_filtered\Leather_47\1750473860065.jpg
+Frozen ResNet50,test,Leather_48,-0.35271734,0.31908482,False,Leather_29,my_dataset_test_filtered\Leather_48\1750473923200.jpg
+Frozen ResNet50,test,Leather_49,-0.41324890,0.06082524,True,Leather_49,my_dataset_test_filtered\Leather_49\1750474047268.jpg
+Frozen ResNet50,test,Leather_50,-0.15126905,0.41840136,True,Leather_50,my_dataset_test_filtered\Leather_50\1750474161918.jpg
+Frozen ResNet50,test,Leather_51,-0.23188722,-0.00833677,True,Leather_51,my_dataset_test_filtered\Leather_51\1750474255738.jpg
+Frozen ResNet50,test,Leather_52,-0.30652499,0.20302545,True,Leather_52,my_dataset_test_filtered\Leather_52\1750474303814.jpg
+Frozen ResNet50,test,Leather_53,-0.11813927,-0.12535992,True,Leather_53,my_dataset_test_filtered\Leather_53\1750474407644.jpg
+Frozen ResNet50,test,Leather_54,-0.20666263,0.26845580,True,Leather_54,my_dataset_test_filtered\Leather_54\1750474620078.jpg
+Frozen ResNet50,test,Leather_55,-0.27422908,0.07657894,True,Leather_55,my_dataset_test_filtered\Leather_55\1750474881487.jpg
+Frozen ResNet50,test,Leather_56,0.15724152,-0.34733087,True,Leather_56,my_dataset_test_filtered\Leather_56\1750475017234.jpg
+Frozen ResNet50,test,Leather_57,-0.12568070,-0.15352111,True,Leather_57,my_dataset_test_filtered\Leather_57\1750475119001.jpg
+Frozen ResNet50,test,Leather_58,-0.00602579,-0.42535627,True,Leather_58,my_dataset_test_filtered\Leather_58\1750475225344.jpg
+Frozen ResNet50,test,Leather_59,-0.41517213,-0.04540350,True,Leather_59,my_dataset_test_filtered\Leather_59\1750483475336.jpg
+Frozen ResNet50,test,Leather_60,-0.03014105,-0.27166122,True,Leather_60,my_dataset_test_filtered\Leather_60\1750483929819.jpg
+Frozen ResNet50,test,Leather_61,-0.11404862,-0.24576300,True,Leather_61,my_dataset_test_filtered\Leather_61\1750484033251.jpg
+Frozen ResNet50,test,Leather_62,-0.26648873,0.11170970,True,Leather_62,my_dataset_test_filtered\Leather_62\1750484107750.jpg
+Frozen ResNet50,test,Leather_63,-0.01967972,0.22947872,True,Leather_63,my_dataset_test_filtered\Leather_63\1750484158981.jpg
+Frozen ResNet50,test,Leather_64,-0.16306430,0.09726487,True,Leather_64,my_dataset_test_filtered\Leather_64\1750485077151.jpg
+Frozen ResNet50,test,Leather_65,-0.11912479,-0.22048160,True,Leather_65,my_dataset_test_filtered\Leather_65\1750485463475.jpg
+Frozen ResNet50,test,Leather_66,-0.02412187,-0.23988162,True,Leather_66,my_dataset_test_filtered\Leather_66\1750485521883.jpg
+Frozen ResNet50,test,Leather_67,-0.06800433,-0.35101944,True,Leather_67,my_dataset_test_filtered\Leather_67\1750485574828.jpg
+Frozen ResNet50,test,Leather_68,-0.08017272,-0.48217309,True,Leather_68,my_dataset_test_filtered\Leather_68\1750485648416.jpg
+Frozen ResNet50,test,Leather_69,-0.23706204,-0.31447846,True,Leather_69,my_dataset_test_filtered\Leather_69\1750485718340.jpg
+Frozen ResNet50,test,Leather_70,-0.02013316,-0.46503687,True,Leather_70,my_dataset_test_filtered\Leather_70\1750485770008.jpg
+Frozen ResNet50,test,Leather_71,-0.11716169,-0.06325881,True,Leather_71,my_dataset_test_filtered\Leather_71\1750485829171.jpg
+Frozen ResNet50,test,Leather_72,-0.02046762,0.00671429,True,Leather_72,my_dataset_test_filtered\Leather_72\1750485875459.jpg
+Frozen ResNet50,test,Leather_73,0.14272285,-0.29157543,True,Leather_73,my_dataset_test_filtered\Leather_73\1750485959010.jpg
+Frozen ResNet50,test,Leather_74,0.15224616,-0.39013505,True,Leather_74,my_dataset_test_filtered\Leather_74\1750486019457.jpg
+Frozen ResNet50,test,Leather_75,-0.29962778,-0.42625260,True,Leather_75,my_dataset_test_filtered\Leather_75\1750486112741.jpg
+Frozen ResNet50,test,Leather_76,-0.01279280,-0.20850284,True,Leather_76,my_dataset_test_filtered\Leather_76\1750486164800.jpg
+Frozen ResNet50,test,Leather_77,-0.28211373,-0.27709284,True,Leather_77,my_dataset_test_filtered\Leather_77\1750486227659.jpg
+Frozen ResNet50,test,Leather_78,-0.12986581,-0.40330008,True,Leather_78,my_dataset_test_filtered\Leather_78\1750486282509.jpg
+Frozen ResNet50,test,Leather_79,-0.08478148,-0.40741175,True,Leather_79,my_dataset_test_filtered\Leather_79\1750486351295.jpg
+Frozen ResNet50,test,Leather_80,-0.24287061,-0.34907973,True,Leather_80,my_dataset_test_filtered\Leather_80\1750486405057.jpg
+Frozen ResNet50,test,Leather_81,-0.11541152,-0.21844386,True,Leather_81,my_dataset_test_filtered\Leather_81\1750486453204.jpg
+Frozen ResNet50,test,Leather_82,-0.25174785,-0.40960836,True,Leather_82,my_dataset_test_filtered\Leather_82\1750486496818.jpg
+Frozen ResNet50,test,Leather_83,-0.11186747,-0.42459774,True,Leather_83,my_dataset_test_filtered\Leather_83\1750486589469.jpg
+Frozen ResNet50,test,Leather_84,-0.01817414,-0.41911197,True,Leather_84,my_dataset_test_filtered\Leather_84\1750486652785.jpg
+Frozen ResNet50,test,Leather_85,-0.18540734,-0.23855281,True,Leather_85,my_dataset_test_filtered\Leather_85\1750486731620.jpg
+Frozen ResNet50,test,Leather_86,-0.31642571,0.10733010,True,Leather_86,my_dataset_test_filtered\Leather_86\1750486795890.jpg
+Frozen ResNet50,test,Leather_87,-0.33302605,0.04352657,True,Leather_87,my_dataset_test_filtered\Leather_87\1750486854577.jpg
+Frozen ResNet50,test,Leather_88,0.07719877,-0.18605392,True,Leather_88,my_dataset_test_filtered\Leather_88\1750487499305.jpg
+Frozen ResNet50,test,Leather_89,0.04093572,-0.16228007,True,Leather_89,my_dataset_test_filtered\Leather_89\1750487589339.jpg
+Frozen ResNet50,test,Leather_90,0.04314203,0.02641223,True,Leather_90,my_dataset_test_filtered\Leather_90\1750487645905.jpg
+Frozen ResNet50,test,Leather_91,0.03323339,0.02082504,True,Leather_91,my_dataset_test_filtered\Leather_91\1750487700533.jpg
+Frozen ResNet50,test,Leather_92,-0.35577807,0.08445156,True,Leather_92,my_dataset_test_filtered\Leather_92\1750487738299.jpg
+Frozen ResNet50,test,Leather_93,-0.30470428,0.00007524,True,Leather_93,my_dataset_test_filtered\Leather_93\1750487779772.jpg
+Frozen ResNet50,test,Leather_94,-0.14742555,0.30430064,True,Leather_94,my_dataset_test_filtered\Leather_94\1750487866782.jpg
+Frozen ResNet50,test,Leather_95,-0.12276107,-0.21789967,True,Leather_95,my_dataset_test_filtered\Leather_95\1750487928213.jpg
+Frozen ResNet50,test,Leather_96,-0.26239538,-0.11815926,True,Leather_96,my_dataset_test_filtered\Leather_96\1750487976543.jpg
+Frozen ResNet50,test,Leather_97,-0.20447832,0.19156018,True,Leather_97,my_dataset_test_filtered\Leather_97\1750488050266.jpg
+Frozen ResNet50,test,Leather_98,-0.09695200,0.17417690,True,Leather_98,my_dataset_test_filtered\Leather_98\1750488235001.jpg
+Frozen ResNet50,test,Leather_99,0.01502308,-0.10535821,True,Leather_99,my_dataset_test_filtered\Leather_99\1750488306875.jpg
+Frozen DINOv2 ViT-S/14,reference,Leather_01,-0.51589763,-0.00692231,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_02,-0.46712005,-0.03144026,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_03,-0.53452289,-0.02711949,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_04,-0.32654452,0.08970353,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_05,-0.51546967,0.05439397,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_06,-0.30425316,0.12323671,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_07,-0.48966107,-0.06520708,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_08,-0.55228913,0.16882032,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_09,-0.39549151,-0.01602933,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_10,-0.47347593,0.19699806,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_100,0.12300260,0.13428155,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_101,-0.07544532,0.06098337,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_102,0.11580113,0.20362362,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_103,-0.03314609,0.22648826,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_104,0.19318670,-0.15612885,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_105,0.12800379,-0.14531609,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_106,0.21922523,0.07252157,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_107,0.22162652,-0.19077651,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_108,0.18540630,0.17471825,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_109,0.28815675,-0.08433446,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_11,-0.56033313,0.01258372,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_110,0.35749024,0.04545104,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_111,0.15658426,-0.17213449,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_112,0.31805640,0.16079205,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_113,0.28264439,0.12906495,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_114,0.17806357,0.18004325,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_115,0.24966858,0.12921014,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_116,0.23046705,0.10686105,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_117,0.20383525,-0.29556128,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_118,0.12432697,-0.60004151,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_119,-0.14461553,-0.01337180,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_12,-0.57997847,0.15144014,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_120,0.22088784,-0.28513402,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_121,0.23153210,-0.34497100,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_122,0.10212897,-0.44765997,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_123,-0.05738739,-0.41781932,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_124,-0.22801562,-0.08128171,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_125,0.27341229,0.42244762,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_126,0.26797730,0.44473714,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_127,0.33675280,0.39150816,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_128,0.32372010,0.49651507,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_129,0.35274738,0.39922100,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_13,-0.54962623,-0.07493977,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_130,0.25125396,0.35461146,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_131,0.22037059,0.25830814,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_132,0.28291282,0.32928538,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_133,0.36575815,0.41649151,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_134,0.24742322,0.49780476,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_135,0.32149869,0.39024252,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_136,0.41561329,0.18056646,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_137,0.32018745,0.45265788,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_138,0.28752249,0.35935643,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_139,0.36206967,-0.19639561,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_14,-0.52638602,-0.10726075,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_140,0.33752123,0.08903282,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_141,0.42030802,0.21478672,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_142,0.30918688,-0.20079795,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_143,0.36406079,0.35901222,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_144,0.25265294,-0.48701730,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_145,0.17080739,-0.02178080,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_146,0.20047012,-0.49363732,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_147,0.09816113,-0.21944940,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_148,0.02143720,-0.48390055,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_149,0.17792997,0.08354190,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_15,-0.37958342,0.16735134,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_150,0.30177814,-0.46229181,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_151,-0.32116377,0.08076507,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_152,-0.45250481,0.15112188,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_153,-0.44266999,0.08133499,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_154,-0.53084379,-0.02579561,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_155,-0.04798479,0.22148240,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_156,-0.35119188,-0.02665911,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_157,-0.33304673,0.07146460,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_158,-0.32228345,-0.25205871,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_159,-0.47478628,0.10214618,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_16,-0.52662754,0.15350276,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_160,-0.55813968,-0.00733635,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_161,-0.51052511,-0.08115251,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_162,-0.51340604,0.06020571,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_163,-0.54724264,-0.01279622,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_164,-0.48577848,-0.01456829,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_165,-0.48055655,-0.02819761,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_166,-0.43729115,-0.04067165,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_167,-0.47440562,0.15719882,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_168,-0.43771523,0.00386385,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_169,-0.32947069,-0.08321760,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_17,-0.43080127,0.07940236,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_170,-0.38126877,0.28654248,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_171,0.10374575,0.07676744,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_172,-0.11202241,0.07824756,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_173,-0.46175197,-0.01414680,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_174,-0.28316358,0.22576675,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_175,-0.44527125,0.21492247,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_176,-0.27510959,0.14212132,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_177,-0.18302999,0.14063863,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_178,-0.08116234,-0.07857369,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_179,-0.44986075,-0.01781049,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_18,-0.56988257,-0.08012518,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_180,-0.49240166,-0.10507742,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_181,-0.23716712,0.20489550,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_182,-0.31157434,0.09769588,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_183,-0.52185154,-0.04761808,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_184,-0.27687645,0.14196503,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_185,-0.18656489,0.00366267,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_186,-0.45684403,0.10657629,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_187,-0.26739031,0.18324660,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_188,-0.39479002,0.18152322,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_189,-0.39319709,0.07823198,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_19,-0.34245023,0.07560152,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_190,-0.04296136,0.29415575,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_191,-0.18324637,0.06460767,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_192,-0.52621466,-0.07232903,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_193,-0.24054942,0.08616313,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_194,-0.59241343,0.05030666,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_195,-0.24472436,-0.39943457,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_196,-0.15636019,-0.26487505,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_197,-0.27153373,0.10370374,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_198,-0.13929808,-0.13393208,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_199,-0.29578543,-0.28627700,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_20,0.34155783,0.01092446,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_200,-0.39003652,-0.01891836,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_201,-0.21268179,-0.23358586,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_202,-0.38128302,-0.15830338,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_203,0.33237436,-0.23914194,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_21,0.48945171,0.18784310,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_22,0.36520389,0.15508321,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_23,0.24913256,-0.17176238,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_24,-0.44136858,-0.13607165,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_25,-0.39473760,-0.05679050,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_26,-0.43343198,-0.02496238,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_27,-0.44647467,0.05768387,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_28,-0.48411220,0.06674363,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_29,0.37414095,0.36250287,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_30,0.39588133,-0.00364349,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_31,0.22649039,0.01771818,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_32,0.20032242,0.02168091,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_33,0.39209646,0.18948831,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_34,0.41235727,0.13211480,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_35,0.28669620,0.04538395,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_36,0.36521637,0.03478138,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_37,0.32916942,-0.19617090,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_38,0.38325199,0.30939913,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_39,0.35758826,0.13532016,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_40,0.37763530,0.18169576,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_41,0.32976988,0.41891956,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_42,0.41748482,-0.15450439,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_43,0.44480729,-0.25397778,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_44,0.37742803,0.34856072,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_45,0.23354670,-0.13945888,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_46,0.38780278,0.09656182,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_47,0.36065888,-0.13927794,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_48,0.38965473,0.11661498,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_49,0.39712223,0.10049711,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_50,0.22904336,0.27006993,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_51,0.32122341,0.03023829,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_52,0.38200819,0.24379866,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_53,0.06836726,-0.48788452,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_54,0.31200516,-0.24495807,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_55,0.36280987,-0.16762599,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_56,0.02118918,-0.17413558,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_57,0.19058138,-0.37010315,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_58,0.18919000,-0.08423686,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_59,0.42657921,-0.25688988,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_60,0.20304038,0.07879598,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_61,0.08251566,-0.46072155,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_62,0.26373702,0.11172469,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_63,0.16765955,0.09715401,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_64,0.20801097,-0.08422376,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_65,0.28887165,0.16220149,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_66,0.30443168,0.10021675,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_67,0.07315899,-0.52208859,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_68,0.17033063,-0.53691196,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_69,0.07659013,-0.47548872,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_70,0.13870341,-0.44335756,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_71,0.34492633,-0.30939478,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_72,0.32026199,0.26441538,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_73,0.10848580,-0.08958863,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_74,0.29157662,-0.19500636,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_75,0.22020698,-0.57308918,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_76,0.07801223,0.02699263,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_77,0.10270427,0.01663651,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_78,0.09118415,-0.60399485,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_79,0.14086288,-0.33215994,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_80,0.25404894,-0.34862089,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_81,0.18100472,-0.51027167,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_82,0.22087832,-0.37051281,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_83,0.25218341,-0.01576214,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_84,0.17174903,-0.59926921,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_85,0.29044950,-0.32270187,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_86,0.38008448,-0.05783048,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_87,0.32728618,-0.13262337,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_88,0.08356895,-0.09355648,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_89,0.01655106,0.11061518,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_90,0.00866095,0.31105602,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_91,0.04390666,0.22028810,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_92,0.27994832,0.21042667,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_93,0.30207384,0.00142234,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_94,0.33201468,0.16097666,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_95,0.17824087,-0.05418959,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_96,0.29090729,0.08543515,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_97,0.34665856,-0.16408101,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_98,0.22267954,0.14565714,,,
+Frozen DINOv2 ViT-S/14,reference,Leather_99,0.16491020,-0.20219274,,,
+Frozen DINOv2 ViT-S/14,test,Leather_01,-0.40210861,0.06378697,True,Leather_01,my_dataset_test_filtered\Leather_01\1750406379284.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_02,-0.48344126,-0.00983336,True,Leather_02,my_dataset_test_filtered\Leather_02\1750406835550.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_03,-0.50043893,-0.03028244,True,Leather_03,my_dataset_test_filtered\Leather_03\1750406941972.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_04,-0.16844472,0.09291154,False,Leather_189,my_dataset_test_filtered\Leather_04\1750407130699.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_05,-0.39326686,0.13871670,False,Leather_08,my_dataset_test_filtered\Leather_05\1750407204184.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_06,-0.26553017,0.14082424,True,Leather_06,my_dataset_test_filtered\Leather_06\1750407348067.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_07,-0.42978412,-0.05112618,True,Leather_07,my_dataset_test_filtered\Leather_07\1750407528243.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_08,-0.55454272,0.18009222,True,Leather_08,my_dataset_test_filtered\Leather_08\1750407629336.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_09,-0.24611247,-0.06090754,True,Leather_09,my_dataset_test_filtered\Leather_09\1750407738276.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_10,-0.45003712,0.15899356,True,Leather_10,my_dataset_test_filtered\Leather_10\1750408020242.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_100,0.16930011,0.09888691,True,Leather_100,my_dataset_test_filtered\Leather_100\1750488394024.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_101,-0.08551520,0.13747296,True,Leather_101,my_dataset_test_filtered\Leather_101\1750488471484.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_102,0.22346671,0.20949566,True,Leather_102,my_dataset_test_filtered\Leather_102\1750488520146.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_103,-0.07024972,0.19819090,True,Leather_103,my_dataset_test_filtered\Leather_103\1750488677028.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_104,0.08645456,-0.15399909,True,Leather_104,my_dataset_test_filtered\Leather_104\1750488725312.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_105,0.07486991,-0.20112871,True,Leather_105,my_dataset_test_filtered\Leather_105\1750488787557.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_106,0.19635405,0.09969295,True,Leather_106,my_dataset_test_filtered\Leather_106\1750488902223.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_107,0.16386347,-0.20329316,True,Leather_107,my_dataset_test_filtered\Leather_107\1750488972633.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_108,0.01557878,0.07776495,False,Leather_89,my_dataset_test_filtered\Leather_108\1750489023876.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_109,0.20025739,-0.07650529,True,Leather_109,my_dataset_test_filtered\Leather_109\1750489124023.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_11,-0.58261645,0.11095610,True,Leather_11,my_dataset_test_filtered\Leather_11\1750408197526.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_110,0.28551626,0.05331466,True,Leather_110,my_dataset_test_filtered\Leather_110\1750489176801.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_111,0.14083537,-0.10064562,True,Leather_111,my_dataset_test_filtered\Leather_111\1750489227871.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_112,0.30713052,0.17382473,True,Leather_112,my_dataset_test_filtered\Leather_112\1750489281422.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_113,0.26972026,0.21373199,True,Leather_113,my_dataset_test_filtered\Leather_113\1750489326154.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_114,0.22575134,0.14775598,True,Leather_114,my_dataset_test_filtered\Leather_114\1750489373490.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_115,0.23511125,0.15032181,True,Leather_115,my_dataset_test_filtered\Leather_115\1750489423499.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_116,0.07991354,0.16640219,True,Leather_116,my_dataset_test_filtered\Leather_116\1750489535803.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_117,0.20783265,-0.26343113,True,Leather_117,my_dataset_test_filtered\Leather_117\1750489573511.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_118,0.07029732,-0.56435901,True,Leather_118,my_dataset_test_filtered\Leather_118\1750489685912.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_119,-0.26194587,-0.05255576,True,Leather_119,my_dataset_test_filtered\Leather_119\1750489770436.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_12,-0.56949186,0.16815886,True,Leather_12,my_dataset_test_filtered\Leather_12\1750408284854.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_120,0.13786364,-0.50961947,True,Leather_120,my_dataset_test_filtered\Leather_120\1750489841717.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_121,0.25742388,-0.35886851,True,Leather_121,my_dataset_test_filtered\Leather_121\1750489889943.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_122,0.01894827,-0.42276335,True,Leather_122,my_dataset_test_filtered\Leather_122\1750489935897.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_123,-0.12277228,-0.34846222,True,Leather_123,my_dataset_test_filtered\Leather_123\1750489979959.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_124,-0.19842324,-0.12806539,True,Leather_124,my_dataset_test_filtered\Leather_124\1750490024511.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_125,0.32691264,0.43659058,True,Leather_125,my_dataset_test_filtered\Leather_125\1750490073084.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_126,0.32730553,0.44022644,True,Leather_126,my_dataset_test_filtered\Leather_126\1750490108402.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_127,0.24705628,0.38190460,True,Leather_127,my_dataset_test_filtered\Leather_127\1750490173529.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_128,0.36440066,0.48903131,True,Leather_128,my_dataset_test_filtered\Leather_128\1750490238549.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_129,0.34141469,0.41570881,True,Leather_129,my_dataset_test_filtered\Leather_129\1750490315532.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_13,-0.42215183,-0.09234199,True,Leather_13,my_dataset_test_filtered\Leather_13\1750408366776.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_130,0.22983992,0.30839217,True,Leather_130,my_dataset_test_filtered\Leather_130\1750490367912.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_131,0.26925281,0.24424863,True,Leather_131,my_dataset_test_filtered\Leather_131\1750490579280.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_132,0.24179140,0.25148076,True,Leather_132,my_dataset_test_filtered\Leather_132\1750490644319.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_133,0.38532883,0.35559440,True,Leather_133,my_dataset_test_filtered\Leather_133\1750490775257.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_134,0.27607155,0.43869555,True,Leather_134,my_dataset_test_filtered\Leather_134\1750490827975.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_135,0.32752401,0.44539419,True,Leather_135,my_dataset_test_filtered\Leather_135\1750490955532.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_136,0.41564715,0.19525823,True,Leather_136,my_dataset_test_filtered\Leather_136\1750491016516.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_137,0.25641441,0.44044349,True,Leather_137,my_dataset_test_filtered\Leather_137\1750491063276.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_138,0.24801196,0.35550928,True,Leather_138,my_dataset_test_filtered\Leather_138\1750491113039.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_139,0.37957776,-0.19172296,True,Leather_139,my_dataset_test_filtered\Leather_139\1750491172226.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_14,-0.46513936,-0.06166641,True,Leather_14,my_dataset_test_filtered\Leather_14\1750408447980.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_141,0.41646796,0.24156544,True,Leather_141,my_dataset_test_filtered\Leather_141\1750491343747.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_142,0.17997706,-0.19591093,True,Leather_142,my_dataset_test_filtered\Leather_142\1750491376753.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_143,0.37153679,0.41815537,True,Leather_143,my_dataset_test_filtered\Leather_143\1750491416883.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_144,0.19205698,-0.50311708,True,Leather_144,my_dataset_test_filtered\Leather_144\1750491458976.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_145,0.22133729,0.02722545,True,Leather_145,my_dataset_test_filtered\Leather_145\1750491505929.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_146,0.12772122,-0.33938605,True,Leather_146,my_dataset_test_filtered\Leather_146\1750491548136.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_147,0.03568609,-0.25472111,True,Leather_147,my_dataset_test_filtered\Leather_147\1750491588458.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_148,0.00094110,-0.46935380,True,Leather_148,my_dataset_test_filtered\Leather_148\1750491631763.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_149,0.16721876,0.11378115,True,Leather_149,my_dataset_test_filtered\Leather_149\1750491671545.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_15,-0.40584075,0.15358469,True,Leather_15,my_dataset_test_filtered\Leather_15\1750408503377.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_150,0.20117331,-0.51123083,True,Leather_150,my_dataset_test_filtered\Leather_150\1750491705037.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_151,-0.20061266,0.20641759,False,Leather_155,my_dataset_test_filtered\Leather_151\1750643059336.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_152,-0.42730325,0.16806304,True,Leather_152,my_dataset_test_filtered\Leather_152\1750643150581.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_153,-0.46315610,0.02696331,False,Leather_164,my_dataset_test_filtered\Leather_153\1750643340909.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_154,-0.56057125,-0.00911223,True,Leather_154,my_dataset_test_filtered\Leather_154\1750643441264.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_155,-0.11525384,0.26371622,True,Leather_155,my_dataset_test_filtered\Leather_155\1750643535877.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_156,-0.44591743,-0.01557644,True,Leather_156,my_dataset_test_filtered\Leather_156\1750643658280.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_157,-0.45400631,0.05236732,True,Leather_157,my_dataset_test_filtered\Leather_157\1750648997886.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_158,-0.29242998,-0.17008600,True,Leather_158,my_dataset_test_filtered\Leather_158\1750649068787.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_159,-0.47363222,0.13666226,True,Leather_159,my_dataset_test_filtered\Leather_159\1750649136357.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_16,-0.52211571,0.05704617,True,Leather_16,my_dataset_test_filtered\Leather_16\1750409233250.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_160,-0.52260303,-0.00444749,True,Leather_160,my_dataset_test_filtered\Leather_160\1750650791768.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_161,-0.57164299,-0.02906972,True,Leather_161,my_dataset_test_filtered\Leather_161\1750650924442.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_162,-0.46593583,0.11088030,True,Leather_162,my_dataset_test_filtered\Leather_162\1750651003357.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_163,-0.44241571,0.06496116,True,Leather_163,my_dataset_test_filtered\Leather_163\1750651063876.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_164,-0.34585106,0.09598111,False,Leather_161,my_dataset_test_filtered\Leather_164\1750651143283.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_165,-0.50323999,0.05550515,True,Leather_165,my_dataset_test_filtered\Leather_165\1750659409519.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_166,-0.45918903,-0.02495545,True,Leather_166,my_dataset_test_filtered\Leather_166\1750659306788.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_167,-0.49585468,0.10278843,True,Leather_167,my_dataset_test_filtered\Leather_167\1750659478698.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_168,-0.41264963,0.03595314,True,Leather_168,my_dataset_test_filtered\Leather_168\1750659573573.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_169,-0.31631780,-0.03023779,True,Leather_169,my_dataset_test_filtered\Leather_169\1750659659789.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_17,-0.44988158,0.07509920,True,Leather_17,my_dataset_test_filtered\Leather_17\1750409341603.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_170,-0.41390008,0.25537091,True,Leather_170,my_dataset_test_filtered\Leather_170\1750659728427.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_171,0.02671654,0.06164109,True,Leather_171,my_dataset_test_filtered\Leather_171\1750659800858.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_172,-0.14976932,0.13076346,True,Leather_172,my_dataset_test_filtered\Leather_172\1750659872148.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_173,-0.43799624,0.09838302,True,Leather_173,my_dataset_test_filtered\Leather_173\1750659979993.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_174,-0.31821644,0.27749789,True,Leather_174,my_dataset_test_filtered\Leather_174\1750660728450.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_175,-0.45783091,0.23987073,True,Leather_175,my_dataset_test_filtered\Leather_175\1750660827906.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_176,-0.21500450,0.15623689,True,Leather_176,my_dataset_test_filtered\Leather_176\1750660944224.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_177,-0.21503504,0.08020705,True,Leather_177,my_dataset_test_filtered\Leather_177\1750661060161.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_178,-0.15706101,-0.08539173,True,Leather_178,my_dataset_test_filtered\Leather_178\1750661159844.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_179,-0.43804228,0.00044774,True,Leather_179,my_dataset_test_filtered\Leather_179\1750661242878.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_18,-0.56604719,0.02427395,True,Leather_18,my_dataset_test_filtered\Leather_18\1750409468348.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_181,-0.27009967,0.20571704,True,Leather_181,my_dataset_test_filtered\Leather_181\1750661486082.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_182,-0.38022512,0.07046039,True,Leather_182,my_dataset_test_filtered\Leather_182\1750662101172.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_183,-0.45212436,0.05504721,True,Leather_183,my_dataset_test_filtered\Leather_183\1750662415812.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_184,-0.29964247,0.15928608,True,Leather_184,my_dataset_test_filtered\Leather_184\1750662571409.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_185,-0.24059926,-0.03546074,True,Leather_185,my_dataset_test_filtered\Leather_185\1750662660000.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_186,-0.37435025,0.01297642,True,Leather_186,my_dataset_test_filtered\Leather_186\1750662752578.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_187,-0.29021293,0.19592561,True,Leather_187,my_dataset_test_filtered\Leather_187\1750663815128.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_188,-0.41486770,0.17866150,True,Leather_188,my_dataset_test_filtered\Leather_188\1750663926595.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_189,-0.42961454,0.05473219,True,Leather_189,my_dataset_test_filtered\Leather_189\1750664130885.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_19,-0.29957604,0.12832668,False,Leather_167,my_dataset_test_filtered\Leather_19\1750409938648.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_190,-0.02495098,0.27103758,True,Leather_190,my_dataset_test_filtered\Leather_190\1750664331525.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_191,-0.20234086,0.07426408,True,Leather_191,my_dataset_test_filtered\Leather_191\1750664466727.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_192,-0.50038248,-0.09426399,True,Leather_192,my_dataset_test_filtered\Leather_192\1750664610693.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_193,-0.33232147,0.10418001,True,Leather_193,my_dataset_test_filtered\Leather_193\1750664722422.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_194,-0.55967659,0.06346277,True,Leather_194,my_dataset_test_filtered\Leather_194\1750664834503.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_195,-0.15676469,-0.09033470,True,Leather_195,my_dataset_test_filtered\Leather_195\1750664932917.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_196,-0.13062555,-0.17710835,True,Leather_196,my_dataset_test_filtered\Leather_196\1750665019021.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_197,-0.31726956,0.07050784,True,Leather_197,my_dataset_test_filtered\Leather_197\1750665774705.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_198,-0.10902588,-0.12085909,True,Leather_198,my_dataset_test_filtered\Leather_198\1750665866788.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_199,-0.32142025,-0.31312576,True,Leather_199,my_dataset_test_filtered\Leather_199\1750665947796.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_20,0.26929122,-0.00917353,True,Leather_20,my_dataset_test_filtered\Leather_20\1750470677619.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_200,-0.42493156,0.02945397,True,Leather_200,my_dataset_test_filtered\Leather_200\1750666016867.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_201,-0.27444845,-0.13607334,True,Leather_201,my_dataset_test_filtered\Leather_201\1750666106599.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_202,-0.44072345,-0.16497654,True,Leather_202,my_dataset_test_filtered\Leather_202\1750661667157.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_203,0.12516952,-0.13825658,True,Leather_203,my_dataset_test_filtered\Leather_203\1750474770355.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_21,0.46665293,0.12128039,True,Leather_21,my_dataset_test_filtered\Leather_21\1750470770553.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_22,0.37579295,0.15002933,True,Leather_22,my_dataset_test_filtered\Leather_22\1750471270864.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_23,0.21954161,-0.15946758,True,Leather_23,my_dataset_test_filtered\Leather_23\1750471349579.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_24,-0.39382678,-0.02345293,True,Leather_24,my_dataset_test_filtered\Leather_24\1750404868870.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_25,-0.45855856,-0.00207736,True,Leather_25,my_dataset_test_filtered\Leather_25\1750405296218.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_26,-0.39144599,-0.02723151,True,Leather_26,my_dataset_test_filtered\Leather_26\1750405534348.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_27,-0.38607109,0.05679978,True,Leather_27,my_dataset_test_filtered\Leather_27\1750409685638.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_28,-0.50015283,0.09673175,True,Leather_28,my_dataset_test_filtered\Leather_28\1750409789490.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_29,0.31547737,0.32481635,True,Leather_29,my_dataset_test_filtered\Leather_29\1750471438228.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_30,0.40063080,0.01814626,True,Leather_30,my_dataset_test_filtered\Leather_30\1750471530238.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_31,0.29350811,0.05530643,True,Leather_31,my_dataset_test_filtered\Leather_31\1750471605030.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_32,0.22856793,-0.01307835,True,Leather_32,my_dataset_test_filtered\Leather_32\1750471682491.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_33,0.41052136,0.17980793,False,Leather_34,my_dataset_test_filtered\Leather_33\1750471764013.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_34,0.37382561,0.10155278,True,Leather_34,my_dataset_test_filtered\Leather_34\1750471821479.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_35,0.34816840,0.08812241,True,Leather_35,my_dataset_test_filtered\Leather_35\1750472237638.png
+Frozen DINOv2 ViT-S/14,test,Leather_36,0.36006644,0.04430483,True,Leather_36,my_dataset_test_filtered\Leather_36\1750472577788.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_37,0.38338977,-0.18699309,True,Leather_37,my_dataset_test_filtered\Leather_37\1750472664705.png
+Frozen DINOv2 ViT-S/14,test,Leather_38,0.35474277,0.26214212,True,Leather_38,my_dataset_test_filtered\Leather_38\1750473300546.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_39,0.32514977,0.09973583,True,Leather_39,my_dataset_test_filtered\Leather_39\1750473140715.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_40,0.40090340,0.15550591,True,Leather_40,my_dataset_test_filtered\Leather_40\1750473354598.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_41,0.36367047,0.36936924,True,Leather_41,my_dataset_test_filtered\Leather_41\1750473418205.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_42,0.35974112,-0.06960409,True,Leather_42,my_dataset_test_filtered\Leather_42\1750473495687.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_43,0.24859725,-0.22609067,True,Leather_43,my_dataset_test_filtered\Leather_43\1750473554134.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_44,0.36775199,0.29987594,True,Leather_44,my_dataset_test_filtered\Leather_44\1750473677835.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_45,0.21366471,-0.20734298,True,Leather_45,my_dataset_test_filtered\Leather_45\1750473722987.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_46,0.23865145,0.06250480,True,Leather_46,my_dataset_test_filtered\Leather_46\1750473772180.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_47,0.27712685,-0.14587454,True,Leather_47,my_dataset_test_filtered\Leather_47\1750473860065.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_48,0.29031616,0.08165888,True,Leather_48,my_dataset_test_filtered\Leather_48\1750473923200.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_49,0.35102102,-0.02639364,True,Leather_49,my_dataset_test_filtered\Leather_49\1750474047268.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_50,0.22740041,0.20699622,False,Leather_141,my_dataset_test_filtered\Leather_50\1750474161918.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_51,0.31346041,0.01747318,True,Leather_51,my_dataset_test_filtered\Leather_51\1750474255738.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_52,0.40628153,0.26839593,True,Leather_52,my_dataset_test_filtered\Leather_52\1750474303814.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_53,0.09899478,-0.35461497,True,Leather_53,my_dataset_test_filtered\Leather_53\1750474407644.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_54,0.24857178,-0.14827928,True,Leather_54,my_dataset_test_filtered\Leather_54\1750474620078.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_55,0.25039363,-0.09731455,False,Leather_85,my_dataset_test_filtered\Leather_55\1750474881487.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_56,-0.02732737,-0.16019666,True,Leather_56,my_dataset_test_filtered\Leather_56\1750475017234.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_57,0.15197220,-0.41768941,True,Leather_57,my_dataset_test_filtered\Leather_57\1750475119001.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_58,0.08520557,-0.08067688,True,Leather_58,my_dataset_test_filtered\Leather_58\1750475225344.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_59,0.33854306,-0.28108561,True,Leather_59,my_dataset_test_filtered\Leather_59\1750483475336.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_60,0.15633380,0.03423874,True,Leather_60,my_dataset_test_filtered\Leather_60\1750483929819.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_61,0.08744822,-0.37887248,True,Leather_61,my_dataset_test_filtered\Leather_61\1750484033251.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_62,0.23950702,0.11025908,True,Leather_62,my_dataset_test_filtered\Leather_62\1750484107750.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_63,0.15842929,0.06126444,True,Leather_63,my_dataset_test_filtered\Leather_63\1750484158981.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_64,0.16850802,0.01565209,True,Leather_64,my_dataset_test_filtered\Leather_64\1750485077151.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_65,0.32380116,0.13223673,True,Leather_65,my_dataset_test_filtered\Leather_65\1750485463475.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_66,0.27013987,0.23287021,True,Leather_66,my_dataset_test_filtered\Leather_66\1750485521883.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_67,0.04225631,-0.40736344,True,Leather_67,my_dataset_test_filtered\Leather_67\1750485574828.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_68,0.12501329,-0.40995789,True,Leather_68,my_dataset_test_filtered\Leather_68\1750485648416.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_69,0.04077417,-0.31362268,True,Leather_69,my_dataset_test_filtered\Leather_69\1750485718340.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_70,0.09514686,-0.33937678,True,Leather_70,my_dataset_test_filtered\Leather_70\1750485770008.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_71,0.31698549,-0.27987462,True,Leather_71,my_dataset_test_filtered\Leather_71\1750485829171.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_72,0.35007805,0.23998857,True,Leather_72,my_dataset_test_filtered\Leather_72\1750485875459.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_73,-0.01959248,-0.18669826,True,Leather_73,my_dataset_test_filtered\Leather_73\1750485959010.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_74,0.26319999,-0.25307116,True,Leather_74,my_dataset_test_filtered\Leather_74\1750486019457.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_75,0.14512971,-0.55095702,True,Leather_75,my_dataset_test_filtered\Leather_75\1750486112741.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_76,0.03378356,-0.02904893,True,Leather_76,my_dataset_test_filtered\Leather_76\1750486164800.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_77,-0.00840220,0.00994298,True,Leather_77,my_dataset_test_filtered\Leather_77\1750486227659.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_78,0.06876525,-0.57648969,True,Leather_78,my_dataset_test_filtered\Leather_78\1750486282509.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_79,0.09253366,-0.32606345,True,Leather_79,my_dataset_test_filtered\Leather_79\1750486351295.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_80,0.24069118,-0.39506155,True,Leather_80,my_dataset_test_filtered\Leather_80\1750486405057.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_81,0.14986321,-0.44394845,True,Leather_81,my_dataset_test_filtered\Leather_81\1750486453204.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_82,0.22517526,-0.47578275,True,Leather_82,my_dataset_test_filtered\Leather_82\1750486496818.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_83,0.19681871,0.02399947,True,Leather_83,my_dataset_test_filtered\Leather_83\1750486589469.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_84,0.16099980,-0.55846953,True,Leather_84,my_dataset_test_filtered\Leather_84\1750486652785.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_85,0.25863403,-0.17004745,True,Leather_85,my_dataset_test_filtered\Leather_85\1750486731620.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_86,0.35279173,0.00255253,True,Leather_86,my_dataset_test_filtered\Leather_86\1750486795890.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_87,0.29106081,-0.11969845,True,Leather_87,my_dataset_test_filtered\Leather_87\1750486854577.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_88,-0.00851921,-0.19554007,True,Leather_88,my_dataset_test_filtered\Leather_88\1750487499305.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_89,0.08498617,0.09470192,True,Leather_89,my_dataset_test_filtered\Leather_89\1750487589339.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_90,-0.04852006,0.24968508,True,Leather_90,my_dataset_test_filtered\Leather_90\1750487645905.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_91,-0.09602423,0.05137495,False,Leather_89,my_dataset_test_filtered\Leather_91\1750487700533.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_92,0.29829848,0.21393228,True,Leather_92,my_dataset_test_filtered\Leather_92\1750487738299.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_93,0.24268004,0.04085397,True,Leather_93,my_dataset_test_filtered\Leather_93\1750487779772.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_94,0.33272219,0.11779965,True,Leather_94,my_dataset_test_filtered\Leather_94\1750487866782.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_95,0.16174126,-0.14150536,True,Leather_95,my_dataset_test_filtered\Leather_95\1750487928213.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_96,0.30831003,0.11478847,True,Leather_96,my_dataset_test_filtered\Leather_96\1750487976543.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_97,0.30034840,-0.15382156,True,Leather_97,my_dataset_test_filtered\Leather_97\1750488050266.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_98,0.27365118,0.12214375,True,Leather_98,my_dataset_test_filtered\Leather_98\1750488235001.jpg
+Frozen DINOv2 ViT-S/14,test,Leather_99,0.14696018,-0.13227004,True,Leather_99,my_dataset_test_filtered\Leather_99\1750488306875.jpg

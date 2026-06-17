@@ -1,0 +1,20 @@
+﻿{
+  "method": "Frozen dinov2_vitl14 + cosine similarity",
+  "model_name": "dinov2_vitl14",
+  "train_dir": "data/dataset_train",
+  "val_dir": "data/dataset_val",
+  "feature_path": "features/\revision_dinov2_vitl14_spatial_prototypes.pt",
+  "num_classes": 203,
+  "train_images": 203,
+  "validation_images": 203,
+  "device": "cuda",
+  "batch_size": 4,
+  "image_size": 224,
+  "top1_accuracy": 0.645320197044335,
+  "top3_accuracy": 0.8374384236453202,
+  "top1_correct": 131,
+  "top3_correct": 170,
+  "prototype_build_seconds": 8.740858600001957,
+  "evaluation_seconds": 7.076690900001267,
+  "avg_eval_ms_per_image": 34.86054630542496
+}

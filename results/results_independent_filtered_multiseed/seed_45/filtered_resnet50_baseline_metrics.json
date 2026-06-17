@@ -1,0 +1,12 @@
+﻿{
+  "method": "ResNet50 fine-tuning baseline",
+  "reference_classes": 203,
+  "test_images": 201,
+  "top1_accuracy": 0.8756218905472637,
+  "top3_accuracy": 0.9701492537313433,
+  "top1_correct": 176,
+  "top3_correct": 195,
+  "loss": 0.5162112273238785,
+  "device": "cuda",
+  "avg_eval_ms_per_image": 23.249511940296212
+}

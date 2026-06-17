@@ -1,0 +1,13 @@
+﻿Split,Layer mode,Feature dim,Images,Top-1 Acc,Top-3 Acc,Top-1 correct,Top-3 correct,"Mean margin, correct","Mean margin, wrong",Seconds
+Filtered independent test,block_2,384,201,79.60%,88.06%,160 / 201,177 / 201,0.0016,0.0005,9.33
+Filtered independent test,block_5,384,201,89.55%,94.03%,180 / 201,189 / 201,0.0062,0.0013,9.02
+Filtered independent test,block_8,384,201,83.58%,89.05%,168 / 201,179 / 201,0.0221,0.0058,8.92
+Filtered independent test,block_11,384,201,94.53%,98.51%,190 / 201,198 / 201,0.1465,0.0261,9.19
+Filtered independent test,last4_mean,384,201,95.02%,98.01%,191 / 201,197 / 201,0.0589,0.0155,8.89
+Filtered independent test,final_output,384,201,94.53%,98.51%,190 / 201,198 / 201,0.1465,0.0261,8.90
+Controlled spatial validation,block_2,384,203,46.31%,67.98%,94 / 203,138 / 203,0.0013,0.0004,6.39
+Controlled spatial validation,block_5,384,203,53.20%,76.35%,108 / 203,155 / 203,0.0028,0.0013,6.42
+Controlled spatial validation,block_8,384,203,52.22%,66.01%,106 / 203,134 / 203,0.0130,0.0040,6.35
+Controlled spatial validation,block_11,384,203,58.13%,74.38%,118 / 203,151 / 203,0.1080,0.0253,6.25
+Controlled spatial validation,last4_mean,384,203,64.53%,78.82%,131 / 203,160 / 203,0.0417,0.0096,6.25
+Controlled spatial validation,final_output,384,203,58.13%,74.38%,118 / 203,151 / 203,0.1080,0.0253,6.29

@@ -1,0 +1,10 @@
+﻿{
+  "split": "spatial",
+  "method": "CLIP ViT-B/32 one-image prototype",
+  "eval_images": 203,
+  "top1_accuracy": 0.5073891625615764,
+  "top3_accuracy": 0.6995073891625616,
+  "top1_correct": 103,
+  "top3_correct": 142,
+  "total": 203
+}

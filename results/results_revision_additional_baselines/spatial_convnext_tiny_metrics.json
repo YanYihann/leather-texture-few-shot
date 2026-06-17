@@ -1,0 +1,16 @@
+﻿{
+  "method": "Frozen convnext_tiny + cosine similarity",
+  "model": "convnext_tiny",
+  "split": "spatial",
+  "reference_dir": "data/dataset_train",
+  "eval_dir": "data/dataset_val",
+  "num_classes": 203,
+  "reference_images": 203,
+  "eval_images": 203,
+  "top1_accuracy": 0.5911330049261084,
+  "top3_accuracy": 0.7487684729064039,
+  "top1_correct": 120,
+  "top3_correct": 152,
+  "total": 203,
+  "elapsed_seconds": 8.151887500000157
+}

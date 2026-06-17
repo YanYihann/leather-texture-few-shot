@@ -1,0 +1,6 @@
+﻿Method,Runs,Top-1 mean,Top-1 std,Top-3 mean,Top-3 std,Top-1 range,Top-3 range
+Frozen ResNet50 + cosine similarity,5,54.19%,0.00%,73.89%,0.00%,54.19%-54.19%,73.89%-73.89%
+Frozen dinov2_vits14 + cosine similarity,5,58.13%,0.00%,74.38%,0.00%,58.13%-58.13%,74.38%-74.38%
+ResNet50 fine-tuning baseline,5,80.30%,0.00%,94.09%,0.00%,80.30%-80.30%,94.09%-94.09%
+"dinov2_vits14 + augmentation prototypes, N=10",5,66.90%,0.81%,83.84%,1.49%,65.52%-67.49%,81.77%-85.71%
+"dinov2_vits14 + augmentation prototypes, N=30",5,68.57%,0.88%,84.53%,0.56%,67.49%-69.46%,83.74%-85.22%

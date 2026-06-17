@@ -1,0 +1,8 @@
+﻿Split,Method,Feature dim,Images,Top-1 Acc,Top-3 Acc,Top-1 correct,Top-3 correct,"Mean margin, correct","Mean margin, wrong"
+Filtered independent test,Frozen ResNet50 + cosine similarity,2048,201,98.01%,99.50%,197 / 201,200 / 201,0.1778,0.0265
+Filtered independent test,Frozen dinov2_vits14 + cosine similarity,384,201,94.53%,98.51%,190 / 201,198 / 201,0.1465,0.0261
+Filtered independent test,Frozen dinov2_vitb14 + cosine similarity,768,201,91.54%,95.52%,184 / 201,192 / 201,0.1858,0.0355
+Filtered independent test,Frozen dinov2_vitl14 + cosine similarity,1024,201,92.54%,97.01%,186 / 201,195 / 201,0.1981,0.0313
+Controlled spatial validation,Frozen dinov2_vits14 + cosine similarity,384,203,58.13%,74.38%,118 / 203,151 / 203,0.1080,0.0253
+Controlled spatial validation,Frozen dinov2_vitb14 + cosine similarity,768,203,59.61%,75.37%,121 / 203,153 / 203,0.1285,0.0296
+Controlled spatial validation,Frozen dinov2_vitl14 + cosine similarity,1024,203,64.53%,83.74%,131 / 203,170 / 203,0.1304,0.0324

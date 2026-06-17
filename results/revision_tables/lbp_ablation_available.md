@@ -1,0 +1,6 @@
+﻿| Method | Views | LBP weight | Top-1 Acc | Top-3 Acc | Seed |
+| --- | --- | --- | --- | --- | --- |
+| dinov2_vits14 + LBP augmented prototype fusion | 10 | 0.1 | 67.00% | 84.24% | 42 |
+| dinov2_vits14 + LBP fusion |  | 0.1 | 60.10% | 75.86% |  |
+| dinov2_vits14 + LBP fusion |  | 0.2 | 59.61% | 76.35% |  |
+| dinov2_vits14 + LBP fusion |  | 0.3 | 59.11% | 76.35% |  |

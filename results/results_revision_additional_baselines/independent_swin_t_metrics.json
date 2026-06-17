@@ -1,0 +1,16 @@
+﻿{
+  "method": "Frozen swin_t + cosine similarity",
+  "model": "swin_t",
+  "split": "independent",
+  "reference_dir": "data/dataset_train",
+  "eval_dir": "data/my_dataset_test_filtered",
+  "num_classes": 203,
+  "reference_images": 203,
+  "eval_images": 201,
+  "top1_accuracy": 0.9552238805970149,
+  "top3_accuracy": 0.9950248756218906,
+  "top1_correct": 192,
+  "top3_correct": 200,
+  "total": 201,
+  "elapsed_seconds": 8.170223499997519
+}

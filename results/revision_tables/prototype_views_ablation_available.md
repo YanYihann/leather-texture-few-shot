@@ -1,0 +1,5 @@
+﻿| Method | Views | Top-1 Acc | Top-3 Acc | Seed |
+| --- | --- | --- | --- | --- |
+| dinov2_vits14 + augmentation prototypes | 10 | 67.00% | 84.73% | 42 |
+| dinov2_vits14 + augmentation prototypes | 30 | 69.46% | 83.74% | 42 |
+| dinov2_vits14 + LBP augmented prototype fusion | 10 | 67.00% | 84.24% | 42 |

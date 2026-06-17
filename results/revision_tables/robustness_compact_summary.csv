@@ -1,0 +1,8 @@
+﻿Method,Severity,Completed perturbations,Mean Top-1,Worst Top-1,Worst perturbation,Mean Top-3
+DINOv2-Aug30,mild,8,95.52%,94.03%,gaussian_noise,98.94%
+Frozen DINOv2-S,mild,8,93.84%,91.04%,gaussian_noise,98.82%
+Frozen DINOv2-S,moderate,8,91.05%,86.57%,gaussian_noise,97.33%
+Frozen DINOv2-S,severe,8,86.69%,79.60%,gaussian_noise,95.46%
+Frozen ResNet50,mild,8,97.45%,96.52%,gaussian_blur,99.25%
+Frozen ResNet50,moderate,8,94.40%,89.55%,gaussian_noise,98.01%
+Frozen ResNet50,severe,8,87.94%,76.62%,gaussian_noise,94.77%

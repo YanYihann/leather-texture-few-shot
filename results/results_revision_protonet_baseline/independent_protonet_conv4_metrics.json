@@ -1,0 +1,10 @@
+﻿{
+  "split": "independent",
+  "method": "Augmentation-supported Prototypical Network Conv-4",
+  "eval_images": 201,
+  "top1_accuracy": 0.7164179104477612,
+  "top3_accuracy": 0.845771144278607,
+  "top1_correct": 144,
+  "top3_correct": 170,
+  "total": 201
+}

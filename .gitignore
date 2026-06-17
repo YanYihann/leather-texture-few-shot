@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local datasets and large artifacts
+data/my_dataset_1/
+data/dataset_train/
+data/dataset_val/
+data/my_dataset_test/
+data/my_dataset_test_filtered/
+*.pth
+*.pt
+*.ckpt
+features/
+models/
+
+# Generated outputs
+results/generated/
+*.log
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+

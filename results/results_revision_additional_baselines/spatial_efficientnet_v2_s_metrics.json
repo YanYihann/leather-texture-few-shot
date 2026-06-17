@@ -1,0 +1,16 @@
+﻿{
+  "method": "Frozen efficientnet_v2_s + cosine similarity",
+  "model": "efficientnet_v2_s",
+  "split": "spatial",
+  "reference_dir": "data/dataset_train",
+  "eval_dir": "data/dataset_val",
+  "num_classes": 203,
+  "reference_images": 203,
+  "eval_images": 203,
+  "top1_accuracy": 0.45320197044334976,
+  "top3_accuracy": 0.6157635467980296,
+  "top1_correct": 92,
+  "top3_correct": 125,
+  "total": 203,
+  "elapsed_seconds": 5.4924557999984245
+}

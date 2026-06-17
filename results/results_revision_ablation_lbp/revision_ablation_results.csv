@@ -1,0 +1,12 @@
+﻿experiment,model,eval_dir,seed,augmentation_type,views_per_class,similarity_metric,l2_normalization,lbp_weight,top1_accuracy,top3_accuracy,mean_margin,top1_correct,top3_correct,total,elapsed_seconds_total
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.0,0.5812807881773399,0.7438423645320197,0.07338289718322566,118,151,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.1,0.6009852216748769,0.7586206896551724,0.06874217731612069,122,154,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.2,0.5960591133004927,0.7635467980295566,0.06360630595625327,121,155,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.3,0.5911330049261084,0.7635467980295566,0.05779564762350373,120,155,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.4,0.6009852216748769,0.7536945812807881,0.05139829519347017,122,153,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.5,0.5960591133004927,0.7438423645320197,0.04477534211915115,121,151,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.6,0.5763546798029556,0.7635467980295566,0.03782622919881285,117,155,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.7,0.5517241379310345,0.7487684729064039,0.030272498506630583,112,152,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.8,0.5172413793103449,0.729064039408867,0.021647420716403153,105,148,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,0.9,0.3891625615763547,0.6354679802955665,0.013124740182472568,79,129,203,16.015
+lbp_weight_ablation,dinov2_vits14,dataset_val,,center,1,cosine,on,1.0,0.12315270935960591,0.20689655172413793,0.006133750741704931,25,42,203,16.015
