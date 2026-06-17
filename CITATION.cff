@@ -4,8 +4,7 @@ title: "Leather Texture Few-Shot Classification"
 version: "1.0.0"
 date-released: "2026-06-18"
 doi: "10.5281/zenodo.20736326"
-repository-code: "https://github.com/OWNER/leather-texture-few-shot"
+repository-code: "https://github.com/YanYihann/leather-texture-few-shot"
 authors:
   - family-names: "Author"
     given-names: "Manuscript"
-
