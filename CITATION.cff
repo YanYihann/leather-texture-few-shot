@@ -1,10 +1,18 @@
 cff-version: 1.2.0
-message: "If you use this code or dataset, please cite the associated manuscript and dataset DOI."
-title: "Leather Texture Few-Shot Classification"
-version: "1.0.0"
+message: "If you use this software, please cite this repository and the associated dataset DOI."
+title: "Leather Texture Few-Shot Classification: Reproducibility Code"
+version: "1.0.1"
 date-released: "2026-06-18"
-doi: "10.5281/zenodo.20736326"
 repository-code: "https://github.com/YanYihann/leather-texture-few-shot"
 authors:
-  - family-names: "Author"
-    given-names: "Manuscript"
+  - family-names: "Yan"
+    given-names: "Yihan"
+  - family-names: "Xu"
+    given-names: "Zihao"
+license: "MIT"
+keywords:
+  - leather texture classification
+  - few-shot learning
+  - intelligent manufacturing
+  - prototype matching
+  - reproducibility

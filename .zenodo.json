@@ -1,0 +1,37 @@
+{
+  "title": "Leather Texture Few-Shot Classification: Reproducibility Code",
+  "description": "Reproducibility code and compact result files for a manuscript on one-image-per-class leather texture recognition for intelligent manufacturing. The release includes preprocessing, evaluation, ablation, robustness, baseline, discrepancy-analysis, and result-summary scripts. The image dataset is archived separately in Zenodo.",
+  "creators": [
+    {
+      "name": "Yan, Yihan"
+    },
+    {
+      "name": "Xu, Zihao"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "leather texture classification",
+    "few-shot learning",
+    "intelligent manufacturing",
+    "prototype matching",
+    "computer vision",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20736326",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/YanYihann/leather-texture-few-shot",
+      "relation": "isIdenticalTo",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open"
+}
