@@ -1,6 +1,6 @@
 {
   "title": "One-Reference Material Retrieval: Code and Numerical Results",
-  "description": "Code, fixed split manifests, per-query predictions, stored numerical results and ranking/score arrays for the current leather, T1K+ Fabric, MatSim and DTD evaluations. Historical v1.0.1 is preserved separately. This archive does not contain original photographs, pretrained weights, training checkpoints or the complete feature/pixel caches. See current/README.md for verification and reconstruction limits. Frozen retrieval, score fusion and ResNet50 adaptation are separate configurations. Source code is MIT; derived numerical outputs are CC BY 4.0; original third-party terms remain applicable.",
+  "description": "Code, fixed split manifests, per-query predictions, stored numerical results and ranking/score arrays for the current leather, T1K+ Fabric, MatSim and DTD evaluations. Historical v1.0.1 is preserved separately. This archive does not contain original photographs, pretrained weights, training checkpoints or the complete feature/pixel caches. See current/README.md for verification and reconstruction limits. Frozen retrieval, score fusion and ResNet50 adaptation are separate configurations. Source code is MIT; derived numerical outputs are CC BY 4.0; original third-party terms remain applicable. The compact GitHub tree omits binary arrays; the complete version 2.0.0 archive is at https://doi.org/10.5281/zenodo.23794034.",
   "creators": [
     {
       "name": "Yan, Yihan"
@@ -25,9 +25,9 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://github.com/YanYihann/leather-texture-few-shot",
-      "relation": "isIdenticalTo",
-      "scheme": "url",
+      "identifier": "10.5281/zenodo.23794034",
+      "relation": "references",
+      "scheme": "doi",
       "resource_type": "software"
     }
   ],

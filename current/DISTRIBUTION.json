@@ -8,8 +8,10 @@
     "numerical CSV/JSON results",
     "manuscript table bodies"
   ],
-  "large_arrays": "omitted from GitHub; included in the separately prepared complete numerical archive",
-  "complete_archive_publication": "pending; no active version DOI asserted",
+  "large_arrays": "omitted from GitHub; included in the complete Zenodo archive",
+  "complete_archive_publication": "published",
   "historical_software_doi": "10.5281/zenodo.20736698",
-  "historical_version": "v1.0.1"
+  "historical_version": "v1.0.1",
+  "complete_archive_doi": "https://doi.org/10.5281/zenodo.23794034",
+  "complete_archive_status": "Published; full ranking and score arrays"
 }

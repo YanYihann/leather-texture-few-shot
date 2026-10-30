@@ -5,7 +5,7 @@ import sys
 import numpy as np
 P=Path(__file__).resolve().parent/'workspace/output/T1K_fabric_experiments_20261029'
 if not (P/'predictions/scores').is_dir():
-    sys.exit('Full score arrays are omitted from the compact GitHub tree. Use the complete numerical archive; its Zenodo 2.0.0 publication is currently pending.')
+    sys.exit('Full score arrays are omitted from the compact GitHub tree. Use the complete version 2.0.0 archive at https://doi.org/10.5281/zenodo.23794034.')
 with (P/'results/main_metrics.csv').open(encoding='utf-8-sig') as f:rows=list(csv.DictReader(f))
 for row in rows:
     with np.load(P/'predictions/scores'/f"{row['method']}.npz",allow_pickle=False) as z:
