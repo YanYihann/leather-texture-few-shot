@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "scope": "Independent artifact/statistic replay; no independent model retraining or new image acquisition",
+  "protocol_sha256": "72583744692e8935fc02e5a9990455b16ba5874ec827bb7f29349a8645829e4b",
+  "verification_script_sha256": "1f1393ac932a488af52f9c99f83c3e43a0163c7e2fc599929c3de8d4aaf3fcca",
+  "main_metrics": {
+    "methods": 21,
+    "summary_rows": 42,
+    "prediction_rows": 50854,
+    "independently_ranked_score_values": 41828261,
+    "clean_query_count": 1076,
+    "source_identity_clusters": {
+      "primary355": 354,
+      "clean353": 353
+    }
+  },
+  "score_origins": {
+    "frozen_score_reconstruction_sampled_queries": 11,
+    "all_augmented_N_and_seed_score_reconstruction": true,
+    "all_fusion_candidates_selected_validation_only": true,
+    "adaptation_score_export_exact": true
+  },
+  "training_selection": {
+    "candidate_runs": 12,
+    "selected_runs": 9,
+    "checkpoint_sha256": {
+      "linear_seed42_lr0.001.pt": "2e01241f6f9ed9d9a991c55ffeb98d8d7c0eb80cc7973e86a7e0592ebd0ffa57",
+      "linear_seed42_lr0.01.pt": "b748a11afe6fa8761383b00031f3b182dc5b1140608eb70e09a61e267a729531",
+      "linear_seed43_lr0.001.pt": "544b01628d4797109df56a3853d8aeab174b1a10ffa00da0a4318519e75d9fd6",
+      "linear_seed44_lr0.001.pt": "c2b6dcbcd79acd1dd8940863edfa0cfeb16fa94aaf52b0df2dee1bb4b76a7f7d",
+      "partial_seed42_lr1e-05.pt": "8ca3c4a0a4092e32644581c1a5b2701690d141d33ca3885057d63f53564d83b7",
+      "partial_seed42_lr0.0001.pt": "59ff63aef1d84de58a789434360a11f0777509f0141e91a1f64b556236107977",
+      "partial_seed43_lr0.0001.pt": "40f8c58bb59a4ab0a4c730c13b31329e5a2d7e02c8c839ae798cf08b577b9f7c",
+      "partial_seed44_lr0.0001.pt": "b6fd84486eece6063a6c46fcfb19ce8729ef3b536840732dfc49d6e2758de672",
+      "full_seed42_lr1e-05.pt": "336167972b8f32c4c6fad90df300d20f14d70e90233d91dbc4ea18c2189a56d7",
+      "full_seed42_lr0.0001.pt": "c4977d308b3c570e09a986128423894d150944bba02d73b95ebc1b8903db03c4",
+      "full_seed43_lr0.0001.pt": "b2fbaf9804cf44a2efc257aec8946d2bf1f5179eb530b607171a4687c68a2956",
+      "full_seed44_lr0.0001.pt": "c6240eaef352a092ec49088a88450ec5438b1c08459b09d00e71e550009d273c"
+    },
+    "earliest_best_validation_epoch": true,
+    "first_learning_rate_on_validation_tie": true,
+    "all_selected_validation_hit_counts_match_saved_scores": true,
+    "test_excluded_from_selection_static_code_check": true
+  },
+  "unchanged_inputs": {
+    "unchanged_manuscript_files": [
+      "D:\\科研\\IC_project\\output\\Sensors_text_revised_20261027\\package\\main.tex",
+      "D:\\科研\\IC_project\\output\\Sensors_text_revised_20261027\\package\\main.pdf",
+      "D:\\科研\\IC_project\\output\\Sensors_text_revised_20261027\\package\\supplement.tex",
+      "D:\\科研\\IC_project\\output\\Sensors_text_revised_20261027\\package\\supplement.pdf"
+    ],
+    "unchanged_original_photo_entries": 1792,
+    "all_original_photo_hashes_rechecked": true
+  },
+  "elapsed_seconds": 17.286848068237305,
+  "limits": [
+    "Raw score export and summary metrics replay are verified, not new pretraining or independent retraining.",
+    "Hash disjointness does not certify near-duplicate absence or acquisition-session/device independence.",
+    "clean353 is evaluation-only sensitivity; adapted models were trained with355 labels.",
+    "Open-set and supplementary sensitivity CSVs remain evaluator-generated unless separately replayed."
+  ]
+}

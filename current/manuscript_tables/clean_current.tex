@@ -1,0 +1,12 @@
+\begin{tabularx}{\linewidth}{@{}Xrrrrr@{}}
+\toprule
+Method & \makecell{Recall@1\\(\%)} & \makecell{Recall@1\\95\% interval} & \makecell{Recall@3\\(\%)} & \makecell{Recall@5\\(\%)} & MRR \\
+\midrule
+RGB histogram & 98.01 & [95.00, 99.22] & 100.00 & 100.00 & 0.990 \\
+Gray histogram & 80.10 & [74.04, 85.03] & 92.54 & 96.02 & 0.869 \\
+ResNet50 & 98.01 & [95.00, 99.22] & 99.50 & 99.50 & 0.988 \\
+ResNet50 A30 & $98.84\pm0.76$ & [97.51, 99.83] & $99.50\pm0.00$ & $100.00\pm0.00$ & $0.992\pm0.004$ \\
+DINOv2-S/14 & 94.53 & [90.47, 96.92] & 99.50 & 99.50 & 0.967 \\
+DINOv2-S/14 A30 & $96.52\pm0.50$ & [94.03, 98.51] & $99.50\pm0.00$ & $99.67\pm0.29$ & $0.980\pm0.002$ \\
+\bottomrule
+\end{tabularx}

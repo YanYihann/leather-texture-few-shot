@@ -1,0 +1,7 @@
+﻿method,split,n,top1,top3,top1_correct,top3_correct
+resnet50_recommended,dataset_val,203,53.69458128078818,72.41379310344827,109,147
+resnet50_recommended,my_dataset_test_filtered,201,97.51243781094527,99.50248756218906,196,200
+dinov2_s14_recommended,dataset_val,203,61.083743842364534,75.86206896551724,124,154
+dinov2_s14_recommended,my_dataset_test_filtered,201,95.02487562189054,99.50248756218906,191,200
+dinov2_local_symmetric,dataset_val,203,55.172413793103445,75.36945812807882,112,153
+dinov2_local_symmetric,my_dataset_test_filtered,201,97.51243781094527,99.50248756218906,196,200

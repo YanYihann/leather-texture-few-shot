@@ -1,0 +1,16 @@
+{
+  "confirmed_local_only": true,
+  "all_1792_photos_local": true,
+  "all_model_weights_and_code_local": true,
+  "remaining_feature_extractor_network_calls": false,
+  "remaining_training_network_calls": false,
+  "final_evaluation_and_verification_network_calls": false,
+  "active_process_ids": [
+    41320,
+    18248,
+    22196
+  ],
+  "established_tcp_connections_for_these_processes_observed": 0,
+  "continuation": "finish_pipeline.py already runs independently in a local process, waiting for features/training then invokes evaluation and verification without assistant interaction",
+  "conditions": "Keep Windows awake, powered, Codex and its running process sessions open. Network disconnection alone does not stop these jobs. Unexpected compute/software errors remain possible and are logged."
+}

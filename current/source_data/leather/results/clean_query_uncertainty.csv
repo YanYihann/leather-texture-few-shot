@@ -1,0 +1,7 @@
+﻿method,variant,queries,reference_pools,recall1,query_ci_low,query_ci_high,query_ci_type,pool_sd
+rgb_histogram,frozen,201,1,98.00995024875621,94.99575439096813,99.22345353262929,"95% Wilson, fixed descriptor",
+gray_histogram,frozen,201,1,80.09950248756219,74.03851062284254,85.03156273858382,"95% Wilson, fixed descriptor",
+resnet50,frozen,201,1,98.00995024875621,94.99575439096813,99.22345353262929,"95% Wilson, fixed descriptor",
+dinov2_s14,frozen,201,1,94.5273631840796,90.46763435468063,96.91701962627242,"95% Wilson, fixed descriptor",
+resnet50,A30,201,3,98.8391376451078,97.51243781094527,99.83416252072969,95% query-cluster percentile; three fixed pools,0.7599628018168915
+dinov2_s14,A30,201,3,96.51741293532339,94.02985074626866,98.50746268656717,95% query-cluster percentile; three fixed pools,0.49751243781094856

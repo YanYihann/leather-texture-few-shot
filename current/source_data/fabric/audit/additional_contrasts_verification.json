@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "scope": "Independent artifact replay of five explicitly report-stage post-hoc descriptive paired contrasts; no model inference/retraining or selection changes",
+  "contrasts": [
+    {
+      "treatment": "dinov2_center",
+      "baseline": "resnet50_center",
+      "difference_pp": 1.1090573012939002,
+      "ci_low_pp": -0.7415135401942967,
+      "ci_high_pp": 2.974464548391469,
+      "passed": true
+    },
+    {
+      "treatment": "dinov2_rgb_fusion",
+      "baseline": "dinov2_center",
+      "difference_pp": 1.8484288354898337,
+      "ci_low_pp": 0.5633144662366724,
+      "ci_high_pp": 3.2377428307123033,
+      "passed": true
+    },
+    {
+      "treatment": "dinov2_lbp_fusion",
+      "baseline": "dinov2_center",
+      "difference_pp": 0.5545286506469501,
+      "ci_low_pp": 0.0,
+      "ci_high_pp": 1.1237276311478002,
+      "passed": true
+    },
+    {
+      "treatment": "resnet50_full",
+      "baseline": "resnet50_partial",
+      "difference_pp": 0.030807147258163886,
+      "ci_low_pp": -0.6952289236584506,
+      "ci_high_pp": 0.7505219925200188,
+      "passed": true
+    },
+    {
+      "treatment": "dinov2_rgb_fusion",
+      "baseline": "resnet50_full",
+      "difference_pp": 0.5545286506469502,
+      "ci_low_pp": -0.855582732541881,
+      "ci_high_pp": 1.8857741589366521,
+      "passed": true
+    }
+  ],
+  "query_rows": 1082,
+  "source_identity_clusters": 354,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261029,
+  "run_outcome_averaging": "Average correctness within query over all fixed runs, then subtract and source-cluster bootstrap",
+  "original_quantitative_main_aux_outputs_unchanged": true,
+  "cross_checked_prior_output_hash_count": 19,
+  "input_contrast_csv_sha256": "df6a221ae8c3e9a8405801e81789052142aa96fdb9855da6697ddc49a3c43325",
+  "checked_output_sha256": {
+    "results\\adaptation.done.json": "8fbae8f15ddc008a30004ac5e9e005e51daa78f0514131230b94b227fae1cd08",
+    "results\\adaptation_candidates.csv": "dcd8438c900e21e988433da46a66e8ce09721e7e8f6168a22438a2f801cd91d5",
+    "results\\adaptation_candidates.json": "8f4000d1aaeffb715581b9cd7f8fdf52d46c49433395a16e5f03b5eb4f5f5b55",
+    "results\\adaptation_scores.npz": "260b43bf3928f891f4ce4d01eff67704bc7928e94809631c948b4c898eefc7ce",
+    "results\\adaptation_selection.json": "ec8c02ffd0af5dd946685241f1f8c584d9df9ce4de81d615396ccf38438f8398",
+    "results\\additional_descriptive_paired_contrasts.csv": "df6a221ae8c3e9a8405801e81789052142aa96fdb9855da6697ddc49a3c43325",
+    "results\\evaluation_complete.json": "4c4489738bcdfa8ad3e3cf92daf25c40b645ff88707fa92c83574dcf1a00db80",
+    "results\\fusion_selection.json": "3a7300586d5e672c0c9dd41d6ce6fa924c72215bd4db9612a0e3ea8409f2cdb0",
+    "results\\main_metrics.csv": "214256a169942aec14a2d3838546fadc5e5b59eae78868a434967fc72e6f308e",
+    "results\\main_metrics.json": "3ddb2588c700609038a11558d43eb14677184b4c4a32b2bb067ca9597777a7ce",
+    "results\\open_set_metrics.csv": "ffeb406a5b378e510e513b30bec489003c0c9819e630ee4727eba991081c3e56",
+    "results\\paired_recall1_differences.csv": "e37c32857c61818fc8ce0d68e54a752b00732777fb6ed7916cdcb249d42884c4",
+    "results\\per_class_metrics.csv": "c6e49559378e202abd9cbe1bee8c4feaca63a769ec8253007a375a97ba2c2a86",
+    "results\\per_run_metrics.csv": "59714117cbd503ce277ade8b6ac7c0994a17481c9196137a943a47bf8310498a",
+    "results\\real_reference_budget.csv": "f0662750ae131c30ffd0b6819c83cd48fa2edaea029528516d4c8746b82e9903",
+    "results\\real_reference_budget_paired.csv": "3c91aa40013071a336a0a11090c6c120487d0e7c8712cd565cdb5330eba2cafb",
+    "results\\reference_choice_sensitivity.csv": "0d9b374bd98d580c2d830473d40f4a255240e93d327eba1333cdefaba9803c45",
+    "results\\reference_pool_stability.csv": "a8e49dfbd2e0eb495b2715133dd315e8650111ef265bfd6bb33b8328ed418c8c",
+    "predictions\\main_query_predictions.csv": "99c05647878219c41a21f5e40e0ba5ef6c23fce8bf2cdf78d13a8cc79778f8b3",
+    "predictions\\reference_budget_predictions.csv": "b58ae44aa23745e9c983b0d8cb8f8b48d7538d7377515de3daec24a4fcbd9126",
+    "predictions\\open_set_scores.csv": "71f087b8c8d1391d1f13a01bee9dd929304793832c10b8e5becbdcaa00eecd99"
+  },
+  "limits": [
+    "Post-hoc descriptive contrasts, no multiplicity correction.",
+    "Intervals condition on fixed trained models, gallery and existing photos; not independent retraining or new session evidence."
+  ]
+}

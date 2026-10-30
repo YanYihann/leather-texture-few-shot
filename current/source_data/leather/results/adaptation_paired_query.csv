@@ -1,0 +1,4 @@
+﻿method,training_runs,queries,mean_top1,training_seed_sd,paired_difference_pp,query_ci_low,query_ci_high,interval_scope
+linear,3,201,95.6882255389718,1.0356547261025533,-2.3217247097844114,-4.477611940298507,-0.16583747927031517,201 query identities; average three fixed trained runs before resampling
+partial,3,201,98.00995024875621,0.497512437810943,0.0,-1.9900497512437811,1.9900497512437811,201 query identities; average three fixed trained runs before resampling
+full,3,201,95.19071310116087,2.5040910233070477,-2.819237147595357,-5.140961857379769,-0.4975124378109455,201 query identities; average three fixed trained runs before resampling

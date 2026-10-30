@@ -1,0 +1,2 @@
+# Preserve the published SHA-256 manifest across checkout platforms.
+current/** -text

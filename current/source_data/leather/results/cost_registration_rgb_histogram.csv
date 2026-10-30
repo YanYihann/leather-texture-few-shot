@@ -1,0 +1,10 @@
+﻿method,views,repeat,encodings,seconds,prototype_bytes,peak_working_set_bytes,reference_mode
+rgb_histogram,1,0,203,0.9397090999991633,415744,2441637888,deterministic_center
+rgb_histogram,1,1,203,0.8958060999866575,415744,2441637888,deterministic_center
+rgb_histogram,1,2,203,0.9033589000173379,415744,2441637888,deterministic_center
+rgb_histogram,5,0,1015,7.251628700003494,415744,2441637888,seed42_random_nested
+rgb_histogram,5,1,1015,7.035714199999347,415744,2441637888,seed42_random_nested
+rgb_histogram,5,2,1015,7.097830599988811,415744,2441637888,seed42_random_nested
+rgb_histogram,30,0,6090,43.12238590000197,415744,2441637888,seed42_random_nested
+rgb_histogram,30,1,6090,42.96658700000262,415744,2441637888,seed42_random_nested
+rgb_histogram,30,2,6090,42.88668300001882,415744,2441637888,seed42_random_nested

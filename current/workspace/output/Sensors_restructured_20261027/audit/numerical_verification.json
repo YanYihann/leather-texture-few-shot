@@ -1,0 +1,21 @@
+{
+  "verified_utc": "2026-10-27T09:19:53.724189+00:00",
+  "all_pass": true,
+  "C1_conditions": 144,
+  "C1_predictions": 48240,
+  "C5_conditions": 48,
+  "DTD_method_splits": 60,
+  "DTD_predictions": 112800,
+  "rank_cache_files": 264,
+  "query_identities": 201,
+  "reference_identities": 203,
+  "original_figures": 13,
+  "original_image_hashes_checked": 810,
+  "McNemar": {
+    "resnet_only": 10,
+    "dino_only": 3,
+    "exact_two_sided_p": 0.09228515625
+  },
+  "base_pdf_unchanged": true,
+  "scope": "cached ranking and arithmetic replay; not independent acquisition validation or full training reproduction"
+}

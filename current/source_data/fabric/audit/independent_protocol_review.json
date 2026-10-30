@@ -1,0 +1,78 @@
+{
+  "scope": "Read-only independent protocol/code review; no model training or result certification",
+  "status": "Manifest checks passed; code findings reported to parent for repair",
+  "checks": {
+    "role_counts": {
+      "validation": 355,
+      "reference": 355,
+      "test": 1082
+    },
+    "unique_photo_hashes_by_role": {
+      "validation": 354,
+      "reference": 354,
+      "test": 1079
+    },
+    "sha256_cross_role_overlap": 0,
+    "decoded_pixel_sha256_cross_role_overlap": 0,
+    "one_ordered_reference_validation_per_class": true,
+    "five_reference_sensitivity_no_exact_support_query_overlap": true,
+    "open_set_class_counts": [
+      282,
+      35,
+      36
+    ],
+    "open_set_no_exact_source_overlap_across_class_partitions": true,
+    "two_reference_role_counts": {
+      "validation": 355,
+      "reference": 710,
+      "test": 727
+    },
+    "locked_split_hash_matches": true,
+    "four_scripts_parse": true
+  },
+  "static_assessment": {
+    "test_in_learning_rate_checkpoint_selection": "No test scores or test labels used in run(); validation only. final_scores called after all scope selections are written.",
+    "partial_cache_equivalence": "Algebraically correct with frozen conv1 through layer3 and fixed BN eval; extraction includes initial forward factorization assert. Numerical gradient equivalence not run in this review.",
+    "batchnorm": "net.eval retained throughout each training run; affine parameter eligibility follows scope.",
+    "training_exposure": "355 nominal official-label presentations per epoch,10epochs,ceil355/16=23updates per epoch; three seeds share order rule and view index.",
+    "tie_policy": "strict > best preserves earliest epoch; max first candidate preserves first learning rate on ties."
+  },
+  "findings": [
+    {
+      "priority": "P2",
+      "location": "scripts/train_adaptation.py run() completed-checkpoint branch",
+      "issue": "Saved record is serialized before checkpoint_sha256 is appended. Reused records lack the SHA field; mixed reused/new CSV rows can raise extra-field ValueError.",
+      "fix": "Recompute checkpoint_sha256 on returning a reused checkpoint; keep sidecar consistent."
+    },
+    {
+      "priority": "P2",
+      "location": "scripts/extract_features.py timing loop",
+      "issue": "Timing recreates/copies gallery prototypes inside each measured call. Values include gallery conversion/copy and differ from a resident-gallery query latency.",
+      "fix": "Hoist gallery tensor before timing, or report exactly that this overhead is included. Scores unaffected."
+    },
+    {
+      "priority": "P2",
+      "location": "scripts/extract_features.py completed-cache reuse paths",
+      "issue": "Cache done markers are trusted based on existence; model/manifest/code fingerprints are not checked on reuse. Current same-protocol run is not invalidated, but later reruns can silently mix old caches after edits.",
+      "fix": "Bind reused cache markers/progress to split/protocol, weights and extraction-code fingerprint, or explicitly require cache rebuild when those change."
+    }
+  ],
+  "interpretation_limits": [
+    "355 official labels contain only354 unique reference image contents; the duplicate pair is not two photographically distinguishable identities.",
+    "1792 file entries correspond to1787 distinct source byte contents; nominal1082 query rows correspond to1079 unique source photos.",
+    "No near-duplicate/cross-session/device independence conclusion follows from exact hash checks.",
+    "clean353 is evaluation-only sensitivity for adapted models still trained with355 labels."
+  ],
+  "followup": {
+    "checkpoint_record_sha256_bug": "Parent repaired; reread source confirms reused record now computes filehash(checkpoint) before return.",
+    "partial_cache_numerical_check": {
+      "direct_vs_float32_cached_layer3_feature_max_abs_difference": 0.0,
+      "gradient_max_abs_difference": 0.0,
+      "batchnorm_running_statistics_unchanged": true,
+      "synthetic_batch": 2,
+      "inference_and_gradient_equivalence": true
+    },
+    "numerical_check_provenance": "Parent-produced audit artifact inspected; this reviewer did not rerun the neural numerical check.",
+    "final_artifact_verifier": "scripts/verify_results.py prepared but not executed; gated by evaluation_complete.json."
+  }
+}

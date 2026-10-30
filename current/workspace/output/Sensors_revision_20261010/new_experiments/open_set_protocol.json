@@ -1,0 +1,9 @@
+{
+  "seed": 20261010,
+  "partitions": 10,
+  "unknown_classes": 20,
+  "calibration_classes": 90,
+  "evaluation_known_classes": 91,
+  "library_classes": 183,
+  "notes": "All 20 unknown identities removed for every query. Class-disjoint calibration/evaluation within each partition; overlapping partitions are not independent datasets. Acquisition provenance remains unverified."
+}

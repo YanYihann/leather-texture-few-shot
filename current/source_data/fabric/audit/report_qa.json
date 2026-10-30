@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "pages": 5,
+  "format": "A4 portrait",
+  "all_pages_visually_inspected": true,
+  "final_changed_page2_reinspected": true,
+  "replacement_character_count": 0,
+  "key_report_numbers_found": true,
+  "manuscript_4_files_still_unchanged": true,
+  "pdf_sha256": "64ba8b4d8c4916287924ff1a65f5be38843480ed99d83d127a22dd2533cb7b7b",
+  "pdf_bytes": 310169
+}

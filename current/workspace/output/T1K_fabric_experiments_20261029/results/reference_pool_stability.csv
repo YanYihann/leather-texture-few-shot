@@ -1,0 +1,11 @@
+﻿method,n_views,n_pools,mean_between_pool_angle_deg,median_between_pool_angle_deg,p95_between_pool_angle_deg,queries_correct_in_all_three_pools_pct,meaning
+resnet50_A1,1,3,23.61444854736328,22.424474716186523,38.03654479980469,86.32162661737523,Reference construction variation for the same real queries; not repeated query capture robustness
+resnet50_A5,5,3,10.774310111999512,10.235966682434082,17.606773376464844,92.88354898336414,Reference construction variation for the same real queries; not repeated query capture robustness
+resnet50_A10,10,3,7.672982215881348,7.279580116271973,12.752728462219238,94.17744916820703,Reference construction variation for the same real queries; not repeated query capture robustness
+resnet50_A20,20,3,5.456925868988037,5.236260414123535,8.897716522216797,94.63955637707949,Reference construction variation for the same real queries; not repeated query capture robustness
+resnet50_A30,30,3,4.458805084228516,4.2779154777526855,7.1395463943481445,94.73197781885398,Reference construction variation for the same real queries; not repeated query capture robustness
+dinov2_A1,1,3,24.12925148010254,23.157320022583008,38.07441329956055,86.04436229205176,Reference construction variation for the same real queries; not repeated query capture robustness
+dinov2_A5,5,3,10.96121597290039,10.362645149230957,17.472299575805664,93.71534195933457,Reference construction variation for the same real queries; not repeated query capture robustness
+dinov2_A10,10,3,7.835838317871094,7.299658298492432,12.841140747070312,95.10166358595194,Reference construction variation for the same real queries; not repeated query capture robustness
+dinov2_A20,20,3,5.548095703125,5.311718940734863,8.876137733459473,95.28650646950092,Reference construction variation for the same real queries; not repeated query capture robustness
+dinov2_A30,30,3,4.524626731872559,4.259011268615723,7.366995811462402,95.84103512014788,Reference construction variation for the same real queries; not repeated query capture robustness

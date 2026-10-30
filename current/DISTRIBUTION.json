@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "distribution": "github-compact",
+  "contains": [
+    "source code",
+    "protocol and split manifests",
+    "per-query CSV outputs",
+    "numerical CSV/JSON results",
+    "manuscript table bodies"
+  ],
+  "large_arrays": "omitted from GitHub; included in the separately prepared complete numerical archive",
+  "complete_archive_publication": "pending; no active version DOI asserted",
+  "historical_software_doi": "10.5281/zenodo.20736698",
+  "historical_version": "v1.0.1"
+}

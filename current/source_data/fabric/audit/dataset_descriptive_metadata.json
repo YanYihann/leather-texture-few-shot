@@ -1,0 +1,20 @@
+{
+  "files": 1792,
+  "classes": 355,
+  "images_per_class_distribution": {
+    "4": 77,
+    "5": 191,
+    "6": 82,
+    "7": 3,
+    "8": 2
+  },
+  "camera_model_file_counts": {
+    "iPhone 6": 1407,
+    "(missing)": 10,
+    "XT1068": 319,
+    "WAS-LX1A": 56
+  },
+  "exif_general_datetime_available": 1782,
+  "exif_general_datetime_is_not_a_verified_session_identifier": true,
+  "claim_limit": "These file metadata do not establish original capture sessions, per-class cross-device testing, or provenance of the separate leather dataset."
+}

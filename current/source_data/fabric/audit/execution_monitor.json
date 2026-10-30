@@ -1,0 +1,9 @@
+{
+  "feature_session": 15031,
+  "training_session": 75666,
+  "feature_hard_timeout_seconds": 10800,
+  "training_per_run_hard_timeout_seconds": 7200,
+  "feature_wait_hard_timeout_seconds": 7200,
+  "monitoring": "process alive + log growth inspected throughout active turn; stale progress advisory, no unrequested termination",
+  "last_observed_epoch": 1793207301.8658686
+}

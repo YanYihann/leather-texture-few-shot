@@ -1,0 +1,78 @@
+[
+  {
+    "component": "rgb",
+    "alpha": 0.25,
+    "validation_correct": 345,
+    "candidates": [
+      {
+        "component": "rgb",
+        "alpha": 0,
+        "validation_correct": 343
+      },
+      {
+        "component": "rgb",
+        "alpha": 0.1,
+        "validation_correct": 344
+      },
+      {
+        "component": "rgb",
+        "alpha": 0.25,
+        "validation_correct": 345
+      },
+      {
+        "component": "rgb",
+        "alpha": 0.5,
+        "validation_correct": 343
+      },
+      {
+        "component": "rgb",
+        "alpha": 0.75,
+        "validation_correct": 337
+      },
+      {
+        "component": "rgb",
+        "alpha": 1,
+        "validation_correct": 314
+      }
+    ],
+    "selection": "validation only; first alpha on ties"
+  },
+  {
+    "component": "lbp",
+    "alpha": 0.1,
+    "validation_correct": 344,
+    "candidates": [
+      {
+        "component": "lbp",
+        "alpha": 0,
+        "validation_correct": 343
+      },
+      {
+        "component": "lbp",
+        "alpha": 0.1,
+        "validation_correct": 344
+      },
+      {
+        "component": "lbp",
+        "alpha": 0.25,
+        "validation_correct": 344
+      },
+      {
+        "component": "lbp",
+        "alpha": 0.5,
+        "validation_correct": 338
+      },
+      {
+        "component": "lbp",
+        "alpha": 0.75,
+        "validation_correct": 328
+      },
+      {
+        "component": "lbp",
+        "alpha": 1,
+        "validation_correct": 230
+      }
+    ],
+    "selection": "validation only; first alpha on ties"
+  }
+]

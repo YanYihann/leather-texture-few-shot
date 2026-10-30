@@ -1,0 +1,14 @@
+{
+  "python": "D:\\anaconda\\envs\\pytorch\\python.exe",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.3.1",
+  "torchvision": "0.18.1",
+  "numpy": "2.2.5",
+  "scipy": "1.14.1",
+  "pillow": "10.4.0",
+  "cpu_threads": 6,
+  "device": "cpu",
+  "command": "prepare_dataset.py",
+  "source_script_sha256": "bccbf8119a5207b08191b9c5ecffce46b106b7c81b5e7f909480d50699c598ce"
+}

@@ -1,3 +1,19 @@
+# One-Reference Material Retrieval
+
+Current release: **2.0.0**, 30 October 2026. See [current/README.md](current/README.md) for the current leather, T1K+ Fabric, MatSim and DTD protocols, per-query outputs, numerical tables, analysis code and verification command.
+
+```sh
+python current/verify_release.py
+```
+
+The root `src/`, `scripts/` and `results/` below are the historical release, retained for provenance. Historical statements describing Q as “independent” are not adopted as acquisition evidence: capture-level records are unavailable. See the current release for corrected scope, experimental units and uncertainties. The dataset photographs were taken by the research team; no supplier-image origin is asserted. This repository is a computational release, not an article submission or author-approval statement.
+
+The original dataset DOI is https://doi.org/10.5281/zenodo.20736326. Fixed code DOI https://doi.org/10.5281/zenodo.20736698 identifies the old v1.0.1 only; current software versions have separate DOIs. Current ScienceDB JDIS-community reviewer access remains pending.
+
+---
+
+## Historical repository documentation
+
 <div align="center">
 
 # Leather Texture Few-Shot Classification

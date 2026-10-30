@@ -1,0 +1,38 @@
+[
+  {
+    "class_id": "Leather_07",
+    "perturbation": "brightness",
+    "severity": "severe",
+    "predicted": "Leather_194",
+    "score": 0.7504079341888428,
+    "selection": "first lexicographic class correct when clean and wrong when perturbed",
+    "input_sha256": "841528e546c2dbd9680f7a9af7275923edf5f2b5f7d0002856af25aa47505853"
+  },
+  {
+    "class_id": "Leather_09",
+    "perturbation": "gaussian_blur",
+    "severity": "severe",
+    "predicted": "Leather_164",
+    "score": 0.48475024104118347,
+    "selection": "first lexicographic class correct when clean and wrong when perturbed",
+    "input_sha256": "45a44c9baa8dbbdc4b271b4eb51f6f15820ab784a84cd59d4e2a0b31b887c763"
+  },
+  {
+    "class_id": "Leather_01",
+    "perturbation": "gaussian_noise",
+    "severity": "severe",
+    "predicted": "Leather_161",
+    "score": 0.7015620470046997,
+    "selection": "first lexicographic class correct when clean and wrong when perturbed",
+    "input_sha256": "9f476cb5d26742379d034682c73c2ed4a14fb61c33d534a3a2dc9a70cc8ef819"
+  },
+  {
+    "class_id": "Leather_124",
+    "perturbation": "rotation",
+    "severity": "severe",
+    "predicted": "Leather_84",
+    "score": 0.8005540370941162,
+    "selection": "first lexicographic class correct when clean and wrong when perturbed",
+    "input_sha256": "68c4200b32ab862df7e0bd65daf79e75212f2d8b2bea4c8e4efeef5388ccd38c"
+  }
+]

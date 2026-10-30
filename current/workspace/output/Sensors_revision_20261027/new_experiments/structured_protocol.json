@@ -1,0 +1,843 @@
+{
+  "version": "20261027-v1",
+  "created_utc": "2026-10-27T04:06:23.891554+00:00",
+  "status": "locked before new feature extraction; follow-up sensitivity, not preregistration",
+  "reference_images_per_class": 1,
+  "reference_classes": 203,
+  "original_query_images": 201,
+  "families": [
+    "regional_crop",
+    "perspective",
+    "resolution",
+    "illumination",
+    "device_pipeline",
+    "compound"
+  ],
+  "severities": [
+    "mild",
+    "moderate"
+  ],
+  "synthetic_variants_per_condition": 3,
+  "total_synthetic_images": 7236,
+  "independent_query_count_unchanged": 201,
+  "unit": "one original query identity; all descendants kept together",
+  "input": "same original Q images; deterministic Resize256/CenterCrop224 before synthetic operations",
+  "inference": "one transformed image per retrieval; no query-view averaging, tuning, training, reference addition or threshold fitting",
+  "reference_comparison": "frozen single-reference and existing A30 pools seeds42,43,44; A30 is 30 views of the same single reference",
+  "bootstrap": "2000 resamples of 201 original-query clusters, seed20261027; descriptive conditional intervals; no p-value fishing",
+  "unsupported": [
+    "new physical specimens",
+    "new capture sessions",
+    "real devices",
+    "unseen surface regions",
+    "batch equivalence",
+    "calibrated physical lighting or camera angles"
+  ],
+  "script_sha256": "ffbcbbfe095e52728e7fdd1ed9cc36055895abcc3c810273f11ed269ce30628f",
+  "queries": [
+    {
+      "class_id": "Leather_01",
+      "sha256": "a6097f364c46d533b5745759f772051667deb2a3be01a44835f4942452dc0c5b"
+    },
+    {
+      "class_id": "Leather_02",
+      "sha256": "2aa22a0d9f9a47e7d8810603108efbbf9056e79baf188f9f7419653661808cd1"
+    },
+    {
+      "class_id": "Leather_03",
+      "sha256": "4adaae8f0e27f3058f9e93fcf65faeb5e2760b86e9b56d09eeaa86959d976da6"
+    },
+    {
+      "class_id": "Leather_04",
+      "sha256": "8dffc509924fe8a4d50d0fff960bf62cc6fed7cdff972b154902dc290951e92b"
+    },
+    {
+      "class_id": "Leather_05",
+      "sha256": "924ccb9258d8600e4d9d01364b04b58d127d5bbc7cd8ef577facaac52257af83"
+    },
+    {
+      "class_id": "Leather_06",
+      "sha256": "2edd84b3359b8174a170a2e3cdaba612339eb478c8edcb20461e6089a8f88a8b"
+    },
+    {
+      "class_id": "Leather_07",
+      "sha256": "f8ef7208cd0c8cd76507548d27c4128792f2cce06877ee17978a236c13863ae2"
+    },
+    {
+      "class_id": "Leather_08",
+      "sha256": "b32ae56e32f2ed7fb62cd2fa9ed014eab31d6f8c3f3f0ba856cc2f6a76fb3b76"
+    },
+    {
+      "class_id": "Leather_09",
+      "sha256": "e8d6714cae0e2f18375aff149294fb8e12a0eebd3adb41951a6ccb7609ef423b"
+    },
+    {
+      "class_id": "Leather_10",
+      "sha256": "9ed279a9b08169d2547b08a5f069429fa100db84d02fa51961919df0a1ad52d7"
+    },
+    {
+      "class_id": "Leather_100",
+      "sha256": "4cf35220993262c2fb88b28b3655c0796b1a93c4233d67d508f3505cf17d4813"
+    },
+    {
+      "class_id": "Leather_101",
+      "sha256": "032454e605cded2c1865e7cc4aa0590d35497b20e8874c9e0dacf0b3e7f43924"
+    },
+    {
+      "class_id": "Leather_102",
+      "sha256": "09d5d94fc83660af0263bed664a7bc6e1a57574ec2684419e8d83aded1cc56c3"
+    },
+    {
+      "class_id": "Leather_103",
+      "sha256": "a244b51d62c4a981a964cb6b3c45c7ca8cca73a122deb00607acd1792d9c46b6"
+    },
+    {
+      "class_id": "Leather_104",
+      "sha256": "854365b83f5ed282dae54397a1e1399d299d910f45abb0d8f121a7851d25afd7"
+    },
+    {
+      "class_id": "Leather_105",
+      "sha256": "4e93732507f51edb207e2a50e610ca4cb48eb9623abaefc30182b72ff6b8afd5"
+    },
+    {
+      "class_id": "Leather_106",
+      "sha256": "c63f890e46a648940658603bd53ac869d103686d418020fa55c977070a7a695e"
+    },
+    {
+      "class_id": "Leather_107",
+      "sha256": "e682e03948cca02efc58b03d74fce4f284b568bdc2ead17ed75c0a299dcfd408"
+    },
+    {
+      "class_id": "Leather_108",
+      "sha256": "b0a873aa8baf1b9a74113a88af4f5dcb0c2bab35c835c3077a07c89d84c75b1d"
+    },
+    {
+      "class_id": "Leather_109",
+      "sha256": "840ff27e78d7a2021ed94e3d40c6f655df110cd16646e66cdc7cdd1119056045"
+    },
+    {
+      "class_id": "Leather_11",
+      "sha256": "feec240b178668ab848d751916dcb8e0c443ff74f897957cd4cb5428eae2439f"
+    },
+    {
+      "class_id": "Leather_110",
+      "sha256": "4b07fbfc545846de663c03aaae9609c68da978556dd8fec6308de03bd8cb473d"
+    },
+    {
+      "class_id": "Leather_111",
+      "sha256": "262ee9444957c7ddc6e08fff5701e550b221e06111309a98e1829cca10c41312"
+    },
+    {
+      "class_id": "Leather_112",
+      "sha256": "1794b8a1cf160dd18c4242cec3d93a78df97b394be0efcfc909d13493854996c"
+    },
+    {
+      "class_id": "Leather_113",
+      "sha256": "4f05a6468ece90ef61a363417d758ee7562286939e93007b55be6055d472c51b"
+    },
+    {
+      "class_id": "Leather_114",
+      "sha256": "1f34b10de193a9d37a0bd50a4b5cc9dcfb200e0ad5131a5311c572591d281800"
+    },
+    {
+      "class_id": "Leather_115",
+      "sha256": "fe36111d1c6a2f0f1e29e352878ed08818979d31f9be590e213508385764c837"
+    },
+    {
+      "class_id": "Leather_116",
+      "sha256": "d426cf3d8a77952b814418f73d4e3617a4a2fc8ceb64465909d4bd80c2203a22"
+    },
+    {
+      "class_id": "Leather_117",
+      "sha256": "2aab21868977723e96a8ae149e67fd87f916678c7ab51167e3d0e4e3a1bfc305"
+    },
+    {
+      "class_id": "Leather_118",
+      "sha256": "b93bf01a49b9663327bb7b684633f43adbbfaa03afdee179cb892f2ffb1bccfc"
+    },
+    {
+      "class_id": "Leather_119",
+      "sha256": "e4f1ac92c0a8ccb21e562887d997417767f7b38915cc089ecb4b1f3bf2c53044"
+    },
+    {
+      "class_id": "Leather_12",
+      "sha256": "48ba9a01138aa263131067b9419bf8da0aca90343717841bae125a73e033a8d8"
+    },
+    {
+      "class_id": "Leather_120",
+      "sha256": "6b2d3f37971e7267327e6ae7480a6422e4d4b744781180e344812170dfdba2fc"
+    },
+    {
+      "class_id": "Leather_121",
+      "sha256": "f5d031b3fdeac32664b30f78864fe054ad38e6f2de6e03d10e7d5cb612a62605"
+    },
+    {
+      "class_id": "Leather_122",
+      "sha256": "d898ceb109ef532c3147a6e3976a903e2a3f431d06f973798636c611ba16557f"
+    },
+    {
+      "class_id": "Leather_123",
+      "sha256": "40a7818f0ae85f3bfed5003c52a863244464662d083b5c22a50ec056a1b0f435"
+    },
+    {
+      "class_id": "Leather_124",
+      "sha256": "a0dd6001903f85a9d98bc70eb37565b07ebf80029d9ee5407fc7f372ad0ff7cc"
+    },
+    {
+      "class_id": "Leather_125",
+      "sha256": "f8688e27f7d1c6e1ec6ef773f61925b8548f27497a9d01428a744526c459a0c8"
+    },
+    {
+      "class_id": "Leather_126",
+      "sha256": "d6f58ce03184fc27241e422e281f05a75ceb17630cb76563b3e79dfc3c4cc24f"
+    },
+    {
+      "class_id": "Leather_127",
+      "sha256": "7d9a71b461b7cf9df7010f6bb586aeaf0110829a76d1765970566b79c8670e19"
+    },
+    {
+      "class_id": "Leather_128",
+      "sha256": "36f8da3a63d5b26f696ec517a8b10db89c0e5b4586f32db03f5173cdc7056059"
+    },
+    {
+      "class_id": "Leather_129",
+      "sha256": "5792b0c38336e4311354bdec1460dca9e22d8f199457006d34e0dfe4602f6b2d"
+    },
+    {
+      "class_id": "Leather_13",
+      "sha256": "57cd87e4f7854ab1ffdb4b3a03f1fd2acb586316c8ac07fe9cf079bbe467137d"
+    },
+    {
+      "class_id": "Leather_130",
+      "sha256": "88460b6731cb5c817611e0063329fd32862311ee865d9cce0779f66e7d495988"
+    },
+    {
+      "class_id": "Leather_131",
+      "sha256": "49d6079a586da508aafe74f1f5e25a2ec8e0281236f55608dea221e61d651231"
+    },
+    {
+      "class_id": "Leather_132",
+      "sha256": "e1c22229353b57011e52545bde034004762b37e9d01ba375eac40a9489c55e6a"
+    },
+    {
+      "class_id": "Leather_133",
+      "sha256": "c53822c73e5b3669aa7412ec0d0f01acc38dc9f54498695556c30ea558faaf32"
+    },
+    {
+      "class_id": "Leather_134",
+      "sha256": "7c720504b1f4f19d7e46107cfeca0c013ed670fa208b267d6fe5a7f0919c8d92"
+    },
+    {
+      "class_id": "Leather_135",
+      "sha256": "d17b1aec2ea3bdfcf8a9fdb55abad775e0f8c1ae29dc61b92307038aea2bee93"
+    },
+    {
+      "class_id": "Leather_136",
+      "sha256": "2c2b31d00ae6ccdc8bb3c38b00087aa3cec163fa7c973fd3872e85bbf5ea54bc"
+    },
+    {
+      "class_id": "Leather_137",
+      "sha256": "e37a0dc445bd638a0064667177cd6be463b260bbd6b685994068c1f0a42abfe9"
+    },
+    {
+      "class_id": "Leather_138",
+      "sha256": "ed9bc320ebf48c9fa9056c4b1195c3c8c9f89adbe31d76ae9b5fd1cb7ed3d916"
+    },
+    {
+      "class_id": "Leather_139",
+      "sha256": "ad10dee63cab663617f7f9e53705073b58c377e123871708b8e3932ba3856cfd"
+    },
+    {
+      "class_id": "Leather_14",
+      "sha256": "315d97631078bbcba3935f2c756019985100a87dd8f42b44ffbc5a19b499f230"
+    },
+    {
+      "class_id": "Leather_141",
+      "sha256": "a1dc68dc7a744da3bbd9db49d27a83945e52480e52721b942ffaea1d26146773"
+    },
+    {
+      "class_id": "Leather_142",
+      "sha256": "d2687f1f83b91c3c858c006cee76260d326c76e832b0797d51fa446069b1efb6"
+    },
+    {
+      "class_id": "Leather_143",
+      "sha256": "4a72bdd5fb002d16bebac0e8e777d99131a5d0dd4b86779344cbe4480184c7f8"
+    },
+    {
+      "class_id": "Leather_144",
+      "sha256": "ab96952e00aa8c7714f175b910ac5777527b807a0284de04b61e719669477910"
+    },
+    {
+      "class_id": "Leather_145",
+      "sha256": "3775927bc7d58026d14789d34dabbf3312930d8fd108282680d17053141b83cc"
+    },
+    {
+      "class_id": "Leather_146",
+      "sha256": "b923fe0ad1aeae0dc09ae3f17642a417969da8dd01f3ce2c2ca7d590de8124a0"
+    },
+    {
+      "class_id": "Leather_147",
+      "sha256": "9d37b0643c383999f46c491f8e087993770eea9a4c9be283f4e3968e82c06923"
+    },
+    {
+      "class_id": "Leather_148",
+      "sha256": "4a0bc2904bc663f494984d299d0613df7f3feb31c848e57dc2df705be86dbc10"
+    },
+    {
+      "class_id": "Leather_149",
+      "sha256": "fc3c29f9374c2a9d9a44f4e5a39cb9d6b8672cb928d73bfac8156dcf7d2e205d"
+    },
+    {
+      "class_id": "Leather_15",
+      "sha256": "63f2cd231ee6ae7a2ce0eefbc2cef9568aefc56559bda3babd06b68ddc3751d3"
+    },
+    {
+      "class_id": "Leather_150",
+      "sha256": "5a65665ea6bb0a9d885aa448ee008d18eead29fb082ce3d125f0f4cf60f57d81"
+    },
+    {
+      "class_id": "Leather_151",
+      "sha256": "364d5ed2b94a5dddfc461c04246a78a370168a57c4b16600a12e031b6a826bc7"
+    },
+    {
+      "class_id": "Leather_152",
+      "sha256": "1a3244d003de1651458265850266e847f04302a73857774f43de2cfb79e20d05"
+    },
+    {
+      "class_id": "Leather_153",
+      "sha256": "cbfe51c899dd53abd7a760fd337c24522809c71d7e65671915f9af09cea00c96"
+    },
+    {
+      "class_id": "Leather_154",
+      "sha256": "64d7a53f868279e83d0b328321d3a35e61847d4adfcaf8ac5c6ab511cf0f8952"
+    },
+    {
+      "class_id": "Leather_155",
+      "sha256": "818a24aa05a274ef0009a2ac8b1432accbafec924f57e5f6020dbdaacf503842"
+    },
+    {
+      "class_id": "Leather_156",
+      "sha256": "250755b4d047bba4916502171c3568027410eeddb7856e408bbb2c3267af302e"
+    },
+    {
+      "class_id": "Leather_157",
+      "sha256": "e35754b81fc69fcb451ce5a28c704a1a6db5996f574b13f0e6cf6e4d3f134d39"
+    },
+    {
+      "class_id": "Leather_158",
+      "sha256": "14a726f0bc9bd1afc99dbd4d43c2dcb625ff91e9418612883afdd010dbf80147"
+    },
+    {
+      "class_id": "Leather_159",
+      "sha256": "32a93b204d83614a9bf315790049e26bfd35f176f0380224c467f74fba1231d9"
+    },
+    {
+      "class_id": "Leather_16",
+      "sha256": "c5e2bbf9fa939ba96d9982e04f74b6a79fbb86f34dc5e26530b8078128f2884f"
+    },
+    {
+      "class_id": "Leather_160",
+      "sha256": "e8c959f567dbe56b98f2e8bb57b168d0ee58bfae8a7b833da24d25ea8a25e6bc"
+    },
+    {
+      "class_id": "Leather_161",
+      "sha256": "1a7b28630e0662d64f979604606dbc14fe7ba2750f68f19b36b1f6a5ef8583e9"
+    },
+    {
+      "class_id": "Leather_162",
+      "sha256": "914445acbd27a226e3a91af17dbe5ac9d9b36e6cbaf5f488fbd70b882354c4c4"
+    },
+    {
+      "class_id": "Leather_163",
+      "sha256": "1b8c38c7da8a72275cc5f98b05b05f77887ed1ad87bc93695e5cc81688ecfc56"
+    },
+    {
+      "class_id": "Leather_164",
+      "sha256": "7dcc9fdb047e7e57aa5c1494e2c5c223127db8baf01067cc8047b0cc050bd697"
+    },
+    {
+      "class_id": "Leather_165",
+      "sha256": "ee434414585bd7ddeb1d44532025c2ee61218b6271e356f4c961b05338c1f6f5"
+    },
+    {
+      "class_id": "Leather_166",
+      "sha256": "09d9eb25afb0e54430afb2d4801614b00a33030f661ffd526f8db4a75f4b5752"
+    },
+    {
+      "class_id": "Leather_167",
+      "sha256": "1abd8af2fd88a40313ee657e0976bbc514563d5fec042a18489acefd92b637c2"
+    },
+    {
+      "class_id": "Leather_168",
+      "sha256": "2b140a2ffc3d5630ba2929642effafb72afe6bf9611282470eda2b3c17da5a5a"
+    },
+    {
+      "class_id": "Leather_169",
+      "sha256": "a52e6cd92d3738c6ee347c99b7ee72ca8ea9f07c02e042ea251a11176e190a4f"
+    },
+    {
+      "class_id": "Leather_17",
+      "sha256": "6f37fea05f062b0996cfbea3c658466e38ae20b5e9e485ae00ae6dacb91edd78"
+    },
+    {
+      "class_id": "Leather_170",
+      "sha256": "666338f71febd19e0e8e4704d3661389df978c6c56e69b917db0369037a4d92a"
+    },
+    {
+      "class_id": "Leather_171",
+      "sha256": "4a42ade61f559577a70835889624f985c38b397df3488b7e44cb41e02f34b079"
+    },
+    {
+      "class_id": "Leather_172",
+      "sha256": "6548775ce8201b7eec422c8b4522ae6c68b6589c77dd2e8c57d1b621a1b75597"
+    },
+    {
+      "class_id": "Leather_173",
+      "sha256": "2c12f9d14d3ac7bb19606e42bdcb8b153a03c9a4735a1dd939f7f4580bfbbae1"
+    },
+    {
+      "class_id": "Leather_174",
+      "sha256": "03c8cb80367f6129ce74f9cc94cddf0a03035c09e296dd14ca905c5e65ee9dc4"
+    },
+    {
+      "class_id": "Leather_175",
+      "sha256": "f2c0483c48fe3c4344480a53704d3f093e7f98b7ff559de9436f8f73c0dbb37c"
+    },
+    {
+      "class_id": "Leather_176",
+      "sha256": "d29f04d27053a78352d84b93a53e6660c2f5dbf05650326e3cde16a44750f6f2"
+    },
+    {
+      "class_id": "Leather_177",
+      "sha256": "a567cd1ba9fe3ef24ee8d4889d0e386fe53d4e1ddb245ee4c99947348b148f1f"
+    },
+    {
+      "class_id": "Leather_178",
+      "sha256": "d8a45c1e5f1aa2a1dddce9931a4e5f8600ea611e7df808030226adb1d10a5a21"
+    },
+    {
+      "class_id": "Leather_179",
+      "sha256": "417a6e71f996df38d15af6c1d62552bcf558a45c74717c1bfc1ffc74c8d1a0c9"
+    },
+    {
+      "class_id": "Leather_18",
+      "sha256": "d436674a392b16b63d57a86ed95321823854a18b4e952fde60fd3a47ae5ead4c"
+    },
+    {
+      "class_id": "Leather_181",
+      "sha256": "f7e7fa597783dee7f83f87081954538e24150de8a85e37226ce43b53bbaa660b"
+    },
+    {
+      "class_id": "Leather_182",
+      "sha256": "4f8b5a6672b3a867bed9d23a11c4726e30792e181c261529c06e6fa9007d5730"
+    },
+    {
+      "class_id": "Leather_183",
+      "sha256": "33d4ea7acc0ce55fbb8b2340c90dfceb841e4a80a2a0e5812630ef47ed37bb9c"
+    },
+    {
+      "class_id": "Leather_184",
+      "sha256": "3e17472d6895c9d684751ff58cea0cbacefc8090a7adb73c7f4f62b8bc3e0eff"
+    },
+    {
+      "class_id": "Leather_185",
+      "sha256": "fab52cba36f019ea86cb249942afcf6ee9012a1893e4c10eb5a6893fa65fa2b5"
+    },
+    {
+      "class_id": "Leather_186",
+      "sha256": "1f0b92849fc10a946f5e1d72d00e48cda5d869e3305c08ba0ba8225f1853a030"
+    },
+    {
+      "class_id": "Leather_187",
+      "sha256": "6fa30a275fe661795e3f800a4d61bb0ae1cbfcf812ccf942059fbb755890f190"
+    },
+    {
+      "class_id": "Leather_188",
+      "sha256": "0cfca0ec655d1e591d37c144a0193bcf72c63357dbf165b993dee21f5528429a"
+    },
+    {
+      "class_id": "Leather_189",
+      "sha256": "1958919de4627ee97f5f77c4aaf97e35fca03255d774e3c418c4b0a99841a8ef"
+    },
+    {
+      "class_id": "Leather_19",
+      "sha256": "96b9e448201de888f80664a4e05550746f13c3ed01d13ed3e1f4856e69a1df90"
+    },
+    {
+      "class_id": "Leather_190",
+      "sha256": "2c7fa4d8a6aa3fac70fc0d80b220b96013ba2902eda67c9c84bba3d7aa64bc91"
+    },
+    {
+      "class_id": "Leather_191",
+      "sha256": "cf69928ab79273b2b42c6ce7ca2ddb89728d5b484ef5c99ec54c874c253e7566"
+    },
+    {
+      "class_id": "Leather_192",
+      "sha256": "a896a181647682c9e4988ac93e801b6452f78e30cfaded3b846445ad5e1ef3c8"
+    },
+    {
+      "class_id": "Leather_193",
+      "sha256": "937c837a8ec1b230faad4de056c76d9ffa153ab37396e42e76de4f1f0c67f28f"
+    },
+    {
+      "class_id": "Leather_194",
+      "sha256": "a423719fa8dff508976a22d6327328f78c69c3d567cd7da1477cc690e79d56f4"
+    },
+    {
+      "class_id": "Leather_195",
+      "sha256": "b69e7007345d49b5783668d09a46d16b22bb90b14af7d7eea414a5ff3f0ec411"
+    },
+    {
+      "class_id": "Leather_196",
+      "sha256": "8313c40e22028ae9374604c0990fa069f47919d8708c109345c4145663d1d947"
+    },
+    {
+      "class_id": "Leather_197",
+      "sha256": "76d3511fc9ba27e608a7818cd6a29f7919bb9c7fed2c23452d0e3fa3b92b7815"
+    },
+    {
+      "class_id": "Leather_198",
+      "sha256": "6b599042d6335fee523e1704ef8b7f2299092f1dafa91a5db8e4517d0e5dbf7f"
+    },
+    {
+      "class_id": "Leather_199",
+      "sha256": "a34462fb44b1ce31d35975520eaffef606e8c636e1dc426db39bbb5133b18d89"
+    },
+    {
+      "class_id": "Leather_20",
+      "sha256": "f89a0b4d68ea153aaca85aeb28b254658a0a46376715d68049bc9c84199f0172"
+    },
+    {
+      "class_id": "Leather_200",
+      "sha256": "243b2fcf8d9c263ad01ea7fea8ac3d442e69f6d183951d5d6b196b3d69c023bf"
+    },
+    {
+      "class_id": "Leather_201",
+      "sha256": "69f874826c4c57590fd5e9689f85d506a189378cd25e382f2b91366118d90cdc"
+    },
+    {
+      "class_id": "Leather_202",
+      "sha256": "56b50cff9c551049058cc75cff244fc9e4b3dd22c0ca9e9c4814d27e214c25b0"
+    },
+    {
+      "class_id": "Leather_203",
+      "sha256": "e6312eaf061654c35bf486a039f3bee358646933f763081a41662d75621f82ca"
+    },
+    {
+      "class_id": "Leather_21",
+      "sha256": "f51abe612d826f765d3a4ca7acb519c542255f9547d3277cbfa6478712d7c941"
+    },
+    {
+      "class_id": "Leather_22",
+      "sha256": "3a81f34e670050d08889b70ea97ebfb1a5cd46b4b93f1cb6de672ffc866855ce"
+    },
+    {
+      "class_id": "Leather_23",
+      "sha256": "e15f5ad8157016b97aa0084c8b02d8d5ffd1a08739461b302d95be5e79fdd0a1"
+    },
+    {
+      "class_id": "Leather_24",
+      "sha256": "92f4d61a99e1f9fb2514f4ee3fd0345ec675e691727588f1b26943771e5a5399"
+    },
+    {
+      "class_id": "Leather_25",
+      "sha256": "cc66c074307007c821826e86abf3a0c991f8a849a0676f8700ed21cef79828a7"
+    },
+    {
+      "class_id": "Leather_26",
+      "sha256": "83d65a06c689deb3b6badd50d08a8208d4ce43d659197b034eada8d17583568f"
+    },
+    {
+      "class_id": "Leather_27",
+      "sha256": "d3772bb06036eaf365e52e46f7ac9e6c32ec87ff047b1e71f9c22f86c692262b"
+    },
+    {
+      "class_id": "Leather_28",
+      "sha256": "e404077146e8536a268f156e1539b2b042e3d6058b94884ea323f51865684f04"
+    },
+    {
+      "class_id": "Leather_29",
+      "sha256": "064cc768428dc2599604d50680d679be9578eb69f95717be56e07cbd76280982"
+    },
+    {
+      "class_id": "Leather_30",
+      "sha256": "2aea7179822dbd4c9ccd49ea3985c94f189613ca31396ef04d33f1e7acc2d3e1"
+    },
+    {
+      "class_id": "Leather_31",
+      "sha256": "493268164351039c1eb0615698b013d5e77e65af7e2fbcf6d1d5086f0faf07ee"
+    },
+    {
+      "class_id": "Leather_32",
+      "sha256": "3ed71d5f7b037e8f75ae8f71a3954bd820bb9e0c9a605c78ba4501c2cc6e404c"
+    },
+    {
+      "class_id": "Leather_33",
+      "sha256": "48ce0bbd43d2e570d52daa0ee1bf35ce0b0316ab7895b2144da80338510723e3"
+    },
+    {
+      "class_id": "Leather_34",
+      "sha256": "004cfcc12427b94406188fa0e411ddeacc876dc07ebcc74a858441daf32aa24b"
+    },
+    {
+      "class_id": "Leather_35",
+      "sha256": "d65cb1fa15fca02f05a76017a1c775a93b0ab77e94de1c5d4528276d4d46794f"
+    },
+    {
+      "class_id": "Leather_36",
+      "sha256": "9a9069876c459039ea57fcb236bf6a709099732e1f40ac49574a6b823e8d0c81"
+    },
+    {
+      "class_id": "Leather_37",
+      "sha256": "dedc088d42d15003184fab4ea4bab89dcb2342b6e465ed352831f66fa88d9d21"
+    },
+    {
+      "class_id": "Leather_38",
+      "sha256": "2ac8784ae5f1cd65411e24a981ab0340abfdefb67c145c2fa40a102aa0851c4b"
+    },
+    {
+      "class_id": "Leather_39",
+      "sha256": "76cf6d16c05b7c24b9461d07b579e9ff0d0123310033fe2c7b0d9994806d5bba"
+    },
+    {
+      "class_id": "Leather_40",
+      "sha256": "a796199975d5726247e82523875b1edbf6a58225f4d76890bf5202f447c362df"
+    },
+    {
+      "class_id": "Leather_41",
+      "sha256": "1b1c6f61696deca33d002d15c52fb82fda1784fa34f8f150dcb776b3ecf4fc1a"
+    },
+    {
+      "class_id": "Leather_42",
+      "sha256": "c355deca56c237aeab5426775dadf5e11efdfa23d28184c9a61e80adf3390e56"
+    },
+    {
+      "class_id": "Leather_43",
+      "sha256": "273201343a87d3ecfcc0226c4bae347bbc43c9d0b9703e0fa9d7a6a3c71eeb68"
+    },
+    {
+      "class_id": "Leather_44",
+      "sha256": "e522805c3c9553dde8f0d659475872222d4d6208f3235ab19558ea97ec8be0ee"
+    },
+    {
+      "class_id": "Leather_45",
+      "sha256": "82a83259ff58934bb6e960b4f385137120aa5477fd23db69b6a304e286fd0868"
+    },
+    {
+      "class_id": "Leather_46",
+      "sha256": "19a856d994ea17907c847cec164ba2c4549a1755e47d3b9101ce5cb6790e9383"
+    },
+    {
+      "class_id": "Leather_47",
+      "sha256": "3795f93e77c91bd13624f5fdd0e6e9dbf8d46587576fac8e3c0e94efaa47d752"
+    },
+    {
+      "class_id": "Leather_48",
+      "sha256": "428ab6181141e44403bb7d2622c36f97ee78579ff5094a8042b15e08e907ac1e"
+    },
+    {
+      "class_id": "Leather_49",
+      "sha256": "80693c8209d2a50695cc949e5d549d5b40e9b52587d34278053768c76df5cf13"
+    },
+    {
+      "class_id": "Leather_50",
+      "sha256": "1f917e5e1e253f6a2c1c40e33a07091527f8f0bed71180dadd76735965c67f7f"
+    },
+    {
+      "class_id": "Leather_51",
+      "sha256": "7f17b672b10ee4d9a0b948feccdb2240e10680be055d858edb89738d718cd78a"
+    },
+    {
+      "class_id": "Leather_52",
+      "sha256": "23f1c5624a46d51b86f7e984162da2a3d314cf6fcb5b961fd1980f42fcec78ca"
+    },
+    {
+      "class_id": "Leather_53",
+      "sha256": "de195c828aabad4747874bb362a9965852a72b2e93c0fa4334cbe6e0faa73e03"
+    },
+    {
+      "class_id": "Leather_54",
+      "sha256": "7e0a78f31f97a3a36347ef9f1bda18ee61f063467f4c07271e993f24ec0276b8"
+    },
+    {
+      "class_id": "Leather_55",
+      "sha256": "2d40ab54573f839c7d731f4f8ac80da40b20613a853c9b9eb8833ce7007b81e1"
+    },
+    {
+      "class_id": "Leather_56",
+      "sha256": "4bfec553c1493a160a11cd2cb0aeea16b0060bd36b4708647e8898deec2b1044"
+    },
+    {
+      "class_id": "Leather_57",
+      "sha256": "231ef9ba893bbcf5e59c66f426dcd90772d349f5878cc0ea2ab1777210835652"
+    },
+    {
+      "class_id": "Leather_58",
+      "sha256": "4467390b2fcaf58287c6affc1ef8f94027d7d3f026bb08dc0d53bdc946f1fcb8"
+    },
+    {
+      "class_id": "Leather_59",
+      "sha256": "82774b777267e1e9f7ffc7b6b47219f42f5f6ff7c0ed586efe22bc29ac1d8aa3"
+    },
+    {
+      "class_id": "Leather_60",
+      "sha256": "158be33c7e015ed18cb0e85f301176993ad8775249272b3923fec3d2e7460c0f"
+    },
+    {
+      "class_id": "Leather_61",
+      "sha256": "f85897ef4f4a941411c1257505a527dfe84c716b4217af36d8a2ac8123e264dc"
+    },
+    {
+      "class_id": "Leather_62",
+      "sha256": "e1949f1d61e49e8198efdeea656e5fd7ecafb8fd24e5448be1f37e5851fc10e6"
+    },
+    {
+      "class_id": "Leather_63",
+      "sha256": "2b0b7b2ba991080e2e7a1d310894bbd7e2cddc2d403bcb3926a2334d276bcd64"
+    },
+    {
+      "class_id": "Leather_64",
+      "sha256": "e07f1d48502cdfccba2f6289cfb257e0b3d7473635d682520ee74af6a66991a3"
+    },
+    {
+      "class_id": "Leather_65",
+      "sha256": "3216af4bac3d140bdd4570957bf83d392c74f9e6a71a8f9c76da6cd53a30a7d9"
+    },
+    {
+      "class_id": "Leather_66",
+      "sha256": "9f84cba9c4137b9f90075a0caff60e9eb66329ced96caaba39d80d39f027c4db"
+    },
+    {
+      "class_id": "Leather_67",
+      "sha256": "33190e587ecbf50e4eb17b01607189c691391fe9f6fe738e83d7e1f9ce67c0d8"
+    },
+    {
+      "class_id": "Leather_68",
+      "sha256": "a19bcc5e4e082ce766a53fd538eaf4583f8d6463f22d9599d52e92d2d20331e0"
+    },
+    {
+      "class_id": "Leather_69",
+      "sha256": "06fb123e82b9a1ac752aca372f2eb7c88216f48777dfe5a394839a2c180f35e0"
+    },
+    {
+      "class_id": "Leather_70",
+      "sha256": "8ca16dac2cc427099a5595392cbdf015f72b0cd157c64bc9b8b57bbc2794c144"
+    },
+    {
+      "class_id": "Leather_71",
+      "sha256": "ba362fba81b1cc4bec6d858652aa9ca0fc376e29c662ff1ffdeaddb7cad7c37a"
+    },
+    {
+      "class_id": "Leather_72",
+      "sha256": "8f6cc64d2238c54bd2a14a87119d65ed4d4940bc5d43c7b574e83bfdab5257cc"
+    },
+    {
+      "class_id": "Leather_73",
+      "sha256": "f025b9a7c8fe1858f005eb102a9bca3bb61c5bd8d80e72fb128c1b61ab47b89e"
+    },
+    {
+      "class_id": "Leather_74",
+      "sha256": "5ecc67cfa7687b3d50ff41444c240e885b54116eb836765b508f7b1872e109a4"
+    },
+    {
+      "class_id": "Leather_75",
+      "sha256": "fdad7780e75702cb3e5c74a4d292122f8ab94bb46330fe4d3db433cb4ce8c195"
+    },
+    {
+      "class_id": "Leather_76",
+      "sha256": "2e87ca02885f1250b354372e5d6edb8469f28b557ede93a5228a81018b970ddd"
+    },
+    {
+      "class_id": "Leather_77",
+      "sha256": "19ef541b5c2f8180b3af38a50ef7f7ec37ac606e04448a31c52bb9ed3a65a5a5"
+    },
+    {
+      "class_id": "Leather_78",
+      "sha256": "7513fe100ce2f8f8b7e13962e7e157fda564b90a207b927ebd8e4e74c59b8a41"
+    },
+    {
+      "class_id": "Leather_79",
+      "sha256": "25c6934457d048e327240143d1ce4f5dc789f3b4734eb53e5583bc33a7203c77"
+    },
+    {
+      "class_id": "Leather_80",
+      "sha256": "98bbb985d21a3add003859a4f4e75fa6da790fa13aba05fafe954d23cdf9e459"
+    },
+    {
+      "class_id": "Leather_81",
+      "sha256": "d0b4564edd8e0ac7f962dc8001b5d40559161c35488fd9eb7c9cac59728bc99c"
+    },
+    {
+      "class_id": "Leather_82",
+      "sha256": "031246b2e8622fb967db5b3bbaec7a3744330be0f8f562886bf23673a7aacf09"
+    },
+    {
+      "class_id": "Leather_83",
+      "sha256": "281f51373f9bf1eaa9df756b950f4a00b0697d73a7f20ec892f1de504f1f3c8a"
+    },
+    {
+      "class_id": "Leather_84",
+      "sha256": "338d19bf97c50d7b5a4023bdeb0dcb4aea795016d564ff77a3c5a828b37b395e"
+    },
+    {
+      "class_id": "Leather_85",
+      "sha256": "0c8777166d491097d26ecbe40fa5455adcd2f601698bc6605e6efd7c8226a7e7"
+    },
+    {
+      "class_id": "Leather_86",
+      "sha256": "b67615e9dab917fa6884af22cc2fc7e1d71ba8f8f43176c8f027a9d223783085"
+    },
+    {
+      "class_id": "Leather_87",
+      "sha256": "ab710606c178308b2cd4c97d324891378f92e3eda6f92d662f54ab23c7dcdbeb"
+    },
+    {
+      "class_id": "Leather_88",
+      "sha256": "659223cb214c9245be3f7145ee702af725080a7b0ddf2aae02a40fffa6548237"
+    },
+    {
+      "class_id": "Leather_89",
+      "sha256": "9da8b1921fcbe313728c548c8102fb3e4874135fdd12c0eeb012381d7c73af0c"
+    },
+    {
+      "class_id": "Leather_90",
+      "sha256": "2d153a9385812ec5462fb984f6e1bad1cd78f732652f960cb552387ad77ae165"
+    },
+    {
+      "class_id": "Leather_91",
+      "sha256": "5364140493a306c7b2d256f7d4ee97fcc53af3e52d469c5d9b62574efa574d05"
+    },
+    {
+      "class_id": "Leather_92",
+      "sha256": "aeb15d7d0b76dff64e8b03dbf71d6f48c9ca220501fb3e07f1ecdb00753e259f"
+    },
+    {
+      "class_id": "Leather_93",
+      "sha256": "9fc2bd0c61a527badfd1940407d650c59e74c006a3455e2a2218953fb1861aa9"
+    },
+    {
+      "class_id": "Leather_94",
+      "sha256": "2436ba3aaefc0cf5c14ab51e477f03298948e2107f9fb207e398b85ee31700b1"
+    },
+    {
+      "class_id": "Leather_95",
+      "sha256": "2974cad083680960f1a677da5fdb2c75d67774dff2582df01a6d0afc24010452"
+    },
+    {
+      "class_id": "Leather_96",
+      "sha256": "c1ebbdfb6081456f44d440987c5c466d03118722b804e7ac8674a9d6804ea7fd"
+    },
+    {
+      "class_id": "Leather_97",
+      "sha256": "1a83d5c957c26fa18dbbc82c166a1e237fd947495de926194771978e5cb84997"
+    },
+    {
+      "class_id": "Leather_98",
+      "sha256": "89817c9ec7266383a2e4ee067c602ede9a2db97e8171c2674ad9430fbd5513b2"
+    },
+    {
+      "class_id": "Leather_99",
+      "sha256": "926737700381eb71f96635f14e74cc41f80a1d2196bd3a4a1971ed6f4c0acf6e"
+    }
+  ]
+}

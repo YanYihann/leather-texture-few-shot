@@ -1,0 +1,10 @@
+﻿method,views,repeat,encodings,seconds,prototype_bytes,peak_working_set_bytes,reference_mode
+gray_histogram,1,0,203,0.5759753999882378,25984,2440716288,deterministic_center
+gray_histogram,1,1,203,0.5739409000088926,25984,2440716288,deterministic_center
+gray_histogram,1,2,203,0.5721032000146806,25984,2440716288,deterministic_center
+gray_histogram,5,0,1015,5.594574899994768,25984,2440716288,seed42_random_nested
+gray_histogram,5,1,1015,5.507930899999337,25984,2440716288,seed42_random_nested
+gray_histogram,5,2,1015,5.573601000010967,25984,2440716288,seed42_random_nested
+gray_histogram,30,0,6090,33.081858999998076,25984,2440716288,seed42_random_nested
+gray_histogram,30,1,6090,32.87102620000951,25984,2440716288,seed42_random_nested
+gray_histogram,30,2,6090,32.7737044999958,25984,2440716288,seed42_random_nested

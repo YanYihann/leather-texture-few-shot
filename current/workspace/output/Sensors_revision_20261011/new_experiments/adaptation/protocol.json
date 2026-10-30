@@ -1,0 +1,29 @@
+{
+  "backbone": "ImageNet ResNet50",
+  "epochs": 10,
+  "batch": 16,
+  "updates_per_run": 130,
+  "images_per_run": 2030,
+  "learning_rates": {
+    "linear": [
+      0.001,
+      0.01
+    ],
+    "partial_full": [
+      1e-05,
+      0.0001
+    ]
+  },
+  "tune_seed": 42,
+  "repeat_seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "highest S Top-1; first epoch/rate on ties; Q excluded",
+  "head": "cosine linear, scale20, initialized from frozen reference features",
+  "partial": "layer4 + head",
+  "batchnorm": "fixed eval running statistics for all modes",
+  "augmentation": "identical cached 10 views per specimen/seed; epoch indexes view",
+  "budget": "2 rate candidates on seed42, then chosen rate at seeds43,44; equal epoch/exposure budget across modes"
+}

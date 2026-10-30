@@ -1,0 +1,27 @@
+{
+  "classes": 355,
+  "photos": 1792,
+  "bytes": 5277010862,
+  "counts": {
+    "validation": 355,
+    "reference": 355,
+    "test": 1082
+  },
+  "min_photos": 4,
+  "max_photos": 8,
+  "exact_file_duplicate_groups": 5,
+  "exact_decoded_duplicate_groups": 5,
+  "ambiguous_classes": [
+    "a452",
+    "a456"
+  ],
+  "unique_source_photos": 1787,
+  "no_exact_file_or_pixel_overlap_across_roles": true,
+  "main_analysis": "355 official labels retained, duplicate pair uses synchronized photo roles; strict ID tie-breaking; clean-353 sensitivity excludes this pair, without claiming new labels.",
+  "every_source_matches_download_manifest": true,
+  "every_image_fully_decoded": true,
+  "exif_orientation": "EXIF transpose before all features, augmentations and pixel hashes",
+  "paired_two_reference_queries": 727,
+  "metadata_limit": "Public collection documents separate acquisitions; neither exact-duplicate checks nor EXIF metadata establish cross-session/device independence.",
+  "elapsed_seconds": 0.2395186424255371
+}

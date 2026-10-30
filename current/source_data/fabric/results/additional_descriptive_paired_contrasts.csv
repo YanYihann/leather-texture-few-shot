@@ -1,0 +1,6 @@
+﻿treatment,baseline,n_queries,bootstrap_clusters,difference_pp,ci_low_pp,ci_high_pp,status
+dinov2_center,resnet50_center,1082,354,1.1090573012939002,-0.7415135401942967,2.974464548391469,post-hoc descriptive contrast; no selection or multiplicity correction
+dinov2_rgb_fusion,dinov2_center,1082,354,1.8484288354898337,0.5633144662366724,3.2377428307123033,post-hoc descriptive contrast; no selection or multiplicity correction
+dinov2_lbp_fusion,dinov2_center,1082,354,0.5545286506469501,0.0,1.1237276311478002,post-hoc descriptive contrast; no selection or multiplicity correction
+resnet50_full,resnet50_partial,1082,354,0.030807147258163886,-0.6952289236584506,0.7505219925200188,post-hoc descriptive contrast; no selection or multiplicity correction
+dinov2_rgb_fusion,resnet50_full,1082,354,0.5545286506469502,-0.855582732541881,1.8857741589366521,post-hoc descriptive contrast; no selection or multiplicity correction

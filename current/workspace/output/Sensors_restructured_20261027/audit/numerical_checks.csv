@@ -1,0 +1,194 @@
+﻿check,method,condition,n,pass_check
+C1 full ranking replay,rgb_histogram,A_brightness_mild,201,True
+C1 full ranking replay,rgb_histogram,A_brightness_moderate,201,True
+C1 full ranking replay,rgb_histogram,A_brightness_severe,201,True
+C1 full ranking replay,rgb_histogram,A_color_jitter_mild,201,True
+C1 full ranking replay,rgb_histogram,A_color_jitter_moderate,201,True
+C1 full ranking replay,rgb_histogram,A_color_jitter_severe,201,True
+C1 full ranking replay,rgb_histogram,A_contrast_mild,201,True
+C1 full ranking replay,rgb_histogram,A_contrast_moderate,201,True
+C1 full ranking replay,rgb_histogram,A_contrast_severe,201,True
+C1 full ranking replay,rgb_histogram,A_crop_scale_mild,201,True
+C1 full ranking replay,rgb_histogram,A_crop_scale_moderate,201,True
+C1 full ranking replay,rgb_histogram,A_crop_scale_severe,201,True
+C1 full ranking replay,rgb_histogram,A_gaussian_blur_mild,201,True
+C1 full ranking replay,rgb_histogram,A_gaussian_blur_moderate,201,True
+C1 full ranking replay,rgb_histogram,A_gaussian_blur_severe,201,True
+C1 full ranking replay,rgb_histogram,A_gaussian_noise_mild,201,True
+C1 full ranking replay,rgb_histogram,A_gaussian_noise_moderate,201,True
+C1 full ranking replay,rgb_histogram,A_gaussian_noise_severe,201,True
+C1 full ranking replay,rgb_histogram,A_jpeg_compression_mild,201,True
+C1 full ranking replay,rgb_histogram,A_jpeg_compression_moderate,201,True
+C1 full ranking replay,rgb_histogram,A_jpeg_compression_severe,201,True
+C1 full ranking replay,rgb_histogram,A_rotation_mild,201,True
+C1 full ranking replay,rgb_histogram,A_rotation_moderate,201,True
+C1 full ranking replay,rgb_histogram,A_rotation_severe,201,True
+C1 full ranking replay,rgb_histogram,B_compound_mild,603,True
+C1 full ranking replay,rgb_histogram,B_compound_moderate,603,True
+C1 full ranking replay,rgb_histogram,B_device_pipeline_mild,603,True
+C1 full ranking replay,rgb_histogram,B_device_pipeline_moderate,603,True
+C1 full ranking replay,rgb_histogram,B_illumination_mild,603,True
+C1 full ranking replay,rgb_histogram,B_illumination_moderate,603,True
+C1 full ranking replay,rgb_histogram,B_perspective_mild,603,True
+C1 full ranking replay,rgb_histogram,B_perspective_moderate,603,True
+C1 full ranking replay,rgb_histogram,B_regional_crop_mild,603,True
+C1 full ranking replay,rgb_histogram,B_regional_crop_moderate,603,True
+C1 full ranking replay,rgb_histogram,B_resolution_mild,603,True
+C1 full ranking replay,rgb_histogram,B_resolution_moderate,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,channel_gains_mild,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,channel_gains_moderate,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,gamma_mild,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,gamma_moderate,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,noise_mild,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,noise_moderate,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,jpeg_mild,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,jpeg_moderate,603,True
+C5 full ranking / shared pixel replay,rgb_histogram,BOX_mild,201,True
+C5 full ranking / shared pixel replay,rgb_histogram,BOX_moderate,201,True
+C5 full ranking / shared pixel replay,rgb_histogram,LANCZOS_mild,201,True
+C5 full ranking / shared pixel replay,rgb_histogram,LANCZOS_moderate,201,True
+C1 full ranking replay,gray_histogram,A_brightness_mild,201,True
+C1 full ranking replay,gray_histogram,A_brightness_moderate,201,True
+C1 full ranking replay,gray_histogram,A_brightness_severe,201,True
+C1 full ranking replay,gray_histogram,A_color_jitter_mild,201,True
+C1 full ranking replay,gray_histogram,A_color_jitter_moderate,201,True
+C1 full ranking replay,gray_histogram,A_color_jitter_severe,201,True
+C1 full ranking replay,gray_histogram,A_contrast_mild,201,True
+C1 full ranking replay,gray_histogram,A_contrast_moderate,201,True
+C1 full ranking replay,gray_histogram,A_contrast_severe,201,True
+C1 full ranking replay,gray_histogram,A_crop_scale_mild,201,True
+C1 full ranking replay,gray_histogram,A_crop_scale_moderate,201,True
+C1 full ranking replay,gray_histogram,A_crop_scale_severe,201,True
+C1 full ranking replay,gray_histogram,A_gaussian_blur_mild,201,True
+C1 full ranking replay,gray_histogram,A_gaussian_blur_moderate,201,True
+C1 full ranking replay,gray_histogram,A_gaussian_blur_severe,201,True
+C1 full ranking replay,gray_histogram,A_gaussian_noise_mild,201,True
+C1 full ranking replay,gray_histogram,A_gaussian_noise_moderate,201,True
+C1 full ranking replay,gray_histogram,A_gaussian_noise_severe,201,True
+C1 full ranking replay,gray_histogram,A_jpeg_compression_mild,201,True
+C1 full ranking replay,gray_histogram,A_jpeg_compression_moderate,201,True
+C1 full ranking replay,gray_histogram,A_jpeg_compression_severe,201,True
+C1 full ranking replay,gray_histogram,A_rotation_mild,201,True
+C1 full ranking replay,gray_histogram,A_rotation_moderate,201,True
+C1 full ranking replay,gray_histogram,A_rotation_severe,201,True
+C1 full ranking replay,gray_histogram,B_compound_mild,603,True
+C1 full ranking replay,gray_histogram,B_compound_moderate,603,True
+C1 full ranking replay,gray_histogram,B_device_pipeline_mild,603,True
+C1 full ranking replay,gray_histogram,B_device_pipeline_moderate,603,True
+C1 full ranking replay,gray_histogram,B_illumination_mild,603,True
+C1 full ranking replay,gray_histogram,B_illumination_moderate,603,True
+C1 full ranking replay,gray_histogram,B_perspective_mild,603,True
+C1 full ranking replay,gray_histogram,B_perspective_moderate,603,True
+C1 full ranking replay,gray_histogram,B_regional_crop_mild,603,True
+C1 full ranking replay,gray_histogram,B_regional_crop_moderate,603,True
+C1 full ranking replay,gray_histogram,B_resolution_mild,603,True
+C1 full ranking replay,gray_histogram,B_resolution_moderate,603,True
+C5 full ranking / shared pixel replay,gray_histogram,channel_gains_mild,603,True
+C5 full ranking / shared pixel replay,gray_histogram,channel_gains_moderate,603,True
+C5 full ranking / shared pixel replay,gray_histogram,gamma_mild,603,True
+C5 full ranking / shared pixel replay,gray_histogram,gamma_moderate,603,True
+C5 full ranking / shared pixel replay,gray_histogram,noise_mild,603,True
+C5 full ranking / shared pixel replay,gray_histogram,noise_moderate,603,True
+C5 full ranking / shared pixel replay,gray_histogram,jpeg_mild,603,True
+C5 full ranking / shared pixel replay,gray_histogram,jpeg_moderate,603,True
+C5 full ranking / shared pixel replay,gray_histogram,BOX_mild,201,True
+C5 full ranking / shared pixel replay,gray_histogram,BOX_moderate,201,True
+C5 full ranking / shared pixel replay,gray_histogram,LANCZOS_mild,201,True
+C5 full ranking / shared pixel replay,gray_histogram,LANCZOS_moderate,201,True
+C1 full ranking replay,resnet50,A_brightness_mild,201,True
+C1 full ranking replay,resnet50,A_brightness_moderate,201,True
+C1 full ranking replay,resnet50,A_brightness_severe,201,True
+C1 full ranking replay,resnet50,A_color_jitter_mild,201,True
+C1 full ranking replay,resnet50,A_color_jitter_moderate,201,True
+C1 full ranking replay,resnet50,A_color_jitter_severe,201,True
+C1 full ranking replay,resnet50,A_contrast_mild,201,True
+C1 full ranking replay,resnet50,A_contrast_moderate,201,True
+C1 full ranking replay,resnet50,A_contrast_severe,201,True
+C1 full ranking replay,resnet50,A_crop_scale_mild,201,True
+C1 full ranking replay,resnet50,A_crop_scale_moderate,201,True
+C1 full ranking replay,resnet50,A_crop_scale_severe,201,True
+C1 full ranking replay,resnet50,A_gaussian_blur_mild,201,True
+C1 full ranking replay,resnet50,A_gaussian_blur_moderate,201,True
+C1 full ranking replay,resnet50,A_gaussian_blur_severe,201,True
+C1 full ranking replay,resnet50,A_gaussian_noise_mild,201,True
+C1 full ranking replay,resnet50,A_gaussian_noise_moderate,201,True
+C1 full ranking replay,resnet50,A_gaussian_noise_severe,201,True
+C1 full ranking replay,resnet50,A_jpeg_compression_mild,201,True
+C1 full ranking replay,resnet50,A_jpeg_compression_moderate,201,True
+C1 full ranking replay,resnet50,A_jpeg_compression_severe,201,True
+C1 full ranking replay,resnet50,A_rotation_mild,201,True
+C1 full ranking replay,resnet50,A_rotation_moderate,201,True
+C1 full ranking replay,resnet50,A_rotation_severe,201,True
+C1 full ranking replay,resnet50,B_compound_mild,603,True
+C1 full ranking replay,resnet50,B_compound_moderate,603,True
+C1 full ranking replay,resnet50,B_device_pipeline_mild,603,True
+C1 full ranking replay,resnet50,B_device_pipeline_moderate,603,True
+C1 full ranking replay,resnet50,B_illumination_mild,603,True
+C1 full ranking replay,resnet50,B_illumination_moderate,603,True
+C1 full ranking replay,resnet50,B_perspective_mild,603,True
+C1 full ranking replay,resnet50,B_perspective_moderate,603,True
+C1 full ranking replay,resnet50,B_regional_crop_mild,603,True
+C1 full ranking replay,resnet50,B_regional_crop_moderate,603,True
+C1 full ranking replay,resnet50,B_resolution_mild,603,True
+C1 full ranking replay,resnet50,B_resolution_moderate,603,True
+C5 full ranking / shared pixel replay,resnet50,channel_gains_mild,603,True
+C5 full ranking / shared pixel replay,resnet50,channel_gains_moderate,603,True
+C5 full ranking / shared pixel replay,resnet50,gamma_mild,603,True
+C5 full ranking / shared pixel replay,resnet50,gamma_moderate,603,True
+C5 full ranking / shared pixel replay,resnet50,noise_mild,603,True
+C5 full ranking / shared pixel replay,resnet50,noise_moderate,603,True
+C5 full ranking / shared pixel replay,resnet50,jpeg_mild,603,True
+C5 full ranking / shared pixel replay,resnet50,jpeg_moderate,603,True
+C5 full ranking / shared pixel replay,resnet50,BOX_mild,201,True
+C5 full ranking / shared pixel replay,resnet50,BOX_moderate,201,True
+C5 full ranking / shared pixel replay,resnet50,LANCZOS_mild,201,True
+C5 full ranking / shared pixel replay,resnet50,LANCZOS_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_brightness_mild,201,True
+C1 full ranking replay,dinov2_s14,A_brightness_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_brightness_severe,201,True
+C1 full ranking replay,dinov2_s14,A_color_jitter_mild,201,True
+C1 full ranking replay,dinov2_s14,A_color_jitter_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_color_jitter_severe,201,True
+C1 full ranking replay,dinov2_s14,A_contrast_mild,201,True
+C1 full ranking replay,dinov2_s14,A_contrast_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_contrast_severe,201,True
+C1 full ranking replay,dinov2_s14,A_crop_scale_mild,201,True
+C1 full ranking replay,dinov2_s14,A_crop_scale_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_crop_scale_severe,201,True
+C1 full ranking replay,dinov2_s14,A_gaussian_blur_mild,201,True
+C1 full ranking replay,dinov2_s14,A_gaussian_blur_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_gaussian_blur_severe,201,True
+C1 full ranking replay,dinov2_s14,A_gaussian_noise_mild,201,True
+C1 full ranking replay,dinov2_s14,A_gaussian_noise_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_gaussian_noise_severe,201,True
+C1 full ranking replay,dinov2_s14,A_jpeg_compression_mild,201,True
+C1 full ranking replay,dinov2_s14,A_jpeg_compression_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_jpeg_compression_severe,201,True
+C1 full ranking replay,dinov2_s14,A_rotation_mild,201,True
+C1 full ranking replay,dinov2_s14,A_rotation_moderate,201,True
+C1 full ranking replay,dinov2_s14,A_rotation_severe,201,True
+C1 full ranking replay,dinov2_s14,B_compound_mild,603,True
+C1 full ranking replay,dinov2_s14,B_compound_moderate,603,True
+C1 full ranking replay,dinov2_s14,B_device_pipeline_mild,603,True
+C1 full ranking replay,dinov2_s14,B_device_pipeline_moderate,603,True
+C1 full ranking replay,dinov2_s14,B_illumination_mild,603,True
+C1 full ranking replay,dinov2_s14,B_illumination_moderate,603,True
+C1 full ranking replay,dinov2_s14,B_perspective_mild,603,True
+C1 full ranking replay,dinov2_s14,B_perspective_moderate,603,True
+C1 full ranking replay,dinov2_s14,B_regional_crop_mild,603,True
+C1 full ranking replay,dinov2_s14,B_regional_crop_moderate,603,True
+C1 full ranking replay,dinov2_s14,B_resolution_mild,603,True
+C1 full ranking replay,dinov2_s14,B_resolution_moderate,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,channel_gains_mild,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,channel_gains_moderate,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,gamma_mild,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,gamma_moderate,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,noise_mild,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,noise_moderate,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,jpeg_mild,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,jpeg_moderate,603,True
+C5 full ranking / shared pixel replay,dinov2_s14,BOX_mild,201,True
+C5 full ranking / shared pixel replay,dinov2_s14,BOX_moderate,201,True
+C5 full ranking / shared pixel replay,dinov2_s14,LANCZOS_mild,201,True
+C5 full ranking / shared pixel replay,dinov2_s14,LANCZOS_moderate,201,True
+DTD all 60 prediction tables,all,all10splits,112800,True

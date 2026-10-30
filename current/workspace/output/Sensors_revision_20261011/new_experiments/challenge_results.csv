@@ -1,0 +1,9 @@
+﻿group,model,queries,reference_pairs,mean_candidates,min_candidates,max_candidates,uniform_chance,top1
+similar_color_different_lbp,rgb_histogram,123,334,6.430894308943089,2,55,26.6895564670896,99.1869918699187
+similar_color_different_lbp,resnet50_rgb,123,334,6.430894308943089,2,55,26.6895564670896,100.0
+similar_color_different_lbp,dinov2_s14_rgb,123,334,6.430894308943089,2,55,26.6895564670896,100.0
+similar_color_different_lbp,dinov2_local_symmetric,123,334,6.430894308943089,2,55,26.6895564670896,100.0
+similar_lbp_different_color,rgb_histogram,92,351,8.576086956521738,2,41,20.82474922484276,100.0
+similar_lbp_different_color,resnet50_rgb,92,351,8.576086956521738,2,41,20.82474922484276,100.0
+similar_lbp_different_color,dinov2_s14_rgb,92,351,8.576086956521738,2,41,20.82474922484276,97.82608695652173
+similar_lbp_different_color,dinov2_local_symmetric,92,351,8.576086956521738,2,41,20.82474922484276,98.91304347826086

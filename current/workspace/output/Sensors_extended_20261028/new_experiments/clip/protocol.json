@@ -1,0 +1,17 @@
+{
+  "model": "OpenAI CLIP ViT-B/32",
+  "matching": "normalized image embeddings; cosine nearest reference; full 203 library; no text or prompts",
+  "pretrained_weight_url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+  "weight_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "official_source": "https://github.com/openai/CLIP",
+  "source_sha256": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c",
+  "recipes": {
+    "shared": "Resize(short=256,bilinear), CenterCrop224; CLIP normalization",
+    "native": "Resize(short=224,bicubic), CenterCrop224; CLIP normalization"
+  },
+  "selection": "both recipes prespecified and reported, no Q tuning",
+  "scope": "clean S and Q sensitivity only; CLIP perturbation-grid and external experiments not executed in this script",
+  "device": "cpu",
+  "precision": "float32",
+  "torch": "2.3.1"
+}

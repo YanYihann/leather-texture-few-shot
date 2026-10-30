@@ -1,0 +1,7 @@
+﻿model,seed,views,metric,split,top1,top3
+dinov2_s14,42,30,mahalanobis,dataset_val,73.89162561576354,86.20689655172413
+dinov2_s14,42,30,mahalanobis,my_dataset_test_filtered,91.54228855721394,95.02487562189054
+dinov2_s14,43,30,mahalanobis,dataset_val,72.41379310344827,84.72906403940887
+dinov2_s14,43,30,mahalanobis,my_dataset_test_filtered,92.03980099502488,94.5273631840796
+dinov2_s14,44,30,mahalanobis,dataset_val,72.9064039408867,87.68472906403942
+dinov2_s14,44,30,mahalanobis,my_dataset_test_filtered,92.03980099502488,95.52238805970148

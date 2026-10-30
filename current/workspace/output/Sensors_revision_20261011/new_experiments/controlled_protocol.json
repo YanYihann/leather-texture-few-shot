@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "max_views": 50,
+  "view_counts": [
+    1,
+    5,
+    10,
+    20,
+    30,
+    50
+  ],
+  "shared_views": true,
+  "nested_subsets": true,
+  "query_preprocessing": "same RGB cache as color controls",
+  "elapsed_seconds": 6.553587913513184,
+  "elapsed_seconds_scope": "this process invocation only; excludes earlier production of cached views or features"
+}

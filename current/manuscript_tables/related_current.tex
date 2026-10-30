@@ -1,0 +1,14 @@
+\begin{tabularx}{\linewidth}{@{}P{.13\linewidth}P{.16\linewidth}P{.24\linewidth}P{.20\linewidth}X@{}}
+\toprule
+Work & Target label & Representation / reference setting & Variation evaluated & Relation to this study \\
+\midrule
+RADAM \citep{scabini2023radam} & Texture category & Frozen CNN; image-local RAE; linear SVM on training pools & DTD/FMD, KTH-2b, outdoor textures & Richer encoding; different reference budget \\
+DTPNet \citep{chen2024dtpnet} & Texture category / retrieval & Learned cross-layer encoding; benchmark galleries & GTOS/Mobile; texture/material benchmarks & Cross-depth module not implemented here \\
+PATSP-Net \citep{wang2024patsp} & Perceptual similarity & Trained Siamese attention; rank/scale losses; image pairs & Pertex, PTD, PerTexSynQS human judgments & Perceptual similarity differs from unique identity \\
+VORTEX \citep{scabini2025vortex} & Texture category & Frozen ViT tokens; randomized encoding; 1-NN/SVM & Outex illumination; KTH-2b scale, pose, lighting & 1-NN uses multi-image training pools \\
+IFR \citep{tian2026ifr} & Cross-domain few-shot category & Learned reconstruction; episodic support & Unseen Meta-Dataset domains; augmentation & No learned reconstruction in our view mean \\
+LibFewShot \citep{li2023libfewshot} & Few-shot category & Trained base features; 1/5-shot episodes & Unified category-benchmark comparisons & Backbone/training controls; different capture task \\
+MatSim \citep{drehwald2023matsim} & Material matching & Trained rendering-based contrastive model; one-image reference & Objects and environments & Our masked subset does not reproduce its model \\
+This study & Leather swatch / Fabric surface instance & One-photo reference; frozen/averaged descriptors, bounded adaptation and separate Fabric fusion & Leather digital A/B; Fabric held-out photos and R1/R2; separate external tasks & Leather capture history unresolved; Fabric roles photo-disjoint, not certified session-disjoint \\
+\bottomrule
+\end{tabularx}

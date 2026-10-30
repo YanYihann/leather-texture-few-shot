@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "evaluation_only": true,
+  "methods": 21,
+  "main_summary_rows": 42,
+  "per_query_prediction_rows": 50854,
+  "elapsed_seconds": 10.84678864479065,
+  "primary_classes": 355,
+  "primary_queries": 1082,
+  "primary_bootstrap_clusters": 354,
+  "primary_unique_source_queries": 1079,
+  "clean_classes": 353,
+  "protocol_sha256": "72583744692e8935fc02e5a9990455b16ba5874ec827bb7f29349a8645829e4b",
+  "script_sha256": "307520bea5a6cda4f83d9ce91ad6e091ae69fcc014422bfc8baf69f1ca1b4e15"
+}

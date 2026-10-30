@@ -1,6 +1,6 @@
 {
-  "title": "Leather Texture Few-Shot Classification: Reproducibility Code",
-  "description": "Reproducibility code and compact result files for a manuscript on one-image-per-class leather texture recognition for intelligent manufacturing. The release includes preprocessing, evaluation, ablation, robustness, baseline, discrepancy-analysis, and result-summary scripts. The image dataset is archived separately in Zenodo.",
+  "title": "One-Reference Material Retrieval: Code and Numerical Results",
+  "description": "Code, fixed split manifests, per-query predictions, stored numerical results and ranking/score arrays for the current leather, T1K+ Fabric, MatSim and DTD evaluations. Historical v1.0.1 is preserved separately. This archive does not contain original photographs, pretrained weights, training checkpoints or the complete feature/pixel caches. See current/README.md for verification and reconstruction limits. Frozen retrieval, score fusion and ResNet50 adaptation are separate configurations. Source code is MIT; derived numerical outputs are CC BY 4.0; original third-party terms remain applicable.",
   "creators": [
     {
       "name": "Yan, Yihan"
@@ -11,11 +11,10 @@
   ],
   "license": "MIT",
   "keywords": [
-    "leather texture classification",
-    "few-shot learning",
-    "intelligent manufacturing",
-    "prototype matching",
-    "computer vision",
+    "visual instance retrieval",
+    "material collections",
+    "leather",
+    "fabric",
     "reproducibility"
   ],
   "related_identifiers": [
@@ -33,5 +32,7 @@
     }
   ],
   "upload_type": "software",
-  "access_right": "open"
+  "access_right": "open",
+  "version": "2.0.0",
+  "publication_date": "2026-10-30"
 }

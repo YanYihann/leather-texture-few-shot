@@ -1,0 +1,19 @@
+\begin{tabularx}{\linewidth}{@{}P{.17\linewidth}P{.16\linewidth}P{.27\linewidth}P{.16\linewidth}X@{}}
+\toprule
+Evaluation & Target / $C$ & Query records and units & Selection data & Repeated unit \\
+\midrule
+Leather clean Q & Swatch / 203 & 201 original queries & S for adaptation & One Q per ID \\
+Leather S & Swatch / 203 & 203 source-photo regions & Development itself & Same source as reference \\
+Leather A & Swatch / 203 & $201\times24=4,824$ descendants; 201 IDs & Fixed operations & 24 conditions \\
+Leather B & Swatch / 203 & $201\times36=7,236$ descendants; 201 IDs & Fixed operations & 6 families, 2 levels, 3 repeats \\
+MatSim & Material / 16 & 63 queries/draw from 79 photos & Fixed reference draws & 10 overlapping draws \\
+DTD & Attribute / 47 & 1,880 official-test queries/split & One train reference/class & 10 overlapping splits \\
+Leather unknown & Swatch / 183 & 91 known; 20 held-out Q & 90 known Q & 10 shared partitions \\
+External unknown & Material / 203 leather IDs & 79 masked MatSim photos & Gallery-specific known calibration & 10 known partitions \\
+\midrule
+Fabric primary & Instance / 355 & 1,082 records; 1,079 photos; 354 clusters & 355 validation records & 3 pools or seeds when specified \\
+Fabric sensitivity & Instance / 353 & 1,076 queries; 353 clusters & Same saved configurations & Re-score; no retraining \\
+Fabric real R1/R2 & Instance / 355 & Same 727 records; 725 photos; 354 clusters & Second photo allocated first & Fixed-query pair \\
+Fabric unknown & Instance / 282 known & 855 known records; 181 unknown photos & 282 known validation + 35 unknown IDs & 36 final-unknown IDs \\
+\bottomrule
+\end{tabularx}

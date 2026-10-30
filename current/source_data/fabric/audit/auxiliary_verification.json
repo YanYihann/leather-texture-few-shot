@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "scope": "Independent auxiliary artifact/statistic replay from saved frozen features; no image encoding/model inference or retraining",
+  "protocol_sha256": "72583744692e8935fc02e5a9990455b16ba5874ec827bb7f29349a8645829e4b",
+  "checks": {
+    "reference_choice": {
+      "six_methods_five_galleries": 30,
+      "all_metrics_recomputed": true,
+      "exact_hash_support_query_overlap": 0
+    },
+    "real_reference_budget": {
+      "same_query_count": 727,
+      "unique_query_photos": 725,
+      "methods": 6,
+      "budget_rows": 12,
+      "all_query_predictions_checked": 8724,
+      "paired_cluster_intervals": 6,
+      "exact_reference_query_overlap": 0
+    },
+    "reference_pool_stability": {
+      "models": 2,
+      "nested_reference_N": [
+        1,
+        5,
+        10,
+        20,
+        30
+      ],
+      "all_pair_angles_and_consistency_replayed": true,
+      "angle_absolute_tolerance_deg": 0.0002
+    },
+    "open_set": {
+      "methods": 6,
+      "detectors_per_method": 2,
+      "thresholds_checked": 12,
+      "calibration_only_threshold_choice": true,
+      "raw_open_set_rows_checked": 18000,
+      "known_test_queries": 855,
+      "unknown_test_queries": 181,
+      "pairwise_tie_aware_AUROC": true,
+      "AP_and_FPR95_replayed": true
+    }
+  },
+  "original_result_and_prediction_files_unchanged": true,
+  "checked_output_sha256": {
+    "results\\adaptation.done.json": "8fbae8f15ddc008a30004ac5e9e005e51daa78f0514131230b94b227fae1cd08",
+    "results\\adaptation_candidates.csv": "dcd8438c900e21e988433da46a66e8ce09721e7e8f6168a22438a2f801cd91d5",
+    "results\\adaptation_candidates.json": "8f4000d1aaeffb715581b9cd7f8fdf52d46c49433395a16e5f03b5eb4f5f5b55",
+    "results\\adaptation_scores.npz": "260b43bf3928f891f4ce4d01eff67704bc7928e94809631c948b4c898eefc7ce",
+    "results\\adaptation_selection.json": "ec8c02ffd0af5dd946685241f1f8c584d9df9ce4de81d615396ccf38438f8398",
+    "results\\evaluation_complete.json": "4c4489738bcdfa8ad3e3cf92daf25c40b645ff88707fa92c83574dcf1a00db80",
+    "results\\fusion_selection.json": "3a7300586d5e672c0c9dd41d6ce6fa924c72215bd4db9612a0e3ea8409f2cdb0",
+    "results\\main_metrics.csv": "214256a169942aec14a2d3838546fadc5e5b59eae78868a434967fc72e6f308e",
+    "results\\main_metrics.json": "3ddb2588c700609038a11558d43eb14677184b4c4a32b2bb067ca9597777a7ce",
+    "results\\open_set_metrics.csv": "ffeb406a5b378e510e513b30bec489003c0c9819e630ee4727eba991081c3e56",
+    "results\\paired_recall1_differences.csv": "e37c32857c61818fc8ce0d68e54a752b00732777fb6ed7916cdcb249d42884c4",
+    "results\\per_class_metrics.csv": "c6e49559378e202abd9cbe1bee8c4feaca63a769ec8253007a375a97ba2c2a86",
+    "results\\per_run_metrics.csv": "59714117cbd503ce277ade8b6ac7c0994a17481c9196137a943a47bf8310498a",
+    "results\\real_reference_budget.csv": "f0662750ae131c30ffd0b6819c83cd48fa2edaea029528516d4c8746b82e9903",
+    "results\\real_reference_budget_paired.csv": "3c91aa40013071a336a0a11090c6c120487d0e7c8712cd565cdb5330eba2cafb",
+    "results\\reference_choice_sensitivity.csv": "0d9b374bd98d580c2d830473d40f4a255240e93d327eba1333cdefaba9803c45",
+    "results\\reference_pool_stability.csv": "a8e49dfbd2e0eb495b2715133dd315e8650111ef265bfd6bb33b8328ed418c8c",
+    "results\\实验结果报告.md": "33e42c7e814a119f7de8d25c936d2d2ccdd331cf1caf534e5b52d17c4b9b63a6",
+    "predictions\\reference_budget_predictions.csv": "b58ae44aa23745e9c983b0d8cb8f8b48d7538d7377515de3daec24a4fcbd9126",
+    "predictions\\open_set_scores.csv": "71f087b8c8d1391d1f13a01bee9dd929304793832c10b8e5becbdcaa00eecd99"
+  },
+  "script_sha256": "9e69ab67bcd0b8824aeb7e1238ec2251d73fdb902d1bce55dbd69674ba9735b8",
+  "elapsed_seconds": 4.555967569351196,
+  "limits": [
+    "Feature caches and source photographs are reused, not independently regenerated.",
+    "Source/session independence is not certified.",
+    "Thresholds generalize only to the specified fixed Fabric unknown split."
+  ]
+}

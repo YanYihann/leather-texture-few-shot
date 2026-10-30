@@ -1,0 +1,30 @@
+{
+  "exploratory": true,
+  "prior_Q_results_already_seen": true,
+  "Q_not_used_for_selection": true,
+  "epochs": 50,
+  "batch": 16,
+  "updates_per_run": 650,
+  "presentations_per_run": 10150,
+  "unique_views_per_run": 2030,
+  "views": "same 10 cached views as original budget, cyclically reused five times",
+  "rates": {
+    "linear": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "partial_full": [
+      1e-05,
+      3e-05,
+      0.0001
+    ]
+  },
+  "optimizer": "Adam, weight_decay=1e-4",
+  "schedule": "cosine decay, factor 1 to .01",
+  "batchnorm": "fixed pretrained running statistics; affine parameters follow adaptation scope",
+  "selection": "S Top-1; earliest epoch; first rate on ties; seed42 rate selection then chosen rate seeds43/44",
+  "backbone": "ImageNet1K V2 ResNet50, fixed original checkpoint",
+  "head": "reference initialized cosine head, scale20, partial/full head rate 10x backbone",
+  "retained_old_budget": "10 epochs, 130 updates, constant lr, two rate candidates; separate historical comparator"
+}

@@ -1,0 +1,11 @@
+{
+  "color_high": 0.5957407159871789,
+  "color_low": 0.0022918716913976475,
+  "lbp_high": 0.9865162646802961,
+  "lbp_low": 0.9000243944075592,
+  "counts": {
+    "similar_color_different_lbp": 334,
+    "similar_lbp_different_color": 351
+  },
+  "caution": "Descriptor-defined challenges, not human-certified same-grain groups. Thresholds computed from all reference pairs; no query labels or performance used."
+}

@@ -1,0 +1,13 @@
+﻿mode,seed,lr,dev_correct,epoch,seconds,checkpoint
+linear,42,0.001,124,6,,linear_42_0.001.pt
+linear,42,0.01,141,7,,linear_42_0.01.pt
+linear,43,0.01,134,10,,linear_43_0.01.pt
+linear,44,0.01,136,5,,linear_44_0.01.pt
+partial,42,1e-05,128,9,,partial_42_1e-05.pt
+partial,42,0.0001,140,8,,partial_42_0.0001.pt
+partial,43,0.0001,139,10,,partial_43_0.0001.pt
+partial,44,0.0001,139,10,915.2453556060791,partial_44_0.0001.pt
+full,42,1e-05,133,7,8105.918769836426,full_42_1e-05.pt
+full,42,0.0001,140,6,1301.4213013648987,full_42_0.0001.pt
+full,43,0.0001,151,10,1077.43550491333,full_43_0.0001.pt
+full,44,0.0001,145,9,547.3478417396545,full_44_0.0001.pt
