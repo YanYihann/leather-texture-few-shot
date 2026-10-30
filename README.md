@@ -8,7 +8,7 @@ python current/verify_release.py
 
 The root `src/`, `scripts/` and `results/` below are the historical release, retained for provenance. Historical statements describing Q as “independent” are not adopted as acquisition evidence: capture-level records are unavailable. See the current release for corrected scope, experimental units and uncertainties. The dataset photographs were taken by the research team; no supplier-image origin is asserted. This repository is a computational release, not an article submission or author-approval statement.
 
-The original dataset DOI is https://doi.org/10.5281/zenodo.20736326. Fixed code DOI https://doi.org/10.5281/zenodo.20736698 identifies the old v1.0.1 only; the complete current 2.0.0 software/numerical archive is published at https://doi.org/10.5281/zenodo.23794034. The compact GitHub tree omits binary score arrays. Current ScienceDB JDIS-community reviewer access remains pending.
+The original dataset DOI is https://doi.org/10.5281/zenodo.20736326. Fixed code DOI https://doi.org/10.5281/zenodo.20736698 identifies the old v1.0.1 only; the complete current 2.0.0 software/numerical archive is published at https://doi.org/10.5281/zenodo.23794034. The compact GitHub tree omits binary score arrays. A current supporting-materials draft has been saved in the ScienceDB JDIS community. Its DOI is not registered; the authors administer private reviewer access separately.
 
 ---
 

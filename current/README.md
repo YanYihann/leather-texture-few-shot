@@ -26,7 +26,7 @@ Fabric retains 355 official labels and 1,792 records, with five exact duplicate 
 
 The fixed historical software DOI https://doi.org/10.5281/zenodo.20736698 identifies v1.0.1 only. Its concept DOI https://doi.org/10.5281/zenodo.20736697 resolves across software versions. A new version receives a distinct DOI; do not cite the old fixed DOI as this code. Dataset DOI https://doi.org/10.5281/zenodo.20736326 continues to identify the unchanged original data files.
 
-The current ScienceDB JDIS-community DOI/private review link is pending. Zenodo/GitHub do not replace that journal requirement. SI and original photos are not included in this code archive.
+A current supporting-materials draft has been saved in the ScienceDB JDIS community. Its DOI remains unregistered; the authors administer private reviewer access through the submission package. Zenodo/GitHub do not replace that journal requirement. SI and original photos are not included in this code archive.
 
 ## Licensing
 
