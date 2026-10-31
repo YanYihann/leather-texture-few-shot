@@ -1,0 +1,133 @@
+{
+  "methods": [
+    {
+      "method": "dinov2_center",
+      "n_queries": 727,
+      "clusters": 354,
+      "fixed_runs": 1,
+      "original_reference_photos": 1,
+      "digital_views_per_photo": 1,
+      "fusion_alpha": "",
+      "recall1": 95.59834938101788,
+      "ci_low": 93.69120927737042,
+      "ci_high": 97.24147430417023,
+      "run_sd": "",
+      "stored_prototype_vectors": 1
+    },
+    {
+      "method": "dinov2_A5",
+      "n_queries": 727,
+      "clusters": 354,
+      "fixed_runs": 3,
+      "original_reference_photos": 1,
+      "digital_views_per_photo": 5,
+      "fusion_alpha": "",
+      "recall1": 95.64419990829896,
+      "ci_low": 93.93095907642693,
+      "ci_high": 97.13625093269414,
+      "run_sd": 0.44216647230595846,
+      "stored_prototype_vectors": 1
+    },
+    {
+      "method": "dinov2_A30",
+      "n_queries": 727,
+      "clusters": 354,
+      "fixed_runs": 3,
+      "original_reference_photos": 1,
+      "digital_views_per_photo": 30,
+      "fusion_alpha": "",
+      "recall1": 96.69876203576341,
+      "ci_low": 95.06752181598988,
+      "ci_high": 98.03646563814866,
+      "run_sd": 0.13755158184319072,
+      "stored_prototype_vectors": 1
+    },
+    {
+      "method": "dinov2_rgb_fusion",
+      "n_queries": 727,
+      "clusters": 354,
+      "fixed_runs": 1,
+      "original_reference_photos": 1,
+      "digital_views_per_photo": 1,
+      "fusion_alpha": 0.25,
+      "recall1": 97.79917469050893,
+      "ci_low": 96.35599415204679,
+      "ci_high": 98.99573181009073,
+      "run_sd": "",
+      "stored_prototype_vectors": 2
+    },
+    {
+      "method": "dinov2_R2",
+      "n_queries": 727,
+      "clusters": 354,
+      "fixed_runs": 1,
+      "original_reference_photos": 2,
+      "digital_views_per_photo": 1,
+      "fusion_alpha": "",
+      "recall1": 99.03713892709766,
+      "ci_low": 98.11529894961672,
+      "ci_high": 99.72413793103449,
+      "run_sd": "",
+      "stored_prototype_vectors": 1
+    }
+  ],
+  "contrasts": [
+    {
+      "treatment": "dinov2_A30",
+      "baseline": "dinov2_center",
+      "n_queries": 727,
+      "clusters": 354,
+      "difference_pp": 1.1004126547455295,
+      "ci_low_pp": -0.23216697204457357,
+      "ci_high_pp": 2.615597859066255
+    },
+    {
+      "treatment": "dinov2_R2",
+      "baseline": "dinov2_center",
+      "n_queries": 727,
+      "clusters": 354,
+      "difference_pp": 3.43878954607978,
+      "ci_low_pp": 1.9309679870808398,
+      "ci_high_pp": 5.0755650183754755
+    },
+    {
+      "treatment": "dinov2_R2",
+      "baseline": "dinov2_A30",
+      "n_queries": 727,
+      "clusters": 354,
+      "difference_pp": 2.3383768913342506,
+      "ci_low_pp": 1.2409705805095876,
+      "ci_high_pp": 3.6627592143460133
+    },
+    {
+      "treatment": "dinov2_R2",
+      "baseline": "dinov2_rgb_fusion",
+      "n_queries": 727,
+      "clusters": 354,
+      "difference_pp": 1.2379642365887207,
+      "ci_low_pp": 0.13830781045826554,
+      "ci_high_pp": 2.4897127619222763
+    }
+  ],
+  "checks": {
+    "query_alignment": true,
+    "center_uses_existing_R1": true,
+    "primary_center_agrees_with_R1_cluster_sums": true,
+    "ambiguous_pair_changed_label_assignments": [
+      191,
+      209
+    ],
+    "n_records": 727,
+    "n_clusters": 354,
+    "planned_contrasts": 4,
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 20261029,
+    "multiplicity_adjusted": false,
+    "inference": false,
+    "training": false
+  },
+  "input_sha256": {
+    "main_query_predictions.csv": "99c05647878219c41a21f5e40e0ba5ef6c23fce8bf2cdf78d13a8cc79778f8b3",
+    "reference_budget_predictions.csv": "b58ae44aa23745e9c983b0d8cb8f8b48d7538d7377515de3daec24a4fcbd9126"
+  }
+}

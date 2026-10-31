@@ -1,0 +1,44 @@
+{
+  "created_before_computation": "2026-10-31",
+  "scope": "Exploratory reporting-stage reanalysis of stored predictions; no inference or training",
+  "query_set": "Existing paired R1/R2 test role, 727 label records, 725 distinct source photographs",
+  "gallery": "355 labels; original reference remains fixed; R2 uses the already allocated second photograph",
+  "methods": [
+    "dinov2_center",
+    "dinov2_A5",
+    "dinov2_A30",
+    "dinov2_rgb_fusion",
+    "dinov2_R2"
+  ],
+  "contrasts": [
+    [
+      "dinov2_A30",
+      "dinov2_center"
+    ],
+    [
+      "dinov2_R2",
+      "dinov2_center"
+    ],
+    [
+      "dinov2_R2",
+      "dinov2_A30"
+    ],
+    [
+      "dinov2_R2",
+      "dinov2_rgb_fusion"
+    ]
+  ],
+  "uncertainty": {
+    "bootstrap_draws": 2000,
+    "seed": 20261029,
+    "clusters": 354,
+    "duplicate_labels": [
+      "a452",
+      "a456"
+    ],
+    "estimator": "micro Recall@1; average three fixed pools within query before cluster resampling",
+    "interval": "2.5 and 97.5 percentiles; unadjusted exploratory intervals"
+  },
+  "selection": "Retain original validation-selected fusion alpha=0.25; no retuning; all planned contrasts reported",
+  "cost": "Report photographic and digital-view counts separately; no new wall-clock or acquisition-cost estimate"
+}

@@ -1,6 +1,6 @@
 # Current code and numerical results, compact version 2.0.0
 
-This compact GitHub release supports the 30 October 2026 working version of “Evaluating One-Reference Visual Retrieval in Material Collections: Leather and Public Fabric Evidence”. It contains the evaluated protocols and saved outputs. It is not an accepted article or an all-author approval declaration.
+This compact GitHub release supports the 30 October 2026 working version of “Evaluating One-Reference Visual Retrieval in Material Collections: Leather and Public Fabric Evidence”. It contains the evaluated protocols and saved outputs, including the fixed-727 reanalysis and English reports. The full archive DOI is https://doi.org/10.5281/zenodo.23831908. Historical 2.0.0 remains at https://doi.org/10.5281/zenodo.23794034. It is not an accepted article or an all-author approval declaration.
 
 ## Check the release without models or original images
 
@@ -31,3 +31,7 @@ A current supporting-materials draft has been saved in the ScienceDB JDIS commun
 ## Licensing
 
 Source code is MIT, retaining the repository LICENSE and any third-party notices. Derived CSV/JSON numerical results and split/rank/score data are CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Third-party source photographs, pretrained models and upstream software remain under their own terms. No license here extends to excluded materials. Permission for publication, public sharing and CC BY 4.0 of the team's leather photographs was confirmed by the user on 30 October 2026; no photographer identity or written agreement was supplied in this update. See the historical dataset record for its published CC BY 4.0 terms.
+
+## Added in 2.1.0
+
+`reanalyses/fixed727/` preserves the complete original companion. `reports/` provides English revision explanations and the concise portrait report. Run `python current/verify_fixed727.py` to verify alignment and point-estimate arithmetic without resampling or models. Original code-creator attribution is retained; it does not certify paper authorship roles or approval.

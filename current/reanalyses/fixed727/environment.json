@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "operating_system": "win32",
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 20261029
+  },
+  "original_full_input_hashes": {
+    "main_query_predictions.csv": "99c05647878219c41a21f5e40e0ba5ef6c23fce8bf2cdf78d13a8cc79778f8b3",
+    "reference_budget_predictions.csv": "b58ae44aa23745e9c983b0d8cb8f8b48d7538d7377515de3daec24a4fcbd9126"
+  }
+}

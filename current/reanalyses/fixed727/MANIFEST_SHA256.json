@@ -1,0 +1,15 @@
+{
+  "analysis_plan.json": "ebac72a36aebad3755084a0311e5c156fc13fa0e6b264b6b0b531f8441a7e9e1",
+  "environment.json": "75eb1c0f1f47ec95945d4af6b698d4f004b0c1486c61076646c28bf7ad5065a1",
+  "fixed727_analysis.py": "fac044c5015c5f94fe78cab0028c92935da2fdfbfdb21d3e9cfb9b349d1eb99d",
+  "fixed727_results.json": "fb6f2c4f9fbb05c5de27323ee6858a012d65c2cb2b5434311d7d35bff6b8f0c8",
+  "MANIFEST_SHA256.json": "b9158b5bd3d635ed49d9f6e32b573a7389fb90cd405a2382a6096e601059f17d",
+  "README.md": "72a488fbb4e0e5eb365ad7b1801073f96979d7365bb4370f713b9fa9fbfe0f53",
+  "inputs/main_query_predictions.csv": "5b5fee66dc722a7ad6b12a6498dd43ec48675e1eb626cde6c483aceb6a9c054d",
+  "inputs/reference_budget_predictions.csv": "6a29e6dedd3b99b2fd565d247cf4cc5aaa34c604d447d04dd1e191a654b12171",
+  "results/fixed727_aligned_correctness.csv": "df7af56add3fa2da53b86ba06bb66a6e7a10cc1ce0174c17f589e70d590b32c9",
+  "results/fixed727_main_prediction_subset.csv": "5b5fee66dc722a7ad6b12a6498dd43ec48675e1eb626cde6c483aceb6a9c054d",
+  "results/fixed727_paired_contrasts.csv": "e3f957ee1d69ff43079cb961780f1a85869cd3a9eef77c803ccb8fbf76add27e",
+  "results/fixed727_reference_prediction_subset.csv": "6a29e6dedd3b99b2fd565d247cf4cc5aaa34c604d447d04dd1e191a654b12171",
+  "results/fixed727_summary.csv": "c60a87488a4cedf1974930fb42de00a734e6e11908b0e6a49f93e7c14967ca8e"
+}

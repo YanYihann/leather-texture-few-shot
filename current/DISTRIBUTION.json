@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "distribution": "github-compact",
   "contains": [
     "source code",
@@ -9,9 +9,10 @@
     "manuscript table bodies"
   ],
   "large_arrays": "omitted from GitHub; included in the complete Zenodo archive",
-  "complete_archive_publication": "published",
+  "complete_archive_publication": "see Zenodo record",
   "historical_software_doi": "10.5281/zenodo.20736698",
   "historical_version": "v1.0.1",
-  "complete_archive_doi": "https://doi.org/10.5281/zenodo.23794034",
-  "complete_archive_status": "Published; full ranking and score arrays"
+  "complete_archive_doi": "https://doi.org/10.5281/zenodo.23831908",
+  "complete_archive_status": "Version-specific public release identifier; verify the record landing page for publication status",
+  "publication_scope": "Code, numerical results and English revision reports only"
 }

@@ -1,6 +1,6 @@
 {
   "title": "One-Reference Material Retrieval: Code and Numerical Results",
-  "description": "Code, fixed split manifests, per-query predictions, stored numerical results and ranking/score arrays for the current leather, T1K+ Fabric, MatSim and DTD evaluations. Historical v1.0.1 is preserved separately. This archive does not contain original photographs, pretrained weights, training checkpoints or the complete feature/pixel caches. See current/README.md for verification and reconstruction limits. Frozen retrieval, score fusion and ResNet50 adaptation are separate configurations. Source code is MIT; derived numerical outputs are CC BY 4.0; original third-party terms remain applicable. The compact GitHub tree omits binary arrays; the complete version 2.0.0 archive is at https://doi.org/10.5281/zenodo.23794034.",
+  "description": "Version 2.1.0 preserves the 2.0.0 code and numerical evidence and adds the fixed-727-query Fabric reference-investment reanalysis, saved prediction subsets, replay script, numerical tables and English revision reports. Results are conditional and exploratory. This publication synchronization does not add training, inference or image acquisition. The compact GitHub distribution omits large binary ranking/score arrays; the full Zenodo archive retains them. No original photographs, model weights, adapted checkpoints, complete feature/pixel caches, manuscript PDFs, submission letters, author-confirmation files or private reviewer links are included. Source code is MIT; derived numerical data are CC BY 4.0. Third-party terms and the original dataset DOI remain unchanged.",
   "creators": [
     {
       "name": "Yan, Yihan"
@@ -26,13 +26,14 @@
     },
     {
       "identifier": "10.5281/zenodo.23794034",
-      "relation": "references",
+      "relation": "isNewVersionOf",
       "scheme": "doi",
       "resource_type": "software"
     }
   ],
   "upload_type": "software",
   "access_right": "open",
-  "version": "2.0.0",
-  "publication_date": "2026-10-30"
+  "version": "2.1.0",
+  "publication_date": "2026-10-31",
+  "doi": "10.5281/zenodo.23831908"
 }

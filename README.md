@@ -1,18 +1,24 @@
 # One-Reference Material Retrieval
 
-Current release: **2.0.0**, 30 October 2026. See [current/README.md](current/README.md) for the current leather, T1K+ Fabric, MatSim and DTD protocols, per-query outputs, numerical tables, analysis code and verification command.
+Current release: **2.1.0**, 31 October 2026. Archive DOI: https://doi.org/10.5281/zenodo.23831908. [Code at v2.1.0](https://github.com/YanYihann/leather-texture-few-shot/tree/v2.1.0).
+
+This release contains the leather, T1K+ Fabric, MatSim and DTD code/numerical evidence, the fixed-727-query reanalysis and English revision reports. See [current/README.md](current/README.md) and [the report](current/reports/Revision_Summary.pdf).
 
 ```sh
 python current/verify_release.py
+python current/verify_fixed727.py
 ```
 
-The root `src/`, `scripts/` and `results/` below are the historical release, retained for provenance. Historical statements describing Q as “independent” are not adopted as acquisition evidence: capture-level records are unavailable. See the current release for corrected scope, experimental units and uncertainties. The dataset photographs were taken by the research team; no supplier-image origin is asserted. This repository is a computational release, not an article submission or author-approval statement.
+The compact GitHub tree omits large binary ranking/score arrays. The full Zenodo archive retains them. Source code is MIT; derived numerical data are CC BY 4.0. [The original dataset](https://doi.org/10.5281/zenodo.20736326) is unchanged. Historical [2.0.0](https://doi.org/10.5281/zenodo.23794034) and [v1.0.1](https://doi.org/10.5281/zenodo.20736698) remain distinct versions.
 
-The original dataset DOI is https://doi.org/10.5281/zenodo.20736326. Fixed code DOI https://doi.org/10.5281/zenodo.20736698 identifies the old v1.0.1 only; the complete current 2.0.0 software/numerical archive is published at https://doi.org/10.5281/zenodo.23794034. The compact GitHub tree omits binary score arrays. A current supporting-materials draft has been saved in the ScienceDB JDIS community. Its DOI is not registered; the authors administer private reviewer access separately.
+Capture-level records, repeated real-leather queries and new-session generalization remain unresolved. Manuscript PDFs, submission letters, author-confirmation files and private reviewer links are outside the public release. No all-author approval, journal submission or new training replication is asserted.
+
+The root `src/`, `scripts/` and `results/` below are historical; their independent-test terminology is not adopted as acquisition evidence.
 
 ---
 
 ## Historical repository documentation
+
 
 <div align="center">
 
